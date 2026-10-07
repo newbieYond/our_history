@@ -24,6 +24,10 @@ test("회화는 모든 상황과 7일 일정을 포함하고 원문·해석·독
     new Set(book.phrases.map((p) => p.id)).size,
     book.phrases.length,
   );
+  assert.equal(
+    new Set(book.phrases.map((p) => p.original)).size,
+    book.phrases.length,
+  );
   for (const phrase of book.phrases) {
     assert.ok(situations.has(phrase.situationId));
     assert.ok(phrase.original.trim());

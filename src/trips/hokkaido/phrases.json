@@ -35,6 +35,14 @@
     {
       "id": "local",
       "label": "택시·트램"
+    },
+    {
+      "id": "daily",
+      "label": "편의점·일상"
+    },
+    {
+      "id": "help",
+      "label": "길 안내·분실"
     }
   ],
   "phrases": [
@@ -91,6 +99,87 @@
       "original": "日本語があまりわかりません。この文を見てください。",
       "translation": "일본어를 잘 못합니다. 이 문장을 봐 주세요.",
       "pronunciation": "니혼고가 아마리 와카리마셍. 코노 분오 미테 쿠다사이."
+    },
+    {
+      "id": "morning",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "료칸 아침 식사·숙소 직원에게 아침 인사",
+      "original": "おはようございます。",
+      "translation": "좋은 아침입니다.",
+      "pronunciation": "오하요- 고자이마스."
+    },
+    {
+      "id": "night-greeting",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "저녁에 식당·료칸에 들어갈 때",
+      "original": "こんばんは。",
+      "translation": "안녕하세요. (저녁 인사)",
+      "pronunciation": "곤방와."
+    },
+    {
+      "id": "understood",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "직원의 설명을 이해했을 때",
+      "original": "はい、わかりました。",
+      "translation": "네, 알겠습니다.",
+      "pronunciation": "하이, 와카리마시타."
+    },
+    {
+      "id": "no-thanks",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "추가 상품·서비스를 정중하게 사양할 때",
+      "original": "いいえ、大丈夫です。",
+      "translation": "아니요, 괜찮습니다.",
+      "pronunciation": "이-에, 다이조-부 데스."
+    },
+    {
+      "id": "english-support",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "일본어 설명을 이해하기 어려울 때",
+      "original": "英語で説明してもらえますか。",
+      "translation": "영어로 설명해 주실 수 있나요?",
+      "pronunciation": "에-고데 세츠메- 시테 모라에마스카."
+    },
+    {
+      "id": "write-down",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "집합 시간·승차장·금액을 메모로 받고 싶을 때",
+      "original": "ここに書いてもらえますか。",
+      "translation": "여기에 적어 주실 수 있나요?",
+      "pronunciation": "코코니 카이테 모라에마스카."
+    },
+    {
+      "id": "bathroom-location",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "역·시장·카페·관광지에서 화장실을 찾을 때",
+      "original": "トイレはどこですか。",
+      "translation": "화장실은 어디인가요?",
+      "pronunciation": "토이레와 도코 데스카."
+    },
+    {
+      "id": "map-current-location",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "지도나 휴대폰 화면을 보여주며 위치를 확인할 때",
+      "original": "この地図で、今いる場所はどこですか。",
+      "translation": "이 지도에서 지금 위치는 어디인가요?",
+      "pronunciation": "코노 치즈데, 이마 이루 바쇼와 도코 데스카."
+    },
+    {
+      "id": "word-meaning",
+      "situationId": "basic",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "메뉴·안내판의 모르는 단어를 가리킬 때",
+      "original": "この言葉はどういう意味ですか。",
+      "translation": "이 말은 무슨 뜻인가요?",
+      "pronunciation": "코노 코토바와 도- 이우 이미 데스카."
     },
     {
       "id": "sapporo-platform",
@@ -174,6 +263,114 @@
       "pronunciation": "니모츠오 아즈케라레루 바쇼와 아리마스카."
     },
     {
+      "id": "ticket-machine",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "신치토세·삿포로·오타루역에서 표를 살 때",
+      "original": "きっぷの券売機はどこですか。",
+      "translation": "승차권 발매기는 어디인가요?",
+      "pronunciation": "킷푸노 켄바이키와 도코 데스카."
+    },
+    {
+      "id": "ic-ticket",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "탑승 전 교통카드 사용 가능 구간을 확인할 때",
+      "original": "この区間はICカードで乗れますか。",
+      "translation": "이 구간은 IC카드로 탈 수 있나요?",
+      "pronunciation": "코노 쿠칸와 아이시- 카-도데 노레마스카."
+    },
+    {
+      "id": "round-trip-ticket",
+      "situationId": "rail",
+      "days": [4],
+      "context": "오타루 당일치기 승차권을 고를 때",
+      "original": "往復のきっぷは買えますか。",
+      "translation": "왕복 승차권을 살 수 있나요?",
+      "pronunciation": "오-후쿠노 킷푸와 카에마스카."
+    },
+    {
+      "id": "rail-transfer",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "공항·오타루행 열차를 고르며 환승을 확인할 때",
+      "original": "乗り換えが必要ですか。",
+      "translation": "갈아타야 하나요?",
+      "pronunciation": "노리카에가 히츠요- 데스카."
+    },
+    {
+      "id": "rail-duration",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "직원에게 목적지를 보여주며 이동 시간을 확인할 때",
+      "original": "目的地までどのくらいかかりますか。",
+      "translation": "목적지까지 얼마나 걸리나요?",
+      "pronunciation": "모쿠테키치마데 도노 쿠라이 카카리마스카."
+    },
+    {
+      "id": "suitcase-locker",
+      "situationId": "rail",
+      "days": [1, 3, 4, 7],
+      "context": "공항·삿포로역에서 짐을 맡기고 움직이고 싶을 때",
+      "original": "この大きさのスーツケースが入るロッカーはありますか。",
+      "translation": "이 크기의 여행 가방이 들어가는 보관함이 있나요?",
+      "pronunciation": "코노 오-키사노 스-츠케-스가 하이루 롯카-와 아리마스카."
+    },
+    {
+      "id": "locker-until",
+      "situationId": "rail",
+      "days": [1, 3, 4, 7],
+      "context": "역·공항 짐 보관 전 이용 시간을 확인할 때",
+      "original": "このロッカーは何時まで使えますか。",
+      "translation": "이 보관함은 몇 시까지 이용할 수 있나요?",
+      "pronunciation": "코노 롯카-와 난지마데 츠카에마스카."
+    },
+    {
+      "id": "train-delay",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "눈·바람 때문에 이동이 늦어질 때",
+      "original": "電車はどのくらい遅れていますか。",
+      "translation": "열차가 얼마나 지연되고 있나요?",
+      "pronunciation": "덴샤와 도노 쿠라이 오쿠레테이마스카."
+    },
+    {
+      "id": "train-running",
+      "situationId": "rail",
+      "days": [1, 4, 7],
+      "context": "공항·오타루 이동 전 운행 여부를 물을 때",
+      "original": "今日は電車が動いていますか。",
+      "translation": "오늘 열차는 운행하고 있나요?",
+      "pronunciation": "쿄-와 덴샤가 우고이테이마스카."
+    },
+    {
+      "id": "airline-checkin",
+      "situationId": "rail",
+      "days": [7],
+      "context": "신치토세 국제선에서 귀국편 수속을 할 때",
+      "original": "チェジュ航空のチェックインカウンターはどこですか。",
+      "translation": "제주항공 체크인 카운터는 어디인가요?",
+      "pronunciation": "체주 코-쿠-노 쳇쿠인 카운타-와 도코 데스카."
+    },
+    {
+      "id": "baggage-claim",
+      "situationId": "rail",
+      "days": [1],
+      "context": "신치토세 도착 후 맡긴 짐을 찾을 때",
+      "original": "手荷物受取所はどこですか。",
+      "translation": "수하물 찾는 곳은 어디인가요?",
+      "pronunciation": "테니모츠 우케토리조와 도코 데스카."
+    },
+    {
+      "id": "gate-location",
+      "situationId": "rail",
+      "days": [7],
+      "context": "탑승권의 탑승구 번호를 보여주며 길을 물을 때",
+      "original": "この搭乗口はどちらですか。",
+      "translation": "이 탑승구는 어느 쪽인가요?",
+      "pronunciation": "코노 토-조-구치와 도치라 데스카."
+    },
+    {
       "id": "check-in",
       "situationId": "hotel",
       "days": [1, 2],
@@ -249,6 +446,105 @@
       "pronunciation": "쳇쿠아우토오 오네가이시마스."
     },
     {
+      "id": "booking-confirmation",
+      "situationId": "hotel",
+      "days": [1, 2, 3],
+      "context": "호텔·료칸 체크인 또는 숙소 예약을 확인할 때",
+      "original": "予約確認書はこちらです。",
+      "translation": "예약 확인서는 이것입니다.",
+      "pronunciation": "요야쿠 카쿠닌쇼와 코치라 데스."
+    },
+    {
+      "id": "checkin-time",
+      "situationId": "hotel",
+      "days": [1, 2, 3],
+      "context": "숙소에 일찍 도착했을 때",
+      "original": "チェックインは何時からですか。",
+      "translation": "체크인은 몇 시부터인가요?",
+      "pronunciation": "쳇쿠인와 난지카라 데스카."
+    },
+    {
+      "id": "checkout-time",
+      "situationId": "hotel",
+      "days": [2, 3, 7],
+      "context": "다음 날 이동 계획을 세울 때",
+      "original": "チェックアウトは何時までですか。",
+      "translation": "체크아웃은 몇 시까지인가요?",
+      "pronunciation": "쳇쿠아우토와 난지마데 데스카."
+    },
+    {
+      "id": "breakfast-time",
+      "situationId": "hotel",
+      "days": [1, 2, 3],
+      "context": "호텔·료칸에서 아침 식사 시간을 확인할 때",
+      "original": "朝食は何時からですか。",
+      "translation": "아침 식사는 몇 시부터인가요?",
+      "pronunciation": "초-쇼쿠와 난지카라 데스카."
+    },
+    {
+      "id": "breakfast-place",
+      "situationId": "hotel",
+      "days": [1, 2, 3],
+      "context": "조식이 예약에 포함된 경우 식사 장소를 찾을 때",
+      "original": "朝食会場はどこですか。",
+      "translation": "아침 식사 장소는 어디인가요?",
+      "pronunciation": "초-쇼쿠 카이조-와 도코 데스카."
+    },
+    {
+      "id": "wifi-password",
+      "situationId": "hotel",
+      "days": [1, 2, 3, 4, 5, 6],
+      "context": "호텔·료칸·에어비앤비에서 인터넷을 연결할 때",
+      "original": "Wi-Fiのパスワードを教えてください。",
+      "translation": "와이파이 비밀번호를 알려 주세요.",
+      "pronunciation": "와이파이노 파스와-도오 오시에테 쿠다사이."
+    },
+    {
+      "id": "heating-room",
+      "situationId": "hotel",
+      "days": [1, 2, 3, 4, 5, 6],
+      "context": "추운 날 객실의 난방을 켜고 싶을 때",
+      "original": "暖房の使い方を教えてください。",
+      "translation": "난방 사용 방법을 알려 주세요.",
+      "pronunciation": "단보-노 츠카이카타오 오시에테 쿠다사이."
+    },
+    {
+      "id": "extra-blanket",
+      "situationId": "hotel",
+      "days": [1, 2, 3, 4, 5, 6],
+      "context": "숙소에서 추가 침구가 필요할 때",
+      "original": "毛布をもう一枚もらえますか。",
+      "translation": "담요를 한 장 더 받을 수 있나요?",
+      "pronunciation": "모-후오 모- 이치마이 모라에마스카."
+    },
+    {
+      "id": "shuttle-luggage",
+      "situationId": "hotel",
+      "days": [2, 3],
+      "context": "조잔케이 왕복 송영버스 탑승 전",
+      "original": "このスーツケースを送迎バスに載せられますか。",
+      "translation": "이 여행 가방을 송영버스에 실을 수 있나요?",
+      "pronunciation": "코노 스-츠케-스오 소-게- 바스니 노세라레마스카."
+    },
+    {
+      "id": "key-return",
+      "situationId": "hotel",
+      "days": [2, 3, 7],
+      "context": "호텔·료칸·에어비앤비 체크아웃 때",
+      "original": "鍵はどこに返せばいいですか。",
+      "translation": "열쇠는 어디에 반납하면 되나요?",
+      "pronunciation": "카기와 도코니 카에세바 이- 데스카."
+    },
+    {
+      "id": "rubbish-sorting",
+      "situationId": "hotel",
+      "days": [3, 4, 5, 6, 7],
+      "context": "에어비앤비에서 머무는 동안 쓰레기 처리 방법 확인",
+      "original": "ごみはどう分別すればいいですか。",
+      "translation": "쓰레기는 어떻게 분리하면 되나요?",
+      "pronunciation": "고미와 도- 분베츠 스레바 이- 데스카."
+    },
+    {
       "id": "bath-hours",
       "situationId": "onsen",
       "days": [2],
@@ -292,6 +588,51 @@
       "original": "足湯は今、利用できますか。",
       "translation": "족욕은 지금 이용할 수 있나요?",
       "pronunciation": "아시유와 이마, 리요- 데키마스카."
+    },
+    {
+      "id": "private-bath",
+      "situationId": "onsen",
+      "days": [2],
+      "context": "료칸에서 둘이 이용할 수 있는 탕을 문의할 때",
+      "original": "貸切風呂はありますか。",
+      "translation": "대절탕이 있나요?",
+      "pronunciation": "카시키리부로와 아리마스카."
+    },
+    {
+      "id": "private-bath-booking",
+      "situationId": "onsen",
+      "days": [2],
+      "context": "대절탕이 있는 경우 예약 방법을 확인할 때",
+      "original": "貸切風呂は予約が必要ですか。",
+      "translation": "대절탕은 예약이 필요한가요?",
+      "pronunciation": "카시키리부로와 요야쿠가 히츠요- 데스카."
+    },
+    {
+      "id": "bath-temperature",
+      "situationId": "onsen",
+      "days": [2],
+      "context": "객실 노천탕 사용 방법을 확인할 때",
+      "original": "お湯の温度は調整できますか。",
+      "translation": "온수 온도를 조절할 수 있나요?",
+      "pronunciation": "오유노 온도와 초-세- 데키마스카."
+    },
+    {
+      "id": "bath-yukata",
+      "situationId": "onsen",
+      "days": [2],
+      "context": "객실에서 대욕장으로 이동하기 전에",
+      "original": "お風呂まで浴衣で行ってもいいですか。",
+      "translation": "욕장까지 유카타를 입고 가도 되나요?",
+      "pronunciation": "오후로마데 유카타데 잇테모 이- 데스카."
+    },
+    {
+      "id": "bath-room-key",
+      "situationId": "onsen",
+      "days": [2],
+      "context": "입욕 전 객실 열쇠 보관 방법을 확인할 때",
+      "original": "お風呂に部屋の鍵を持っていってもいいですか。",
+      "translation": "욕장에 객실 열쇠를 가져가도 되나요?",
+      "pronunciation": "오후로니 헤야노 카기오 못테잇테모 이- 데스카."
     },
     {
       "id": "table-two",
@@ -404,6 +745,187 @@
       "pronunciation": "겐킨 노미 데스카."
     },
     {
+      "id": "restaurant-reserved",
+      "situationId": "food",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "식당 예약을 마친 뒤 도착했을 때",
+      "original": "予約しています。二人です。",
+      "translation": "예약했습니다. 두 명입니다.",
+      "pronunciation": "요야쿠 시테이마스. 후타리 데스."
+    },
+    {
+      "id": "menu-request",
+      "situationId": "food",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "입구·자리에서 메뉴를 먼저 보고 싶을 때",
+      "original": "メニューを見せてもらえますか。",
+      "translation": "메뉴를 보여 주실 수 있나요?",
+      "pronunciation": "메뉴-오 미세테 모라에마스카."
+    },
+    {
+      "id": "korean-menu",
+      "situationId": "food",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "수프카레·라멘·초밥집에서 메뉴를 읽기 어려울 때",
+      "original": "韓国語のメニューはありますか。",
+      "translation": "한국어 메뉴가 있나요?",
+      "pronunciation": "칸코쿠고노 메뉴-와 아리마스카."
+    },
+    {
+      "id": "not-decided",
+      "situationId": "food",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "직원이 주문을 받으러 왔는데 메뉴를 더 보고 싶을 때",
+      "original": "まだ決まっていません。少し待ってください。",
+      "translation": "아직 고르지 못했습니다. 조금 기다려 주세요.",
+      "pronunciation": "마다 키맛테이마셍. 스코시 맛테 쿠다사이."
+    },
+    {
+      "id": "ready-to-order",
+      "situationId": "food",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "메뉴를 골랐는데 직원이 아직 오지 않았을 때",
+      "original": "注文してもいいですか。",
+      "translation": "주문해도 될까요?",
+      "pronunciation": "추-몬 시테모 이- 데스카."
+    },
+    {
+      "id": "sushi-no-wasabi",
+      "situationId": "food",
+      "days": [4, 6],
+      "context": "오타루 초밥·니조시장 해산물 식사에서",
+      "original": "わさび抜きでお願いします。",
+      "translation": "와사비는 빼 주세요.",
+      "pronunciation": "와사비 누키데 오네가이시마스."
+    },
+    {
+      "id": "rice-small",
+      "situationId": "food",
+      "days": [1, 5, 6],
+      "context": "수프카레·카이센동의 밥 양을 조절하고 싶을 때",
+      "original": "ご飯は少なめでお願いします。",
+      "translation": "밥은 적게 부탁드립니다.",
+      "pronunciation": "고항와 스쿠나메데 오네가이시마스."
+    },
+    {
+      "id": "curry-spice-level",
+      "situationId": "food",
+      "days": [1, 5],
+      "context": "수프카레 주문 전에 맵기 단계 확인",
+      "original": "辛さはどのくらいですか。",
+      "translation": "매운맛은 어느 정도인가요?",
+      "pronunciation": "카라사와 도노 쿠라이 데스카."
+    },
+    {
+      "id": "shrimp-broth",
+      "situationId": "food",
+      "days": [7],
+      "context": "신치토세 라멘 도장에서 국물 재료를 물을 때",
+      "original": "このラーメンのスープには、えびが入っていますか。",
+      "translation": "이 라멘 국물에는 새우가 들어가나요?",
+      "pronunciation": "코노 라-멘노 스-푸니와, 에비가 하잇테이마스카."
+    },
+    {
+      "id": "jingisukan-cooking",
+      "situationId": "food",
+      "days": [6],
+      "context": "징기스칸 가게에서 처음 구워 먹을 때",
+      "original": "ジンギスカンの焼き方を教えてください。",
+      "translation": "징기스칸 굽는 방법을 알려 주세요.",
+      "pronunciation": "진기스칸노 야키카타오 오시에테 쿠다사이."
+    },
+    {
+      "id": "beer-two",
+      "situationId": "food",
+      "days": [2, 3, 4, 6],
+      "context": "료칸·맥주가든·이자카야에서",
+      "original": "生ビールを二つお願いします。",
+      "translation": "생맥주 두 잔 주세요.",
+      "pronunciation": "나마 비-루오 후타츠 오네가이시마스."
+    },
+    {
+      "id": "water",
+      "situationId": "food",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "식당·카페에서 물이 필요할 때",
+      "original": "お水をお願いします。",
+      "translation": "물 주세요.",
+      "pronunciation": "오미즈오 오네가이시마스."
+    },
+    {
+      "id": "share-plates",
+      "situationId": "food",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "두 사람이 음식을 나눠 먹을 때",
+      "original": "取り皿を二枚お願いします。",
+      "translation": "앞접시 두 개 주세요.",
+      "pronunciation": "토리자라오 니마이 오네가이시마스."
+    },
+    {
+      "id": "coffee-hot",
+      "situationId": "food",
+      "days": [1, 3, 4, 6, 7],
+      "context": "산책 중 카페에서 따뜻한 커피를 주문할 때",
+      "original": "ホットコーヒーを一つお願いします。",
+      "translation": "따뜻한 커피 한 잔 주세요.",
+      "pronunciation": "홋토 코-히-오 히토츠 오네가이시마스."
+    },
+    {
+      "id": "coffee-iced",
+      "situationId": "food",
+      "days": [1, 3, 4, 6, 7],
+      "context": "실내 카페에서 차가운 커피를 원할 때",
+      "original": "アイスコーヒーを一つお願いします。",
+      "translation": "아이스커피 한 잔 주세요.",
+      "pronunciation": "아이스 코-히-오 히토츠 오네가이시마스."
+    },
+    {
+      "id": "sugar-separate",
+      "situationId": "food",
+      "days": [1, 3, 4, 6, 7],
+      "context": "음료의 당도를 직접 조절하고 싶을 때",
+      "original": "砂糖は別にお願いします。",
+      "translation": "설탕은 따로 주세요.",
+      "pronunciation": "사토-와 베츠니 오네가이시마스."
+    },
+    {
+      "id": "extra-order",
+      "situationId": "food",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "먹어 본 메뉴·디저트를 추가 주문할 때",
+      "original": "これをもう一つお願いします。",
+      "translation": "이것을 하나 더 주세요.",
+      "pronunciation": "코레오 모- 히토츠 오네가이시마스."
+    },
+    {
+      "id": "sake-dry",
+      "situationId": "food",
+      "days": [2, 3, 4, 6],
+      "context": "료칸·주조장·이자카야에서 사케를 고를 때",
+      "note": "사케에서 ‘辛口’는 매운맛이 아니라 드라이한 스타일을 말해요.",
+      "original": "辛口の日本酒はありますか。",
+      "translation": "드라이한 사케가 있나요?",
+      "pronunciation": "카라쿠치노 니혼슈와 아리마스카."
+    },
+    {
+      "id": "last-order",
+      "situationId": "food",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "운하·야경 산책 뒤 식당에 가기 전",
+      "original": "ラストオーダーは何時ですか。",
+      "translation": "마지막 주문은 몇 시인가요?",
+      "pronunciation": "라스토 오-다-와 난지 데스카."
+    },
+    {
+      "id": "receipt",
+      "situationId": "food",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "식당·카페 계산 후 지출을 기록할 때",
+      "original": "レシートをお願いします。",
+      "translation": "영수증 주세요.",
+      "pronunciation": "레시-토오 오네가이시마스."
+    },
+    {
       "id": "card",
       "situationId": "shopping",
       "days": [1, 2, 3, 4, 5, 6, 7],
@@ -470,6 +992,97 @@
       "pronunciation": "치-사이 후쿠로오 산마이 오네가이시마스."
     },
     {
+      "id": "product-price",
+      "situationId": "shopping",
+      "days": [1, 3, 4, 6, 7],
+      "context": "기념품·시장 상품의 가격표를 찾기 어려울 때",
+      "original": "これはいくらですか。",
+      "translation": "이것은 얼마인가요?",
+      "pronunciation": "코레와 이쿠라 데스카."
+    },
+    {
+      "id": "sample-taste",
+      "situationId": "shopping",
+      "days": [3, 4, 6, 7],
+      "context": "백화점 식품관·과자 가게에서 맛을 보고 고를 때",
+      "original": "試食できますか。",
+      "translation": "시식할 수 있나요?",
+      "pronunciation": "시쇼쿠 데키마스카."
+    },
+    {
+      "id": "souvenir-popular",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "회사·가족 선물용 과자를 고를 때",
+      "original": "北海道のお土産で人気なのはどれですか。",
+      "translation": "홋카이도 선물로 인기 있는 것은 무엇인가요?",
+      "pronunciation": "홋카이도-노 오미야게데 닌키나노와 도레 데스카."
+    },
+    {
+      "id": "pieces-in-box",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "여러 사람에게 나눠 줄 과자의 수량 확인",
+      "original": "一箱に何個入っていますか。",
+      "translation": "한 상자에 몇 개 들어 있나요?",
+      "pronunciation": "히토하코니 난코 하잇테이마스카."
+    },
+    {
+      "id": "gift-wrap",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "개인 선물용 상품을 포장하고 싶을 때",
+      "original": "プレゼント用に包んでもらえますか。",
+      "translation": "선물 포장을 해 주실 수 있나요?",
+      "pronunciation": "푸레젠토요-니 츠츤데 모라에마스카."
+    },
+    {
+      "id": "cool-pack",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "냉장 디저트·유제품을 들고 이동할 때",
+      "original": "保冷剤を入れてもらえますか。",
+      "translation": "보냉제를 넣어 주실 수 있나요?",
+      "pronunciation": "호레-자이오 이레테 모라에마스카."
+    },
+    {
+      "id": "carry-hours",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "쇼핑 후 산책·공항 이동을 앞두고 보관 방법을 확인할 때",
+      "original": "常温でどのくらい持ち歩けますか。",
+      "translation": "상온에서 얼마나 가지고 다닐 수 있나요?",
+      "pronunciation": "조-온데 도노 쿠라이 모치아루케마스카."
+    },
+    {
+      "id": "smaller-box",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "짐 부피에 맞춰 기념품 수량을 고를 때",
+      "original": "もう少し小さい箱はありますか。",
+      "translation": "좀 더 작은 상자가 있나요?",
+      "pronunciation": "모- 스코시 치-사이 하코와 아리마스카."
+    },
+    {
+      "id": "same-item-two",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "선물용 상품의 추가 재고를 물을 때",
+      "original": "同じものを二つ買いたいです。",
+      "translation": "같은 것을 두 개 사고 싶습니다.",
+      "pronunciation": "오나지 모노오 후타츠 카이타이 데스."
+    },
+    {
+      "id": "passport-tax-free",
+      "situationId": "shopping",
+      "days": [3, 4, 7],
+      "context": "매장에서 면세 절차를 안내받을 때",
+      "note": "필요한 절차와 환급 방식은 매장 안내에 따라 확인하세요.",
+      "original": "免税の手続きで、パスポートを見せればいいですか。",
+      "translation": "면세 수속할 때 여권을 보여드리면 되나요?",
+      "pronunciation": "멘제-노 테츠즈키데, 파스포-토오 미세레바 이- 데스카."
+    },
+    {
       "id": "tour-booking",
       "situationId": "tour",
       "days": [5],
@@ -534,6 +1147,87 @@
       "pronunciation": "코코데 샤신오 톳테모 이- 데스카."
     },
     {
+      "id": "entry-tickets",
+      "situationId": "tour",
+      "days": [3, 4, 6],
+      "context": "오타루 아트 베이스·관람 시설에서 표를 살 때",
+      "original": "大人二人分の入場券をお願いします。",
+      "translation": "어른 두 명 입장권을 주세요.",
+      "pronunciation": "오토나 후타리분노 뉴-조-켄오 오네가이시마스."
+    },
+    {
+      "id": "attraction-closing",
+      "situationId": "tour",
+      "days": [3, 4, 6],
+      "context": "쇼핑·산책 사이에 관람 시설 방문을 계획할 때",
+      "original": "何時まで開いていますか。",
+      "translation": "몇 시까지 열려 있나요?",
+      "pronunciation": "난지마데 아이테이마스카."
+    },
+    {
+      "id": "illumination-start",
+      "situationId": "tour",
+      "days": [3, 4, 5, 6],
+      "context": "오도리·오타루 운하·비에이 야간 관람 전에",
+      "original": "ライトアップは何時からですか。",
+      "translation": "라이트업은 몇 시부터인가요?",
+      "pronunciation": "라이토앗푸와 난지카라 데스카."
+    },
+    {
+      "id": "attraction-entrance",
+      "situationId": "tour",
+      "days": [3, 4, 6],
+      "context": "관람 시설 주변에서 출입구를 찾을 때",
+      "original": "入り口はどこですか。",
+      "translation": "입구는 어디인가요?",
+      "pronunciation": "이리구치와 도코 데스카."
+    },
+    {
+      "id": "photo-together",
+      "situationId": "tour",
+      "days": [2, 3, 4, 5, 6],
+      "context": "운하·전망대 등에서 두 사람이 함께 사진을 남길 때",
+      "original": "二人の写真を撮ってもらえますか。",
+      "translation": "저희 두 사람 사진을 찍어 주실 수 있나요?",
+      "pronunciation": "후타리노 샤신오 톳테 모라에마스카."
+    },
+    {
+      "id": "walking-path",
+      "situationId": "tour",
+      "days": [2, 4, 5, 6],
+      "context": "눈·공사 등으로 산책길의 통행 가능 여부를 확인할 때",
+      "original": "この道は歩いて通れますか。",
+      "translation": "이 길은 걸어서 지나갈 수 있나요?",
+      "pronunciation": "코노 미치와 아루이테 토-레마스카."
+    },
+    {
+      "id": "ropeway-return-tickets",
+      "situationId": "tour",
+      "days": [6],
+      "context": "모이와야마 매표소에서 두 사람 표를 살 때",
+      "original": "ロープウェイの往復券を二枚お願いします。",
+      "translation": "로프웨이 왕복표 두 장 주세요.",
+      "pronunciation": "로-푸웨-노 오-후쿠켄오 니마이 오네가이시마스."
+    },
+    {
+      "id": "summit-duration",
+      "situationId": "tour",
+      "days": [6],
+      "context": "모이와야마 야경 관람 시간을 계획할 때",
+      "original": "山頂までどのくらいかかりますか。",
+      "translation": "산 정상까지 얼마나 걸리나요?",
+      "pronunciation": "산초-마데 도노 쿠라이 카카리마스카."
+    },
+    {
+      "id": "tour-return-station",
+      "situationId": "tour",
+      "days": [5],
+      "context": "비에이 투어 예약 전 복귀 장소를 확인할 때",
+      "original": "このツアーは札幌駅に戻りますか。",
+      "translation": "이 투어는 삿포로역으로 돌아오나요?",
+      "pronunciation": "코노 츠아-와 삿포로에키니 모도리마스카."
+    },
+    {
       "id": "address-taxi",
       "situationId": "local",
       "days": [2, 3, 6],
@@ -578,6 +1272,141 @@
       "original": "最終の市電は何時ですか。",
       "translation": "마지막 시전은 몇 시인가요?",
       "pronunciation": "사이슈-노 시덴와 난지 데스카."
+    },
+    {
+      "id": "taxi-estimate",
+      "situationId": "local",
+      "days": [2, 3, 6],
+      "context": "지도에서 목적지를 가리키며 택시 요금을 물을 때",
+      "original": "ここまで、だいたいいくらですか。",
+      "translation": "이곳까지 대략 얼마인가요?",
+      "pronunciation": "코코마데, 다이타이 이쿠라 데스카."
+    },
+    {
+      "id": "taxi-luggage",
+      "situationId": "local",
+      "days": [2, 3, 6, 7],
+      "context": "짐을 싣고 택시로 이동하려고 할 때",
+      "original": "二人で、スーツケースが二つあります。",
+      "translation": "두 명이고 여행 가방이 두 개 있습니다.",
+      "pronunciation": "후타리데, 스-츠케-스가 후타츠 아리마스."
+    },
+    {
+      "id": "taxi-stop-here",
+      "situationId": "local",
+      "days": [2, 3, 6, 7],
+      "context": "택시가 목적지에 가까워졌을 때",
+      "original": "ここで降ろしてください。",
+      "translation": "여기서 내려 주세요.",
+      "pronunciation": "코코데 오로시테 쿠다사이."
+    },
+    {
+      "id": "tram-board-door",
+      "situationId": "local",
+      "days": [6],
+      "context": "삿포로 시전에 처음 탑승할 때",
+      "original": "どのドアから乗ればいいですか。",
+      "translation": "어느 문으로 타면 되나요?",
+      "pronunciation": "도노 도아카라 노레바 이- 데스카."
+    },
+    {
+      "id": "change-money",
+      "situationId": "local",
+      "days": [6],
+      "context": "시전에서 현금 결제를 준비할 때",
+      "original": "両替できますか。",
+      "translation": "잔돈으로 바꿀 수 있나요?",
+      "pronunciation": "료-가에 데키마스카."
+    },
+    {
+      "id": "warm-food",
+      "situationId": "daily",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "편의점에서 도시락·간단한 식사를 살 때",
+      "original": "温めてください。",
+      "translation": "데워 주세요.",
+      "pronunciation": "아타타메테 쿠다사이."
+    },
+    {
+      "id": "no-shopping-bag",
+      "situationId": "daily",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "편의점·가게에서 가방을 따로 가지고 있을 때",
+      "original": "袋は要りません。",
+      "translation": "봉투는 필요 없습니다.",
+      "pronunciation": "후쿠로와 이리마셍."
+    },
+    {
+      "id": "chopsticks-two",
+      "situationId": "daily",
+      "days": [1, 3, 4, 5, 6, 7],
+      "context": "두 사람의 편의점 식사·포장 음식을 준비할 때",
+      "original": "お箸を二膳お願いします。",
+      "translation": "젓가락 두 벌 주세요.",
+      "pronunciation": "오하시오 니젠 오네가이시마스."
+    },
+    {
+      "id": "atm-location",
+      "situationId": "daily",
+      "days": [1, 3, 4, 6, 7],
+      "context": "시장·작은 식당 방문 전에 현금을 준비할 때",
+      "original": "ATMはどこにありますか。",
+      "translation": "ATM은 어디에 있나요?",
+      "pronunciation": "에-티-에무와 도코니 아리마스카."
+    },
+    {
+      "id": "hand-warmers",
+      "situationId": "daily",
+      "days": [1, 3, 4, 5, 6],
+      "context": "야경·운하·비에이 산책 전 보온용품을 찾을 때",
+      "original": "カイロはどこにありますか。",
+      "translation": "핫팩은 어디에 있나요?",
+      "pronunciation": "카이로와 도코니 아리마스카."
+    },
+    {
+      "id": "umbrella",
+      "situationId": "daily",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "산책 중 갑자기 비·눈이 와서 우산이 필요할 때",
+      "original": "傘は買えますか。",
+      "translation": "우산을 살 수 있나요?",
+      "pronunciation": "카사와 카에마스카."
+    },
+    {
+      "id": "lost-way",
+      "situationId": "help",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "산책 뒤 가까운 역으로 돌아가는 길을 모를 때",
+      "original": "道に迷いました。駅への行き方を教えてください。",
+      "translation": "길을 잃었습니다. 역으로 가는 길을 알려 주세요.",
+      "pronunciation": "미치니 마요이마시타. 에키에노 이키카타오 오시에테 쿠다사이."
+    },
+    {
+      "id": "forgot-item",
+      "situationId": "help",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "식당·카페·숙소에 두고 온 물건을 찾을 때",
+      "original": "ここに忘れ物をしたかもしれません。",
+      "translation": "여기에 물건을 두고 간 것 같습니다.",
+      "pronunciation": "코코니 와스레모노오 시타카모 시레마셍."
+    },
+    {
+      "id": "lost-item-counter",
+      "situationId": "help",
+      "days": [1, 4, 6, 7],
+      "context": "열차·시전·공항에서 두고 내린 물건을 문의할 때",
+      "original": "忘れ物の問い合わせはどこでできますか。",
+      "translation": "분실물 문의는 어디서 하나요?",
+      "pronunciation": "와스레모노노 토이아와세와 도코데 데키마스카."
+    },
+    {
+      "id": "lost-wallet",
+      "situationId": "help",
+      "days": [1, 2, 3, 4, 5, 6, 7],
+      "context": "지갑을 잃어버려 분실 신고할 곳을 찾을 때",
+      "original": "財布をなくしました。近くの交番はどこですか。",
+      "translation": "지갑을 잃어버렸습니다. 가까운 파출소는 어디인가요?",
+      "pronunciation": "사이후오 나쿠시마시타. 치카쿠노 코-반와 도코 데스카."
     }
   ]
 }
