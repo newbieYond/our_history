@@ -44,6 +44,24 @@ export type Day = {
   }[];
   image?: string;
 };
+export type TravelPhrase = {
+  id: string;
+  situationId: string;
+  original: string;
+  translation: string;
+  pronunciation: string;
+  context: string;
+  days: number[];
+  note?: string;
+};
+export type Phrasebook = {
+  language: string;
+  languageCode: string;
+  intro: string;
+  readingNote: string;
+  situations: { id: string; label: string }[];
+  phrases: TravelPhrase[];
+};
 export type Trip = {
   id: string;
   name: string;
@@ -65,6 +83,7 @@ export type Trip = {
   verification: string;
   highlights?: { label: string; value: string }[];
   shoppingIntro?: string;
+  phrasebook?: Phrasebook;
   geoMap?: {
     center: [number, number];
     zoom: number;
@@ -74,6 +93,7 @@ export type Trip = {
 export const appTabs = [
   ["home", "홈"],
   ["itinerary", "일정"],
+  ["phrases", "여행 회화"],
   ["notes", "여행 노트"],
   ["shopping", "쇼핑"],
   ["saved", "저장 장소"],

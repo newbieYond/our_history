@@ -1,0 +1,155 @@
+import { useState } from "react";
+import { useTrip } from "../lib/TripContext";
+import { filterPhrases } from "../lib/phrases";
+import { FilterTags } from "./FilterTags";
+import "../themes/phrases.css";
+export function PhrasebookScreen() {
+  const trip = useTrip();
+  const book = trip.phrasebook;
+  const [situation, setSituation] = useState("전체");
+  const [day, setDay] = useState("전체");
+  const [query, setQuery] = useState("");
+  const [copyStatus, setCopyStatus] = useState<{
+    id: string;
+    message: string;
+  } | null>(null);
+  if (!book) return null;
+  const phrases = filterPhrases(book.phrases, situation, day, query);
+  const reset = () => {
+    setSituation("전체");
+    setDay("전체");
+    setQuery("");
+    setCopyStatus(null);
+  };
+  return (
+    <section className="phrasebook">
+      <header className="phrasebook-heading">
+        <p className="section-label">WORDS FOR OUR JOURNEY · {trip.name}</p>
+        <h2>
+          우리 여행에 필요한
+          <br />
+          <em>{book.language} 한마디.</em>
+        </h2>
+        <p>{book.intro}</p>
+        <p className="phrase-reading-note">{book.readingNote}</p>
+      </header>
+      <div className="phrase-filters">
+        <FilterTags
+          label="상황"
+          options={[
+            { value: "전체", label: "전체" },
+            ...book.situations.map((s) => ({ value: s.id, label: s.label })),
+          ]}
+          selected={situation}
+          onChange={(value) => {
+            setSituation(value === situation ? "전체" : value);
+            setCopyStatus(null);
+          }}
+        />
+        <FilterTags
+          label="일정"
+          options={[
+            { value: "전체", label: "전체 일정" },
+            ...trip.days.map((_, i) => ({
+              value: String(i + 1),
+              label: `DAY ${i + 1}`,
+            })),
+          ]}
+          selected={day}
+          onChange={(value) => {
+            setDay(value === day ? "전체" : value);
+            setCopyStatus(null);
+          }}
+        />
+        <label className="phrase-search">
+          표현 검색
+          <input
+            type="search"
+            value={query}
+            placeholder="예약, 라멘, 버스, 면세…"
+            onChange={(e) => {
+              setQuery(e.target.value);
+              setCopyStatus(null);
+            }}
+          />
+        </label>
+        {day !== "전체" && (
+          <p className="phrase-day-context">
+            DAY {day} · {trip.days[Number(day) - 1].title}
+          </p>
+        )}
+      </div>
+      <div className="phrase-results">
+        <p aria-live="polite">{phrases.length}개의 표현</p>
+        {(situation !== "전체" || day !== "전체" || query) && (
+          <button
+            type="button"
+            onClick={reset}
+            aria-label="회화 필터와 검색 초기화"
+          >
+            전체 표현 보기 ↗
+          </button>
+        )}
+      </div>
+      <div className="phrase-grid">
+        {phrases.map((phrase) => (
+          <article className="phrase-card" key={phrase.id}>
+            <div className="phrase-card-top">
+              <span>
+                {
+                  book.situations.find((s) => s.id === phrase.situationId)
+                    ?.label
+                }
+              </span>
+              <small>
+                {phrase.days.length === trip.days.length
+                  ? "여행 내내"
+                  : phrase.days.map((d) => `DAY ${d}`).join(" · ")}
+              </small>
+            </div>
+            <h3>{phrase.translation}</h3>
+            <p className="phrase-original" lang={book.languageCode}>
+              {phrase.original}
+            </p>
+            <p className="phrase-pronunciation">
+              <span>독음</span>
+              {phrase.pronunciation}
+            </p>
+            <p className="phrase-context">{phrase.context}</p>
+            {phrase.note && <p className="phrase-note">{phrase.note}</p>}
+            <div className="phrase-card-bottom">
+              <button
+                type="button"
+                aria-label={`${phrase.translation} ${book.language} 문장 복사`}
+                onClick={async () => {
+                  try {
+                    await navigator.clipboard.writeText(phrase.original);
+                    setCopyStatus({
+                      id: phrase.id,
+                      message: `${book.language} 문장을 복사했어요.`,
+                    });
+                  } catch {
+                    setCopyStatus({
+                      id: phrase.id,
+                      message: `${book.language} 문장을 길게 눌러 복사해 주세요.`,
+                    });
+                  }
+                }}
+              >
+                {book.language} 복사
+              </button>
+              <span role="status">
+                {copyStatus?.id === phrase.id ? copyStatus.message : ""}
+              </span>
+            </div>
+          </article>
+        ))}
+      </div>
+      {phrases.length === 0 && (
+        <p className="empty-state">
+          조건에 맞는 표현이 없어요. 다른 상황을 고르거나 검색어를 바꿔 보세요.
+        </p>
+      )}
+    </section>
+  );
+}

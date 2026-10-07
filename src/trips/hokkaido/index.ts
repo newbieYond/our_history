@@ -1,3 +1,4 @@
+import phrasebook from "./phrases.json";
 import coordinates from "./coordinates.json";
 import type { CoordinateRecord } from "../../lib/geo";
 import rawPlaces from "./places.json";
@@ -103,6 +104,7 @@ const trip: Trip = {
       "소운쿄",
     ],
   },
+  phrasebook,
   links: [],
   verification: "기존 공유 목록·평가 보존 · 지도 위치 확인 2026.10.07",
 };

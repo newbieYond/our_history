@@ -10,6 +10,7 @@ export function AppNav({
   const trip = useTrip();
   const tabs = appTabs.filter(
     ([id]) =>
+      (id !== "phrases" || !!trip.phrasebook?.phrases.length) &&
       (id !== "shopping" || trip.shopping.length > 0) &&
       (id !== "checklist" || trip.checklist.length > 0),
   );
@@ -25,10 +26,10 @@ export function AppNav({
             key={id}
             className={activeScreen === id ? "active" : ""}
             aria-current={activeScreen === id ? "page" : undefined}
-            aria-label={`${trip.name} ${label} 보기`}
+            aria-label={`${trip.name} ${id === "phrases" ? `${trip.phrasebook?.language} 회화` : label} 보기`}
             onClick={() => onNavigate(id)}
           >
-            {label}
+            {id === "phrases" ? `${trip.phrasebook?.language} 회화` : label}
           </button>
         ))}
       </div>

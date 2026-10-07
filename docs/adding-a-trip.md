@@ -14,9 +14,13 @@
 - `places`: 여행 안에서 ID가 고유해야 합니다. `days`는 해당하는 날짜 번호를 모두 지정합니다. 여러 날짜에 방문하는 장소는 한 레코드에 `[1, 7]`처럼 저장합니다. `day`는 대표 날짜입니다.
 - `seonghoRating`, `seinRating`: 0~5 또는 `null`입니다. 0과 `null`은 미평가이며 평균 계산에서 제외됩니다.
 - `googleMapsUrl`: 기존 정확한 장소 URL을 우선 유지합니다.
-- `isReserve`: 예비 후보 여부입니다. 예비 표시 스위치는 날짜별 장소 목록과 지도에 함께 적용됩니다.
+- `isReserve`: 예비 후보 여부입니다. 예비 장소도 날짜별 목록과 지도에 항상 표시하며 예비 상태 표기를 유지합니다.
 - `notes`, `shopping`, `checklist`, `links`: 여행별 자료가 있으면 지정합니다. 빈 쇼핑·체크리스트 메뉴는 표시되지 않습니다.
 - `schedule`의 `placeName`: 해당 장소 이름을 지정하면 일정 항목 선택 시 지도 마커와 상세가 연동됩니다.
+
+## 여행 회화 추가
+
+`Trip.phrasebook`에 언어 이름·언어 코드, 소개·독음 안내, `situations`와 `phrases`를 지정하면 회화 메뉴가 자동으로 나타납니다. 홋카이도의 `phrases.json`을 참고하세요. 각 표현에는 고유 `id`, 상황 `situationId`, 원문 `original`, 해석 `translation`, 한글 독음 `pronunciation`, 사용 맥락 `context`, 일정 날짜 `days`를 지정합니다. 공통 페이지는 상황·날짜·검색을 함께 필터링하고 같은 태그를 다시 누르면 전체로 돌아갑니다.
 
 ## 실제 지도 사용
 

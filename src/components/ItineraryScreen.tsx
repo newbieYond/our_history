@@ -15,13 +15,10 @@ export function ItineraryScreen({
 }) {
   const trip = useTrip();
   const day = trip.days[selected];
-  const [showMaybe, setShowMaybe] = useState(true);
   const [mapSelection, setMapSelection] = useState<number | null>(null);
   const [mapRegion, setMapRegion] = useState("전체");
   const mapRef = useRef<HTMLDivElement>(null);
-  const dayPlaces = trip.places.filter(
-    (p) => p.days.includes(selected + 1) && (showMaybe || !p.isReserve),
-  );
+  const dayPlaces = trip.places.filter((p) => p.days.includes(selected + 1));
   const mapPlaces = dayPlaces.filter(
     (p) => mapRegion === "전체" || p.mapRegion === mapRegion,
   );
@@ -32,7 +29,6 @@ export function ItineraryScreen({
   const selectSchedule = (name?: string) => {
     const place = trip.places.find((p) => p.name === name);
     if (!place) return;
-    if (place.isReserve) setShowMaybe(true);
     setMapRegion("전체");
     setMapSelection(place.id);
     mapRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -48,23 +44,6 @@ export function ItineraryScreen({
             of small stories.
           </h2>
         </div>
-        <button
-          type="button"
-          className="toggle-button"
-          role="switch"
-          aria-checked={showMaybe}
-          aria-label="예비 계획과 장소 표시"
-          onClick={() => {
-            setShowMaybe((v) => !v);
-            setMapSelection(null);
-            setMapRegion("전체");
-          }}
-        >
-          <span aria-hidden="true">
-            <i />
-          </span>
-          예비 계획도 보기
-        </button>
       </div>
       <div className="day-selector" role="group" aria-label="일정 날짜 선택">
         {trip.days.map((item, index) => (

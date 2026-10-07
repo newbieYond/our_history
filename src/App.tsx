@@ -7,6 +7,7 @@ import { TravelLibrary } from "./components/TravelLibrary";
 import { AppNav } from "./components/AppNav";
 import { TripHome } from "./components/TripHome";
 import { ItineraryScreen } from "./components/ItineraryScreen";
+import { PhrasebookScreen } from "./components/PhrasebookScreen";
 import { NotesScreen } from "./components/NotesScreen";
 import { ShoppingScreen } from "./components/ShoppingScreen";
 import { SavedPlacesScreen } from "./components/SavedPlacesScreen";
@@ -42,6 +43,7 @@ export default function App() {
   }, [trip]);
   if (!trip || !route) return <TravelLibrary />;
   const screen =
+    (route.screen === "phrases" && !trip.phrasebook?.phrases.length) ||
     (route.screen === "shopping" && !trip.shopping.length) ||
     (route.screen === "checklist" && !trip.checklist.length)
       ? "home"
@@ -66,6 +68,7 @@ export default function App() {
               onOpenPlace={setDetailPlace}
             />
           )}
+          {screen === "phrases" && <PhrasebookScreen />}
           {screen === "notes" && <NotesScreen />}
           {screen === "shopping" && <ShoppingScreen />}
           {screen === "saved" && (
