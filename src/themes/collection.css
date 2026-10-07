@@ -1,0 +1,245 @@
+.library {
+  background: #f5f1e9;
+  color: #14233a;
+  min-height: 100vh;
+  font-family: "Gowun Dodum", sans-serif;
+}
+.library-nav {
+  height: 90px;
+  border-bottom: 1px solid #d9d2c6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6vw;
+}
+.library-nav a {
+  font-family: var(--mono);
+  font-size: 20px;
+  letter-spacing: -0.04em;
+  text-decoration: none;
+  color: inherit;
+}
+.library-nav a span {
+  font-family: var(--sans);
+  font-size: 11px;
+  margin-left: 18px;
+  color: #53606a;
+}
+.library-nav > span {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  color: #53606a;
+}
+.library-intro {
+  padding: 78px 6vw 54px;
+  max-width: 1440px;
+  margin: auto;
+}
+.library-intro > p {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  color: #93472f;
+}
+.library-intro h1 {
+  font-family: "Gowun Batang", serif;
+  font-size: clamp(48px, 6.5vw, 90px);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.06em;
+  margin: 30px 0;
+}
+.library-intro h1 em {
+  font-style: normal;
+  color: #93472f;
+}
+.library-intro > div {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 24px;
+}
+.library-intro > div p {
+  font-size: 15px;
+  line-height: 1.9;
+  color: #53606a;
+}
+.library-intro > div span {
+  font: 11px var(--mono);
+  letter-spacing: 0.12em;
+  padding-bottom: 20px;
+}
+.travel-collection {
+  padding: 0 6vw;
+  max-width: 1440px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+.travel-card {
+  display: block;
+  color: var(--ink);
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  overflow: hidden;
+  transition: transform 0.25s;
+}
+.travel-card:hover {
+  transform: translateY(-5px);
+}
+.travel-card-art {
+  position: relative;
+  height: 330px;
+  overflow: hidden;
+}
+.travel-card-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+.travel-card:hover img {
+  transform: scale(1.025);
+}
+.travel-card-art:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent 55%, #08162a80);
+}
+.travel-card-art > span {
+  position: absolute;
+  left: 22px;
+  top: 20px;
+  z-index: 1;
+  background: #f5f1e9df;
+  color: #14233a;
+  padding: 10px 13px;
+  font: 13px var(--mono);
+  border-radius: 50%;
+}
+.travel-card-art > b {
+  position: absolute;
+  bottom: 24px;
+  left: 28px;
+  color: #fffdf8;
+  z-index: 1;
+  font: 10px var(--mono);
+  letter-spacing: 0.1em;
+}
+.travel-card-body {
+  padding: 30px;
+}
+.travel-card-body > small {
+  font: 10px var(--mono);
+  color: var(--muted);
+}
+.travel-card-body h2 {
+  font-family: var(--display);
+  font-size: 48px;
+  font-weight: 400;
+  margin: 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+.travel-card-body h2 span {
+  font-family: var(--sans);
+  font-size: 13px;
+  border: 1px solid var(--line);
+  border-radius: 25px;
+  padding: 7px 12px;
+  color: var(--muted);
+}
+.travel-card-body > p {
+  line-height: 1.8;
+  font-size: 14px;
+  color: var(--muted);
+  min-height: 75px;
+}
+.travel-card-body > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+}
+.travel-card-body strong {
+  color: var(--rust);
+}
+.collection-end {
+  text-align: center;
+  font-family: "Gowun Batang", serif;
+  font-size: 24px;
+  margin: 80px 24px;
+  color: #53606a;
+}
+.library footer {
+  background: #14233a;
+  color: #f5f1e9;
+  margin-top: 60px;
+  padding: 30px 6vw;
+  min-height: 110px;
+}
+.library footer span {
+  font: 10px var(--mono);
+  letter-spacing: 0.1em;
+}
+@media (max-width: 700px) {
+  .library-nav {
+    height: 74px;
+    padding: 0 24px;
+  }
+  .library-nav a {
+    font-size: 16px;
+  }
+  .library-nav > span {
+    display: none;
+  }
+  .library-intro {
+    padding: 48px 24px 30px;
+  }
+  .library-intro h1 {
+    font-size: 48px;
+  }
+  .library-intro > div {
+    display: block;
+  }
+  .library-intro > div p {
+    font-size: 13px;
+  }
+  .library-intro > div span {
+    display: block;
+    padding-top: 18px;
+  }
+  .travel-collection {
+    padding: 0 24px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .travel-card-art {
+    height: 260px;
+  }
+  .travel-card-body {
+    padding: 24px;
+  }
+  .travel-card-body h2 {
+    font-size: 42px;
+  }
+  .travel-card-body > p {
+    font-size: 13px;
+  }
+  .collection-end {
+    font-size: 20px;
+    margin: 55px 24px;
+  }
+  .library footer {
+    flex-direction: column;
+    gap: 14px;
+    text-align: center;
+  }
+}

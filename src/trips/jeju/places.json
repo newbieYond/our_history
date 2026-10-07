@@ -1,0 +1,3171 @@
+[
+  {
+    "id": 1,
+    "name": "제주공항",
+    "tags": [
+      "day1",
+      "spot",
+      "day7"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EA%B5%AD%EC%A0%9C%EA%B3%B5%ED%95%AD/data=!4m2!3m1!1s0x350cfb3b0ac5bfc5:0xedff3343f60bcc67",
+    "latitude": 33.5070711,
+    "longitude": 126.4916441,
+    "address": "제주국제공항, 2, 공항로, 용담이동, 용담2동, 제주시, 제주특별자치도, 63115, 대한민국",
+    "description": "제주 도착 후 렌터카 셔틀로 이동하는 첫 경유지. 돌아오는 날에는 차량 반납 후 탑승한다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 27,
+      "y": 33
+    },
+    "seonghoOpinion": "무조건이지",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 2,
+    "name": "닭머르해안길",
+    "tags": [
+      "day1",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AD%EB%A8%B8%EB%A5%B4%ED%95%B4%EC%95%88/data=!4m2!3m1!1s0x350d1d8ae0c9e563:0xa4032f592e876e3f",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "억새가 흔들리는 해안길을 따라 바다를 보는 짧은 산책. 첫날 시간이 남으면 들른다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 45,
+      "y": 27
+    },
+    "seonghoOpinion": "애매~하지만, 경로에 포함되면 들릴만도 하다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 3,
+    "name": "김녕해수욕장",
+    "tags": [
+      "day1",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B9%80%EB%85%95%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5/data=!4m2!3m1!1s0x350d192019ae8bbb:0xc8db43a5d9a2c94",
+    "latitude": 33.555819,
+    "longitude": 126.760293,
+    "address": "김녕해수욕장, 김녕로, 김녕리, 구좌읍, 제주시, 제주특별자치도, 63357, 대한민국",
+    "description": "맑은 바다와 하얀 모래가 펼쳐지는 김녕 해변. 첫날 해 질 무렵 바다를 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 63,
+      "y": 25
+    },
+    "seonghoOpinion": "숙소 근처이기도 하고, 한번은 꼭 들리게될듯",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 4,
+    "name": "오드랑베이커리",
+    "tags": [
+      "day1",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%93%9C%EB%9E%91%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC/data=!4m2!3m1!1s0x350d1e9e55555555:0x1daf3f0bd4fdcc2a",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "마늘 향이 나는 마농바게트를 포장해 다음 날 아침에 먹기 좋다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 50,
+      "y": 25
+    },
+    "seonghoOpinion": "마농(마늘)바게뜨가 맛있다고. 최근 좀 유명해짐.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 5,
+    "name": "델문도",
+    "tags": [
+      "day1",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/qrwa8WoCFPfnrjy76",
+    "latitude": 33.5438445,
+    "longitude": 126.6689523,
+    "address": "델문도, 조함해안로, 함덕리, 조천읍, 제주시, 제주특별자치도, 63333, 대한민국",
+    "description": "함덕 해변 바로 앞에서 바다를 바라보며 커피를 마시거나 밤바다를 걷는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 48,
+      "y": 29
+    },
+    "seonghoOpinion": "약간 시그니처 같은 카페? 바다가 촥촥거림. 앞에서 산책만 해도 괜찮",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 6,
+    "name": "우도 천진항",
+    "tags": [
+      "day2",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/Wa4FuQHNi7pC7WfX6",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "우도에 도착해 전기자전거를 빌리고 섬 한 바퀴를 시작하는 항구.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 23,
+      "y": 63
+    },
+    "seonghoOpinion": "우도 진입점",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 7,
+    "name": "하고수동해수욕장",
+    "tags": [
+      "day2",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/hejZvu5GfJt8shNR6",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "밝은 모래와 얕은 바다가 이어지는 우도 해변. 블랑로쉐와 묶어 쉬기 좋다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 69,
+      "y": 35
+    },
+    "seonghoOpinion": "블랑로쉐랑 연계, 해변과 카페 같이 즐기기",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 8,
+    "name": "블랑로쉐",
+    "tags": [
+      "day2",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/6NXYLuXpQJPYcbwcA",
+    "latitude": 33.5156456,
+    "longitude": 126.957968,
+    "address": "블랑로쉐, 783, 우도해안길, 연평리, 우도면, 제주시, 제주특별자치도, 63365, 대한민국",
+    "description": "하고수동 바다를 바라보며 우도 땅콩 아이스크림을 먹는 휴식 지점.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 73,
+      "y": 41
+    },
+    "seonghoOpinion": "땅콩아이스크림 맛있어보인다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 9,
+    "name": "검멀레해변",
+    "tags": [
+      "day2",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/Usr8HuPyfBidur2E8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "검은 모래와 우도봉 아래 절벽이 대비되는 해변.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 72,
+      "y": 67
+    },
+    "seonghoOpinion": "우도 8경이라는데, 멋있고 신기해보임",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 10,
+    "name": "서빈백사해변(홍조단괴 산호해변)",
+    "tags": [
+      "day2",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/BBTyc2B6hrLDRAWd7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "하얀 홍조단괴가 쌓인 해변과 투명한 물빛을 보고 우도 귀항 전에 쉰다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 29,
+      "y": 37
+    },
+    "seonghoOpinion": "사진 맛집이래요",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 11,
+    "name": "우도 머하멘",
+    "tags": [
+      "day2",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/5gTt1fdCdiEGSgGB8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "우도에서 해물라면으로 점심을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 52,
+      "y": 55
+    },
+    "seonghoOpinion": "해물라면 맛있겠당",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 12,
+    "name": "비자림",
+    "tags": [
+      "day3",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/NEDmZnD8GsbSLuME9",
+    "latitude": 33.4830671,
+    "longitude": 126.8061897,
+    "address": "비자림, 세송로, 평대리, 구좌읍, 제주시, 제주특별자치도, 63351, 대한민국",
+    "description": "비자나무 숲을 걷는 평탄한 A코스. 그늘진 길을 천천히 둘러본다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 72,
+      "y": 36
+    },
+    "seonghoOpinion": "여친이랑 걷고싶었던 산책길!",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 13,
+    "name": "가시식당",
+    "tags": [
+      "day3",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/qD2qziAygZcTRLH3A",
+    "latitude": 33.353034,
+    "longitude": 126.771521,
+    "address": "가시식당, 064-787-1035, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
+    "description": "두루치기와 몸국을 함께 고를 수 있는 남쪽 이동일의 점심 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 68,
+      "y": 65
+    },
+    "seonghoOpinion": "두루치기랑 몸국 세트는 땡긴다 좋다",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 14,
+    "name": "나목도식당",
+    "tags": [
+      "day3",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/aH53FhQfC2K8YmWKA",
+    "latitude": 33.3536146,
+    "longitude": 126.771831,
+    "address": "나목도식당, 중산간동로, 가시리, 표선면, 서귀포시, 제주특별자치도, 63623, 대한민국",
+    "description": "남원권에서 흑돼지 생고기나 두루치기를 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 65,
+      "y": 67
+    },
+    "seonghoOpinion": "애매한 느낌?",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 15,
+    "name": "쇠소깍",
+    "tags": [
+      "day3",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/zq3zSJ1wZ6XdKGfv6",
+    "latitude": 33.2525937,
+    "longitude": 126.6234661,
+    "address": "쇠소깍, 하례로, 하례리, 남원읍, 서귀포시, 제주특별자치도, 63601, 대한민국",
+    "description": "현무암 사이로 흐르는 물길과 바다가 만나는 풍경. 예약하면 배 체험도 할 수 있다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 59,
+      "y": 80
+    },
+    "seonghoOpinion": "배타고 둥실띠",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 16,
+    "name": "매일올레시장",
+    "tags": [
+      "day3",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/bFn6HzvaKqx7zZYMA",
+    "latitude": 33.249753,
+    "longitude": 126.565959,
+    "address": "매일올레시장 7번입구, 동문로, 중앙동, 서귀포시, 제주특별자치도, 63595, 대한민국",
+    "description": "딱새우회와 땅콩만두 등을 골라 저녁으로 먹거나 숙소에 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 48,
+      "y": 81
+    },
+    "seonghoOpinion": "아~ 한번 가야죠? 시장",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 17,
+    "name": "1100고지",
+    "tags": [
+      "day4",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/FQbbF7ZQKvnf3dZT8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "한라산 중턱에서 높은 지대의 풍경을 보는 곳. 시야와 도로 상태가 좋을 때 들른다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 48,
+      "y": 53
+    },
+    "seonghoOpinion": "가면 좋은데, 아무래도 다른 곳이 포함되어 있는 경로일때만!",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 18,
+    "name": "서귀포자연휴양림",
+    "tags": [
+      "day4",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/z4386mSgN3VnVX9E7",
+    "latitude": 33.3124667,
+    "longitude": 126.459797,
+    "address": "서귀포자연휴양림, 중문동, 서귀포시, 제주특별자치도, 대한민국",
+    "description": "중산간의 삼나무 숲길을 따라 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 40,
+      "y": 64
+    },
+    "seonghoOpinion": "산림욕 할만한가? 가까우면 들려도 좋을듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 19,
+    "name": "천왕사",
+    "tags": [
+      "day4",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/qkjdKNYPMzTADsYx7",
+    "latitude": 33.4080356,
+    "longitude": 126.4947543,
+    "address": "천왕사, 비법정탐방로, 노형동, 제주시, 제주특별자치도, 63077, 대한민국",
+    "description": "한라산 자락으로 들어가는 숲길과 조용한 사찰 주변을 둘러본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 42,
+      "y": 47
+    },
+    "seonghoOpinion": "무난 무난? 조용한 사찰이라 좋음",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 20,
+    "name": "파파스브로트",
+    "tags": [
+      "day4",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/Mg9NyTo9xq9PYe576",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "중산간 이동 중 빵과 브런치로 잠시 쉰다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 39,
+      "y": 51
+    },
+    "seonghoOpinion": "무난히 좋은 카페로 보임",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 21,
+    "name": "본태박물관",
+    "tags": [
+      "day4",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/gmuysnehUa2PBk1X6",
+    "latitude": 33.303866,
+    "longitude": 126.3925006,
+    "address": "본태박물관, 산록남로, 상천리, 안덕면, 서귀포시, 제주특별자치도, 63549, 대한민국",
+    "description": "실내 전시를 둘러볼 수 있어 한라산 자락에 비나 안개가 짙을 때 들른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 31,
+      "y": 62
+    },
+    "seonghoOpinion": "뭔가 ...뭔가? ",
+    "seinOpinion": "",
+    "seonghoRating": 3.4,
+    "seinRating": null
+  },
+  {
+    "id": 22,
+    "name": "중문수두리보말칼국수",
+    "tags": [
+      "day4",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/sRFeJUkXLz5bgi2C7",
+    "latitude": 33.2515759,
+    "longitude": 126.4249269,
+    "address": "중문수두리보말칼국수, 190, 천제연로, 푸른중문주공아파트, 중문동, 서귀포시, 제주특별자치도, 63546, 대한민국",
+    "description": "중문에서 보말칼국수나 보말죽으로 아침을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 35,
+      "y": 76
+    },
+    "seonghoOpinion": "보말칼국수 좋아용",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 23,
+    "name": "오설록 티뮤지엄",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/177QNNLXauBscqf7A",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "차밭을 걷고 전시와 말차 디저트를 함께 즐긴다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 25,
+      "y": 52
+    },
+    "seonghoOpinion": "우리 애기 말차 먹는거 보고시퍼영 아이스크림이나 뭐 등등!",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 24,
+    "name": "송악산",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/EYn3hXdQ3drpzQ5AA",
+    "latitude": 33.1990813,
+    "longitude": 126.2897901,
+    "address": "송악산, 서귀포시, 제주특별자치도, 63512, 대한민국",
+    "description": "바다와 산방산을 내다보는 둘레길. 긴 등산 대신 전망 좋은 구간만 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 18,
+      "y": 77
+    },
+    "seonghoOpinion": "경관이 좋긴 하다. 막 엄청 힘든것도 아니여서, 가벼운 마음가능",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 25,
+    "name": "산방식당",
+    "tags": [
+      "day5",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/aaZXkj4X91rHvssy8",
+    "latitude": 33.2235043,
+    "longitude": 126.2542266,
+    "address": "산방식당, 하모이삼로, 하모리, 대정읍, 서귀포시, 제주특별자치도, 63507, 대한민국",
+    "description": "제주식 밀냉면에 수육을 곁들인다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 18,
+      "y": 69
+    },
+    "seonghoOpinion": "제주스타일 밀면을 맛볼수 있다? 오호",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 26,
+    "name": "미영이네식당",
+    "tags": [
+      "day5",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/qAZUhcfhV2EsrKpk7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "번네식당 대기·휴무 시 고등어회와 탕을 고르는 모슬포 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 12,
+      "y": 72
+    },
+    "seonghoOpinion": "고등어회가 맛있다고. 근데 막 엄청 땡기는거까진 아닌데 한번쯤은 먹어야지",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 27,
+    "name": "신창풍차해안",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/hzSGWSmCuonsNorP9",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "바다 위 풍차와 해 질 무렵 하늘을 보며 해안도로를 달린다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 9,
+      "y": 51
+    },
+    "seonghoOpinion": "막 엄청 좋다? 이런거 보단 한번 둘러서 드라이브하긴 좋음",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 28,
+    "name": "협재·금능",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/eLUe6mwS38aSudRn7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "협재와 금능의 맑은 바다를 이어 보며 해안도로를 달리거나 일몰을 기다린다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 16,
+      "y": 37
+    },
+    "seonghoOpinion": "아 무조건이죠~ 해안도로 드라이브",
+    "seinOpinion": "",
+    "seonghoRating": 3.0,
+    "seinRating": null
+  },
+  {
+    "id": 29,
+    "name": "잔물결 협재점",
+    "tags": [
+      "day5",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/jNbc32yYSWU6ngd87",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "돌집 분위기 속에서 핸드드립 커피를 마시며 협재 산책을 쉰다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 18,
+      "y": 39
+    },
+    "seonghoOpinion": "무난한 카페로 보인다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 30,
+    "name": "감귤 체험농장",
+    "tags": [
+      "day6",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/gMV3V94mDkmdEx8x7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "감귤을 직접 따보는 체험. 방문할 농장은 예약 후 정한다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 46,
+      "y": 71
+    },
+    "seonghoOpinion": "체험 한번 해보고싶다. 날씨 좋을때 꼭 한번!",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 31,
+    "name": "이중섭거리",
+    "tags": [
+      "day6",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/rSaeXjZB9XZG7Yb6A",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "이중섭의 이름이 남은 골목에서 작은 가게를 구경하며 천천히 걷는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 49,
+      "y": 82
+    },
+    "seonghoOpinion": "한번쯤 들러?",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 32,
+    "name": "유동커피",
+    "tags": [
+      "day6",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/Tn9Yrr1YnMMKQZn7A",
+    "latitude": 33.2445419,
+    "longitude": 126.5636773,
+    "address": "유동커피, 406-2, 태평로, 송산동, 서귀포시, 제주특별자치도, 63596, 대한민국",
+    "description": "이중섭거리 산책 중 커피를 마시거나 테이크아웃한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 51,
+      "y": 81
+    },
+    "seonghoOpinion": "사장님이 커피판에서 유명하시다고. ",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 33,
+    "name": "사이서가",
+    "tags": [
+      "day6",
+      "cafe"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/REEaqMuaqNq5WvDy5",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "책을 둘러보고 커피를 마시며 이중섭거리 주변에서 쉬는 공간.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 47,
+      "y": 80
+    },
+    "seonghoOpinion": "이중섭 쪽에서는 유동커피가 나을듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.4,
+    "seinRating": null
+  },
+  {
+    "id": 34,
+    "name": "네거리식당",
+    "tags": [
+      "saved",
+      "jeju",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/DnRwTWrLw7tBCDYt8",
+    "latitude": 33.2485234,
+    "longitude": 126.5592526,
+    "address": "네거리식당, 20, 서문로29번길, 천지동, 서귀포시, 제주특별자치도, 63592, 대한민국",
+    "description": "번네식당의 갈치조림과 겹쳐 일정에서는 제외한 서귀포 갈치 요리 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 52,
+      "y": 79
+    },
+    "seonghoOpinion": "갈치조림 맛있는 집입니다. 좋은편",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 35,
+    "name": "새연교",
+    "tags": [
+      "day6",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/uFebZSvsbTqNuZXMA",
+    "latitude": 33.2377896,
+    "longitude": 126.5594848,
+    "address": "새연교, Saeseom Bridge, 천지동, 서귀포시, 제주특별자치도, 63596, 대한민국",
+    "description": "서귀포항 바다 위를 건너며 해 질 무렵 풍경을 보는 보행 다리.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 45,
+      "y": 86
+    },
+    "seonghoOpinion": "연인끼리 건너면 결혼한다는 ? 미신이 있다는 거 같음",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 36,
+    "name": "천제연폭포",
+    "tags": [
+      "day7",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/mb9GXVvMnNLAuocX6",
+    "latitude": 33.2501491,
+    "longitude": 126.4165384,
+    "address": "천제연폭포, 중문관광로, 예래동, 서귀포시, 제주특별자치도, 63535, 대한민국",
+    "description": "중문 계곡의 제1·제2폭포를 따라 걷고 폭포 물줄기를 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 34,
+      "y": 78
+    },
+    "seonghoOpinion": "쏴~~~~~~~~~~~~~",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 37,
+    "name": "자매국수",
+    "tags": [
+      "day7",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/WEnKqNBeFBCaEGoV7",
+    "latitude": 33.5080486,
+    "longitude": 126.5324842,
+    "address": "자매국수, 삼성로, 이도일동, 제주시, 제주특별자치도, 63269, 대한민국",
+    "description": "공항권에서 고기국수 한 그릇으로 식사한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 28,
+      "y": 31
+    },
+    "seonghoOpinion": "고기국수 마시쪙, 옛날만큼의 맛인가는 의문!",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 38,
+    "name": "우진해장국",
+    "tags": [
+      "day7",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/EErXs5t1iAryURJB8",
+    "latitude": 33.5115062,
+    "longitude": 126.5200439,
+    "address": "우진해장국, 11, 서사로, 용담일동, 제주시, 제주특별자치도, 63154, 대한민국",
+    "description": "고사리를 넣어 진하게 끓인 고사리육개장. 마지막 날 공항권 식사 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 26,
+      "y": 33
+    },
+    "seonghoOpinion": "한번쯤 겪어보고싶은 고사리 해장국 맛집",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 39,
+    "name": "아베베베이커리 제주",
+    "tags": [
+      "day7",
+      "food"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/k4i5MG1TyctEBduj8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "도넛과 크림빵을 골라 마지막 날 선물로 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 29,
+      "y": 35
+    },
+    "seonghoOpinion": "굳이..?ㅋㅋㅋㅋㅋ",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 40,
+    "name": "성산일출봉",
+    "tags": [
+      "day2",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/MKrtag4bwokyYPLp7",
+    "latitude": 33.4588891,
+    "longitude": 126.9408178,
+    "address": "성산일출봉, 284-12, 일출로, 성산리, 성산읍, 서귀포시, 제주특별자치도, 63643, 대한민국",
+    "description": "바다 위로 솟은 분화구와 성산 해안을 바라본다. 우도 귀항 후 시간이 남으면 들른다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 84,
+      "y": 49
+    },
+    "seonghoOpinion": "풍경이 좋다. 가능하면 해녀의집을 들릴 가능성도 있긴 하다. ",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 41,
+    "name": "세화해변",
+    "tags": [
+      "day2",
+      "day3",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/dujJtXUXteCmQYoY9",
+    "latitude": 33.525021,
+    "longitude": 126.8604234,
+    "address": "세화해변, 세화리, 구좌읍, 제주시, 제주특별자치도, 대한민국",
+    "description": "동쪽 해안을 따라 걷거나 드라이브하며 바다를 보는 짧은 경유지.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 79,
+      "y": 29
+    },
+    "seonghoOpinion": "해변 드라이브 한바퀴는 돌아야지",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 42,
+    "name": "빛의 벙커",
+    "tags": [
+      "day2",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/15WQqnCaLFcrcFMT8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "빛과 영상이 공간을 채우는 몰입형 미디어아트 전시. 우도 결항이나 비 오는 날 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 80,
+      "y": 52
+    },
+    "seonghoOpinion": "섭지코지 쪽 미술관. 미디어아트. ",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 43,
+    "name": "표선해수욕장",
+    "tags": [
+      "day3",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/RXzAuMQNjFqh2qxC7",
+    "latitude": 33.3276629,
+    "longitude": 126.8370802,
+    "address": "표선해수욕장, 올레길3, 당포마을, 표선리, 표선면, 서귀포시, 제주특별자치도, 63629, 대한민국",
+    "description": "넓은 모래사장과 잔잔한 바다를 보고 남쪽 이동 중 잠시 쉰다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 69,
+      "y": 68
+    },
+    "seonghoOpinion": "잔잔~ 한 해수욕장",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 44,
+    "name": "남원큰엉해안경승지",
+    "tags": [
+      "day3",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/yN61FwgNCh2b8Jgj6",
+    "latitude": 33.2733766,
+    "longitude": 126.7037523,
+    "address": "남원큰엉해안경승지, 올레길5 (Ollegil 5), 비안동, 남원리, 남원읍, 서귀포시, 제주특별자치도, 63620, 대한민국",
+    "description": "남원 해안 절벽 위 산책로에서 파도와 바다를 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 61,
+      "y": 76
+    },
+    "seonghoOpinion": "무난하게 들르기 좋을만한 곳",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 45,
+    "name": "사계해안",
+    "tags": [
+      "day5",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/ZeTmNX8yCktNhrnTA",
+    "latitude": 33.2245811,
+    "longitude": 126.2992195,
+    "address": "사계해안, 사계리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
+    "description": "산방산을 뒤로 두고 해안선을 보는 짧은 정차 지점.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 20,
+      "y": 72
+    },
+    "seonghoOpinion": "그냥 지나가는 일 같음",
+    "seinOpinion": "",
+    "seonghoRating": 3.4,
+    "seinRating": null
+  },
+  {
+    "id": 46,
+    "name": "수월봉",
+    "tags": [
+      "day5",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/ChYnqtvCLqpu5ivu5",
+    "latitude": 33.2945665,
+    "longitude": 126.1632411,
+    "address": "수월봉(노꼬물오름), 제주시, 제주특별자치도, 63008, 대한민국",
+    "description": "서쪽 바다와 층층이 드러난 해안 절벽을 내려다보는 전망 지점.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 10,
+      "y": 55
+    },
+    "seonghoOpinion": "지나가다 들를만한 곳",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 47,
+    "name": "천지연폭포",
+    "tags": [
+      "day6",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/p9f7GNdKqLsVXqPf6",
+    "latitude": 33.2469271,
+    "longitude": 126.5545282,
+    "address": "천지연폭포, 천지동, 서귀포시, 제주특별자치도, 63594, 대한민국",
+    "description": "해 질 무렵 서귀포 도심에서 폭포와 주변 숲길을 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 47,
+      "y": 83
+    },
+    "seonghoOpinion": "쏴~~~~~~~~~~~~~",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 48,
+    "name": "카멜리아힐",
+    "tags": [
+      "day4",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/HntaVzYRGH5DoeYG8",
+    "latitude": 33.2896315,
+    "longitude": 126.3698892,
+    "address": "카멜리아힐-동백수목원, 상창리, 안덕면, 서귀포시, 제주특별자치도, 대한민국",
+    "description": "동백나무와 계절 꽃이 이어지는 정원을 걷는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 29,
+      "y": 65
+    },
+    "seonghoOpinion": "굳이 굳이...? 좋을 수도 있고",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 49,
+    "name": "제주도립미술관",
+    "tags": [
+      "day7",
+      "reserve",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/443FTToMy6fEqMDt5",
+    "latitude": 33.4526781,
+    "longitude": 126.4894048,
+    "address": "제주도립미술관, 2894-78, 1100로, 연동, 신제주, 노형동, 제주시, 제주특별자치도, 63079, 대한민국",
+    "description": "공항권에서 전시를 차분히 둘러보는 실내 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 34,
+      "y": 42
+    },
+    "seonghoOpinion": "굳이 굳이..?",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 50,
+    "name": "종달리엔",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/bGMuKk9aAUr8U2p1A",
+    "latitude": 33.4931534,
+    "longitude": 126.8996404,
+    "address": null,
+    "description": "종달리에서 흑돼지 야끼소바와 제주 식재료 안주를 고르는 심야식당.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 84.22,
+      "y": 34.06
+    },
+    "seonghoOpinion": "지인 추천집. 맛있다는 평",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 51,
+    "name": "백마가든",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/CVUtjw7xZecTwgVm6",
+    "latitude": 33.5052823,
+    "longitude": 126.6243914,
+    "address": null,
+    "description": "제주 말고기를 여러 방식으로 맛볼 수 있다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 57.28,
+      "y": 32.27
+    },
+    "seonghoOpinion": "지인추천. 말고기 먹고싶다? 여기로 가면된다고.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 52,
+    "name": "성산일출봉 맛집 커큐민흑돼지",
+    "tags": [
+      "saved",
+      "jeju",
+      "day2"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/mAwzj9raYGoSPAwX6",
+    "latitude": 33.4498997,
+    "longitude": 126.9210691,
+    "address": null,
+    "description": "성산일출봉을 본 뒤 흑돼지를 구워 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 86.32,
+      "y": 40.44
+    },
+    "seonghoOpinion": "고기 궈먹기 좋은 집중 하나.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 53,
+    "name": "좀여네집",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/XSKvv2G3tcRvehSi6",
+    "latitude": 33.5602598,
+    "longitude": 126.730123,
+    "address": null,
+    "description": "김녕 해안에서 성게전복죽이나 해산물을 먹거나 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 67.63,
+      "y": 24.17
+    },
+    "seonghoOpinion": "숙소 근처에서 테이크아웃할 곳. 회랑 죽? 고민고민",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 54,
+    "name": "조천수산",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/2Njv79odbgZhy1nBA",
+    "latitude": 33.5143585,
+    "longitude": 126.6380099,
+    "address": null,
+    "description": "조천 해안의 야외 자리에서 회와 해산물을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 58.61,
+      "y": 30.94
+    },
+    "seonghoOpinion": "야외에서 테이블 깔고 먹는 곳. 술을 못하니 아쉽고, 추울듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 55,
+    "name": "예그리나리조트",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1",
+      "day3"
+    ],
+    "category": "stay",
+    "googleMapsUrl": "https://maps.app.goo.gl/VAy8EkaB8xGYmjsE6",
+    "latitude": 33.5564083,
+    "longitude": 126.7287248,
+    "address": "제주특별자치도 제주시 구좌읍 일주동로 1845",
+    "description": "10/30~11/1 김녕·구좌에서 2박하는 숙소. 첫날 밤 체크인한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 67.49,
+      "y": 24.74
+    },
+    "seonghoOpinion": "숙소, 아주 좋습니다.",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 56,
+    "name": "토평골",
+    "tags": [
+      "saved",
+      "jeju",
+      "day6"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/1qcnvRyBqYf134iUA",
+    "latitude": 33.2680972,
+    "longitude": 126.5917259,
+    "address": null,
+    "description": "서귀포에서 흑돼지 숯불구이를 쌈 채소와 함께 먹는 저녁 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 54.08,
+      "y": 67.23
+    },
+    "seonghoOpinion": "약간 쌈이 주?인 삼겹살집. 진짜 꽤 괜찮아보임",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 57,
+    "name": "중문보말칼국수",
+    "tags": [
+      "saved",
+      "jeju",
+      "day4"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/iaDn5meNJDzxV5bX8",
+    "latitude": 33.2515448,
+    "longitude": 126.4249759,
+    "address": null,
+    "description": "중문에서 보말칼국수 한 그릇으로 식사한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 37.76,
+      "y": 69.67
+    },
+    "seonghoOpinion": "보말칼국수 조아~",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 58,
+    "name": "애월어촌계회센타",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/qcbwMsFZE6nK5xbN6",
+    "latitude": 33.4660699,
+    "longitude": 126.3216354,
+    "address": null,
+    "description": "애월항 근처에서 회와 해산물을 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 27.65,
+      "y": 38.05
+    },
+    "seonghoOpinion": "회 먹고싶어?",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 60,
+    "name": "문개항아리 함덕점",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/geUNcedu7TCwnCeX9",
+    "latitude": 33.5451876,
+    "longitude": 126.6609508,
+    "address": null,
+    "description": "첫날 동복해녀식당 대기·휴무 시 함덕에서 고르는 저녁 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 60.86,
+      "y": 26.39
+    },
+    "seonghoOpinion": "문개항아리 먹어볼만함.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 61,
+    "name": "자드부팡",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/sZxSthFY1NdfGbzC8",
+    "latitude": 33.4537614,
+    "longitude": 126.7090555,
+    "address": null,
+    "description": "숲속 붉은 벽돌 건물에서 벽돌빵과 커피를 즐긴다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 65.57,
+      "y": 39.87
+    },
+    "seonghoOpinion": "사진으로 봤을때 꽤 만족도가 높아보이는 카페",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 62,
+    "name": "임제",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%84%EC%A0%9C/data=!4m2!3m1!1s0x350ce50011313731:0x9f3a075236ea735e",
+    "latitude": 33.5628287,
+    "longitude": 126.4788064,
+    "address": null,
+    "description": "공항권에서 제주 흑돼지 구이에 멜조림을 곁들인다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43.03,
+      "y": 23.79
+    },
+    "seonghoOpinion": "한번 가봤던 고깃집. 맛은 좋은데 다른곳도 좋아서 애매",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 65,
+    "name": "금돈가 제주 애월해안도로 본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EB%8F%88%EA%B0%80+%EC%A0%9C%EC%A3%BC+%EC%95%A0%EC%9B%94%ED%95%B4%EC%95%88%EB%8F%84%EB%A1%9C+%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350cf12db76785c5:0x942556ec12c2cc61",
+    "latitude": 33.4826576,
+    "longitude": 126.3843707,
+    "address": null,
+    "description": "애월 해안도로를 보며 흑돼지를 구워 먹는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 33.79,
+      "y": 35.61
+    },
+    "seonghoOpinion": "깨끗하고 맛있다고하는 흑돼지고기집",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 66,
+    "name": "제주미담",
+    "tags": [
+      "saved",
+      "jeju",
+      "day7"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%AF%B8%EB%8B%B4/data=!4m2!3m1!1s0x350cfcafae09f481:0xb2f2d6586aee2759",
+    "latitude": 33.4992774,
+    "longitude": 126.5316845,
+    "address": null,
+    "description": "고기국수에 막창순대를 곁들이는 공항권 식사 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 48.21,
+      "y": 33.16
+    },
+    "seonghoOpinion": "고기국수, 막창순대 같이 먹으면 맛있겠다!",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 68,
+    "name": "소금바치 순이네",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%86%8C%EA%B8%88%EB%B0%94%EC%B9%98+%EC%88%9C%EC%9D%B4%EB%84%A4/data=!4m2!3m1!1s0x350d150846ae2559:0xd6c53d0e7b976bfd",
+    "latitude": 33.5035561,
+    "longitude": 126.9127463,
+    "address": null,
+    "description": "성산 해안권에서 문어볶음과 갈치조림을 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 85.5,
+      "y": 32.53
+    },
+    "seonghoOpinion": "문어볶음, 갈치조림(+두부) 가 맛있다고. 간은 좀 세대",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 69,
+    "name": "돈내코손두부",
+    "tags": [
+      "saved",
+      "jeju",
+      "day3"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%88%EB%82%B4%EC%BD%94%EC%86%90%EB%91%90%EB%B6%80/data=!4m2!3m1!1s0x350c54df65fc162f:0x5d03f2029876e288",
+    "latitude": 33.2916014,
+    "longitude": 126.5914914,
+    "address": null,
+    "description": "돈내코 인근에서 손두부와 수육을 함께 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 54.06,
+      "y": 63.76
+    },
+    "seonghoOpinion": "두부랑 수육이랑 맛있긴 하겠다. 위생은 좀 아쉽단 평이 있음",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 70,
+    "name": "제주도민이네라오면",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/ArXvvFGt1UP98d2J7",
+    "latitude": 33.5397335,
+    "longitude": 126.6720178,
+    "address": null,
+    "description": "조천 해안권에서 해물라면을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 61.94,
+      "y": 27.2
+    },
+    "seonghoOpinion": "해물라면 맛있긴 하겠다. 근데 너무 겹치긴 해",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 71,
+    "name": "제주돗",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%97/data=!4m2!3m1!1s0x350c67a6243bd167:0xd92e1e5165ffa1d2",
+    "latitude": 33.3331186,
+    "longitude": 126.2309384,
+    "address": null,
+    "description": "넓은 마당 옆에서 흑돼지 목살과 오겹살을 구워 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 18.77,
+      "y": 57.65
+    },
+    "seonghoOpinion": "넓은 공터가 있는 고기집. 맛도 좋다고 유명한 곳",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 72,
+    "name": "새별오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%83%88%EB%B3%84%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350c592ebfc92321:0xb173dbb86962eaf7",
+    "latitude": 33.3659388,
+    "longitude": 126.3564411,
+    "address": null,
+    "description": "억새가 펼쳐진 능선을 올라 서부 풍경을 보는 오름.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 31.06,
+      "y": 52.81
+    },
+    "seonghoOpinion": "한 20분 좀 가파르게 올라가면? 좋은 오름. 바람이 쎌 수 있다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 73,
+    "name": "월령 선인장 군락지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9B%94%EB%A0%B9+%EC%84%A0%EC%9D%B8%EC%9E%A5+%EA%B5%B0%EB%9D%BD%EC%A7%80/data=!4m2!3m1!1s0x350c66d468acb3db:0xa615dcdff904923e",
+    "latitude": 33.3775508,
+    "longitude": 126.2152774,
+    "address": null,
+    "description": "해안 돌담 사이로 자라는 선인장 군락을 따라 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 17.24,
+      "y": 51.1
+    },
+    "seonghoOpinion": "대충 한바퀴 돌기 괜찮을만함",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 74,
+    "name": "미스틱3도",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%8A%A4%ED%8B%B13%EB%8F%84/data=!4m2!3m1!1s0x350cfbc556baec2f:0xfa1720297d4462b",
+    "latitude": 33.4531536,
+    "longitude": 126.490817,
+    "address": null,
+    "description": "공항권 이동 중 넓은 실내에서 차를 마시며 쉰다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 44.21,
+      "y": 39.96
+    },
+    "seonghoOpinion": "뭔가 데이트 느낌 날 거 같은 대형 카페 느낌",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 75,
+    "name": "수목원길 야시장",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%98%EB%AA%A9%EC%9B%90%EA%B8%B8+%EC%95%BC%EC%8B%9C%EC%9E%A5/data=!4m2!3m1!1s0x350cfb741e131395:0x7c84f5cbf937b13a",
+    "latitude": 33.4804452,
+    "longitude": 126.5066701,
+    "address": null,
+    "description": "한라수목원 근처에서 여러 먹거리를 둘러보고 고르는 야시장.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 45.76,
+      "y": 35.93
+    },
+    "seonghoOpinion": "괜찮은 게 있을까? 시간 맞으면 잠깐 들리는 형식이 좋겠다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 76,
+    "name": "잇칸시타",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%87%EC%B9%B8%EC%8B%9C%ED%83%80/data=!4m2!3m1!1s0x350cf6b6365da601:0x18ea9dc7671fe661",
+    "latitude": 33.4771161,
+    "longitude": 126.3702605,
+    "address": null,
+    "description": "애월에서 텐동과 지라시스시 같은 일본식 정식을 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 32.41,
+      "y": 36.42
+    },
+    "seonghoOpinion": "일식 맛있겠다. 근데 제주가서 일식?",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 77,
+    "name": "달소금 식탁",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%AC%EC%86%8C%EA%B8%88+%EC%8B%9D%ED%83%81/data=!4m2!3m1!1s0x350cf19469bea4a9:0xd9dfdab1a3dc0c17",
+    "latitude": 33.5400908,
+    "longitude": 126.3673105,
+    "address": null,
+    "description": "애월 바다를 보며 떡갈비 한 상을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 32.12,
+      "y": 27.14
+    },
+    "seonghoOpinion": "해안에서 약간 몸 뎁히는 느낌이네. ",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 78,
+    "name": "더비치크랩",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8D%94%EB%B9%84%EC%B9%98%ED%81%AC%EB%9E%A9/data=!4m2!3m1!1s0x350c4334ec1390d3:0xa161eab7178ee9a9",
+    "latitude": 33.2643434,
+    "longitude": 126.3243413,
+    "address": null,
+    "description": "사계 해안에서 보일링크랩이나 해산물 모둠을 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 27.91,
+      "y": 67.78
+    },
+    "seonghoOpinion": "뭔가 괜찮은 듯 비쌀듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 79,
+    "name": "제주 귀덕 골방",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC+%EA%B7%80%EB%8D%95+%EA%B3%A8%EB%B0%A9/data=!4m2!3m1!1s0x350cf5d6e53a82e7:0xb17a643e5f2a27bc",
+    "latitude": 33.4464148,
+    "longitude": 126.346381,
+    "address": null,
+    "description": "귀덕 해안 골목에서 신청곡을 들으며 하이볼을 마시는 뮤직바.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 30.07,
+      "y": 40.95
+    },
+    "seonghoOpinion": "가도 좋겠지만, 술집인데 숙소랑 멀다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 80,
+    "name": "장수물식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9E%A5%EC%88%98%EB%AC%BC%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350cfb13a8267361:0xc7e62b5f5c16872c",
+    "latitude": 33.4919307,
+    "longitude": 126.4986184,
+    "address": null,
+    "description": "제주시에서 고기국수와 돔베고기를 함께 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 44.97,
+      "y": 34.24
+    },
+    "seonghoOpinion": "유명한 곳은 다른곳인데, 붐비면 갈만하지 않을까?",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 81,
+    "name": "태광식당",
+    "tags": [
+      "saved",
+      "jeju",
+      "day7"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%83%9C%EA%B4%91%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350ce4ab6b263a73:0x4971547aec5bc188",
+    "latitude": 33.5126134,
+    "longitude": 126.5188645,
+    "address": null,
+    "description": "제주시에서 한치와 돼지 주물럭을 함께 맛본다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 46.95,
+      "y": 31.19
+    },
+    "seonghoOpinion": "한치 조아~ 돼지 조아~",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 82,
+    "name": "순옥이네명가 본점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%9C%EC%98%A5%EC%9D%B4%EB%84%A4%EB%AA%85%EA%B0%80+%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350cfae936e36801:0xce9ec9960a5c6435",
+    "latitude": 33.5057217,
+    "longitude": 126.4650558,
+    "address": null,
+    "description": "도두항 근처에서 전복 요리를 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 41.69,
+      "y": 32.21
+    },
+    "seonghoOpinion": "전복요리 전문점. 막 엄청 땡기는 느낌까진 아니다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 83,
+    "name": "도두봉",
+    "tags": [
+      "saved",
+      "jeju",
+      "day7"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%91%90%EB%B4%89/data=!4m2!3m1!1s0x350cfae809487205:0x456177f00c909a19",
+    "latitude": 33.5080939,
+    "longitude": 126.4685975,
+    "address": null,
+    "description": "공항 옆 작은 오름에 올라 바다와 비행기, 일몰을 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 42.03,
+      "y": 31.86
+    },
+    "seonghoOpinion": "무난무난, 가볍게 제주경치. 공항근처",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 84,
+    "name": "짚라인제주",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A7%9A%EB%9D%BC%EC%9D%B8%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350d1b9d4b060cb9:0x75a3aaf45039e537",
+    "latitude": 33.4868513,
+    "longitude": 126.7066547,
+    "address": null,
+    "description": "줄을 타고 제주 동부의 숲 위를 내려오는 체험을 한다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 65.33,
+      "y": 34.99
+    },
+    "seonghoOpinion": "와아아아아~~~ 하고 내려가볼까",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 85,
+    "name": "사려니숲길",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EB%A0%A4%EB%8B%88%EC%88%B2%EA%B8%B8/data=!4m2!3m1!1s0x350d046fffffffff:0xf9916072353b7636",
+    "latitude": 33.3985838,
+    "longitude": 126.7065057,
+    "address": null,
+    "description": "삼나무가 늘어선 숲길을 따라 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 65.32,
+      "y": 48
+    },
+    "seonghoOpinion": "산책 챱챱챱",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 86,
+    "name": "아르떼뮤지엄 제주",
+    "tags": [
+      "saved",
+      "jeju",
+      "day4"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%84%EB%A5%B4%EB%96%BC%EB%AE%A4%EC%A7%80%EC%97%84+%EC%A0%9C%EC%A3%BC/data=!4m2!3m1!1s0x350c5f6816650b53:0xa96f526f32c1bd52",
+    "latitude": 33.4099578,
+    "longitude": 126.3271734,
+    "address": null,
+    "description": "빛과 영상으로 꾸민 대형 미디어아트 전시를 둘러본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 28.19,
+      "y": 46.32
+    },
+    "seonghoOpinion": "애매...?",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 87,
+    "name": "로빙화",
+    "tags": [
+      "saved",
+      "jeju",
+      "day3"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%A1%9C%EB%B9%99%ED%99%94/data=!4m2!3m1!1s0x350da95f8a99537d:0xebe208bf826e9c9c",
+    "latitude": 33.2358717,
+    "longitude": 126.6957432,
+    "address": null,
+    "description": "남원권에서 피자나 햄버거로 식사하며 쉰다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 64.26,
+      "y": 71.98
+    },
+    "seonghoOpinion": "피자나 햄버거 먹으면서 쉬는거 좋을듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 88,
+    "name": "목화식당휴게소",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AA%A9%ED%99%94%EC%8B%9D%EB%8B%B9%ED%9C%B4%EA%B2%8C%EC%86%8C/data=!4m2!3m1!1s0x350d145b60841dd5:0x1e34fc9f0d2345d3",
+    "latitude": 33.4818042,
+    "longitude": 126.9017207,
+    "address": null,
+    "description": "성산 해안에서 오징어를 먹으며 바다를 본다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 84.42,
+      "y": 35.73
+    },
+    "seonghoOpinion": "난 오징어 좋아, 해변에서 오징어 뜯기 좋다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 89,
+    "name": "용눈이오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EB%88%88%EC%9D%B4%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350d1118df3bdd97:0xc8bed450cf316cda",
+    "latitude": 33.4599676,
+    "longitude": 126.831477,
+    "address": null,
+    "description": "부드럽게 이어지는 능선에 올라 동부 초원 풍경을 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 77.55,
+      "y": 38.95
+    },
+    "seonghoOpinion": "쉽게 오를 수 있다는 장점이 있다고",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 90,
+    "name": "두툼한고기 돈돼지",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%91%90%ED%88%BC%ED%95%9C%EA%B3%A0%EA%B8%B0+%EB%8F%88%EB%8F%BC%EC%A7%80/data=!4m2!3m1!1s0x350d1e9ebeef4223:0xaa435330770462ab",
+    "latitude": 33.5410492,
+    "longitude": 126.6698885,
+    "address": null,
+    "description": "조천에서 두툼한 흑돼지를 구워 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 61.73,
+      "y": 27
+    },
+    "seonghoOpinion": "뭔가 특별한 강점은 없지만 무난하게 맛있을듯",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 91,
+    "name": "돈사돈 제주본관",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%88%EC%82%AC%EB%8F%88+%EC%A0%9C%EC%A3%BC%EB%B3%B8%EA%B4%80/data=!4m2!3m1!1s0x350cfa447d5d74c9:0xc0bc4713a5843318",
+    "latitude": 33.4788707,
+    "longitude": 126.4640837,
+    "address": null,
+    "description": "제주시에서 연탄불에 구운 흑돼지로 저녁을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 41.59,
+      "y": 36.17
+    },
+    "seonghoOpinion": "연탄구이. 리뷰가 수천개의 유명한 집. 적당히 괜찮은?",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 92,
+    "name": "TONKATSU서황",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/TONKATSU%EC%84%9C%ED%99%A9/data=!4m2!3m1!1s0x350cf65afefbdd15:0xd71ff48f964a05e9",
+    "latitude": 33.4344256,
+    "longitude": 126.3797914,
+    "address": null,
+    "description": "애월에서 돈가스를 먹는다. 서쪽 이동 중 예비 식사처.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 33.34,
+      "y": 42.72
+    },
+    "seonghoOpinion": "그냥 예비일 뿐",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 93,
+    "name": "한라전복 (모슬포)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%9C%EB%9D%BC%EC%A0%84%EB%B3%B5+(%EB%AA%A8%EC%8A%AC%ED%8F%AC)/data=!4m2!3m1!1s0x350c69975e2db4e5:0x4513c7bd6a05cb40",
+    "latitude": 33.2352331,
+    "longitude": 126.2307221,
+    "address": null,
+    "description": "모슬포에서 전복 요리를 고르는 추가 식사 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 18.75,
+      "y": 72.07
+    },
+    "seonghoOpinion": "전복전복~ 먹고 힘내버리기?",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 94,
+    "name": "도로록",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%A1%9C%EB%A1%9D/data=!4m2!3m1!1s0x350d1fe97ff37bf7:0xce478ca5d3e40e53",
+    "latitude": 33.6130141,
+    "longitude": 126.6255116,
+    "address": null,
+    "description": "조천 해안에서 돈카츠나 새우 샌드위치를 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 57.39,
+      "y": 16.4
+    },
+    "seonghoOpinion": "포장 샌드위치. 돈카츠/에비",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 95,
+    "name": "제주동복해녀식당",
+    "tags": [
+      "saved",
+      "jeju",
+      "day1"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A0%9C%EC%A3%BC%EB%8F%99%EB%B3%B5%ED%95%B4%EB%85%80%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d193aac976873:0x51ef5d73af7cc8a9",
+    "latitude": 33.5534976,
+    "longitude": 126.7068875,
+    "address": null,
+    "description": "첫날 동복 해안에서 회덮밥을 먹는 저녁 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 65.35,
+      "y": 25.17
+    },
+    "seonghoOpinion": "회국수, 세인이 먹여보고싶당",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 96,
+    "name": "사계의시간",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EA%B3%84%EC%9D%98%EC%8B%9C%EA%B0%84/data=!4m2!3m1!1s0x350c43007eff2bd7:0xe41ee0eea4f4ff20",
+    "latitude": 33.23227,
+    "longitude": 126.3089904,
+    "address": null,
+    "description": "사계 해안에서 산방산을 바라보며 차를 마신다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 26.41,
+      "y": 72.51
+    },
+    "seonghoOpinion": "잔가시가 많다고...? 별로다",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 98,
+    "name": "넉둥베기",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%84%89%EB%91%A5%EB%B2%A0%EA%B8%B0/data=!4m2!3m1!1s0x350cfb4c8b51140f:0x5bdf92d1f10a25bb",
+    "latitude": 33.512766,
+    "longitude": 126.5080717,
+    "address": null,
+    "description": "제주시에서 접짝뼈국이나 해장국으로 한 끼를 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 45.9,
+      "y": 31.17
+    },
+    "seonghoOpinion": "접짝뼈국, 해장국 다 맛있는 맛집",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 99,
+    "name": "유리네식당(Yuri's Restaurant)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9C%A0%EB%A6%AC%EB%84%A4%EC%8B%9D%EB%8B%B9(Yuri's+Restaurant)/data=!4m2!3m1!1s0x350cfb08d836467f:0xb72f8e37f4dd6a67",
+    "latitude": 33.4853535,
+    "longitude": 126.4930908,
+    "address": null,
+    "description": "제주시에서 갈치조림과 성게미역국을 함께 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 44.43,
+      "y": 35.21
+    },
+    "seonghoOpinion": "갈치조림, 성게미역국 등 대표메뉴 잘하는 식당",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 100,
+    "name": "EOMAR 에오마르",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/EOMAR+%EC%97%90%EC%98%A4%EB%A7%88%EB%A5%B4/data=!4m2!3m1!1s0x350ce30915da3d5b:0x2283ea66bfd7d205",
+    "latitude": 33.535344,
+    "longitude": 126.5516481,
+    "address": null,
+    "description": "삼양 해변을 바라보며 커피와 빵을 고르는 넓은 휴식 공간.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 50.16,
+      "y": 27.84
+    },
+    "seonghoOpinion": "해변뷰 카페. 널찍하니 여유롭다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 101,
+    "name": "산도롱맨도롱 공항점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%B0%EB%8F%84%EB%A1%B1%EB%A7%A8%EB%8F%84%EB%A1%B1+%EA%B3%B5%ED%95%AD%EC%A0%90/data=!4m2!3m1!1s0x350ce56bc1e61b81:0x60ce97891ef2bf4",
+    "latitude": 33.5564333,
+    "longitude": 126.4537489,
+    "address": null,
+    "description": "용담 해안을 바라보며 고기국수 한 그릇을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 40.58,
+      "y": 24.74
+    },
+    "seonghoOpinion": "신기한 메뉴, 무난",
+    "seinOpinion": "",
+    "seonghoRating": 3.5,
+    "seinRating": null
+  },
+  {
+    "id": 102,
+    "name": "다가미 김밥 아라점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%A4%EA%B0%80%EB%AF%B8+%EA%B9%80%EB%B0%A5+%EC%95%84%EB%9D%BC%EC%A0%90/data=!4m2!3m1!1s0x350cfda7abe53587:0xcbfe0229abd698d9",
+    "latitude": 33.4495991,
+    "longitude": 126.5793995,
+    "address": null,
+    "description": "아라동에서 속을 큼직하게 채운 김밥을 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 52.88,
+      "y": 40.48
+    },
+    "seonghoOpinion": "김밥 알 짱커영~ 쿠왕히고 먹지",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 103,
+    "name": "다가미김밥 애월점",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8B%A4%EA%B0%80%EB%AF%B8%EA%B9%80%EB%B0%A5+%EC%95%A0%EC%9B%94%EC%A0%90/data=!4m2!3m1!1s0x350cfa057fc6bfd5:0xfbe234d334110ee5",
+    "latitude": 33.4684353,
+    "longitude": 126.4446634,
+    "address": null,
+    "description": "애월에서 속을 큼직하게 채운 김밥을 포장한다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 39.69,
+      "y": 37.7
+    },
+    "seonghoOpinion": "김밥 알 짱커영~ 쿠왕히고 먹지",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 104,
+    "name": "미스칠",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%AF%B8%EC%8A%A4%EC%B9%A0/data=!4m2!3m1!1s0x350cfb0333e06efb:0x60e5773a3e9b92cf",
+    "latitude": 33.4939053,
+    "longitude": 126.4833494,
+    "address": null,
+    "description": "전복돌솥밥에 갈치조림과 돔베고기를 곁들인 정식을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 43.48,
+      "y": 33.95
+    },
+    "seonghoOpinion": "정식 맛집, 아침에 든든하게 먹기 좋았다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 105,
+    "name": "해녀촌",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%95%B4%EB%85%80%EC%B4%8C/data=!4m2!3m1!1s0x350d1924c2dffc0f:0x9b6d69b391e240c8",
+    "latitude": 33.5535936,
+    "longitude": 126.7099584,
+    "address": null,
+    "description": "동복 해안에서 회와 해산물을 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 65.66,
+      "y": 25.15
+    },
+    "seonghoOpinion": "사람 많은데 그정돈가? 싶긴함. 공장느낌",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 106,
+    "name": "형제섬보말칼국수",
+    "tags": [
+      "saved",
+      "jeju",
+      "day5"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%95%EC%A0%9C%EC%84%AC%EB%B3%B4%EB%A7%90%EC%B9%BC%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350c423bba5f6739:0x59e837b9cca35040",
+    "latitude": 33.2117213,
+    "longitude": 126.2921296,
+    "address": null,
+    "description": "사계·송악산권에서 보말칼국수나 보말죽을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 24.76,
+      "y": 75.54
+    },
+    "seonghoOpinion": "보말칼국수, 죽 둘다 마싯겠당",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 107,
+    "name": "용꽈배기",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EA%BD%88%EB%B0%B0%EA%B8%B0/data=!4m2!3m1!1s0x350cfca8bfe251a5:0x61fd485a42b596fd",
+    "latitude": 33.4999102,
+    "longitude": 126.5270264,
+    "address": null,
+    "description": "제주시에서 꽈배기를 포장해 이동 중 간식으로 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 47.75,
+      "y": 33.07
+    },
+    "seonghoOpinion": "내가 겪어봤던 그 맛? 느낌을 같이 느끼고 싶당",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 108,
+    "name": "숙성도",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%88%99%EC%84%B1%EB%8F%84/data=!4m2!3m1!1s0x350cfb0d3fdba2a1:0x88c62b1f6a833ee8",
+    "latitude": 33.4872141,
+    "longitude": 126.5000191,
+    "address": null,
+    "description": "제주시에서 숙성 흑돼지를 구워 저녁으로 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 45.11,
+      "y": 34.94
+    },
+    "seonghoOpinion": "캬, 지리죠? 근데 웨이팅도 지리죠?",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 109,
+    "name": "사방팔방",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%AC%EB%B0%A9%ED%8C%94%EB%B0%A9/data=!4m2!3m1!1s0x350cf09bc296aa4f:0x42113440c5a0e84d",
+    "latitude": 33.4888877,
+    "longitude": 126.4296093,
+    "address": null,
+    "description": "제주시에서 고등어회를 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 38.22,
+      "y": 34.69
+    },
+    "seonghoOpinion": "고등어회 먹으러 갔었는데, 무난? 했다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 110,
+    "name": "용이식당",
+    "tags": [
+      "saved",
+      "jeju",
+      "day6"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9A%A9%EC%9D%B4%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350c539b85b09f89:0xfab7527d2329a16a",
+    "latitude": 33.2512376,
+    "longitude": 126.5603403,
+    "address": null,
+    "description": "서귀포에서 돼지 두루치기로 아침이나 점심을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 51.01,
+      "y": 69.71
+    },
+    "seonghoOpinion": "아침에 두루치기 땡겨?",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 111,
+    "name": "맛나식당",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%A7%9B%EB%82%98%EC%8B%9D%EB%8B%B9/data=!4m2!3m1!1s0x350d137ea49e6e49:0xbf472ab35adbec44",
+    "latitude": 33.4485901,
+    "longitude": 126.9159122,
+    "address": null,
+    "description": "예약이 확정되지 않아 우도 일정에서 제외한 성산 갈치조림 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 85.81,
+      "y": 40.63
+    },
+    "seonghoOpinion": "아 가성비 지립니다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 112,
+    "name": "산방산초가집",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%82%B0%EB%B0%A9%EC%82%B0%EC%B4%88%EA%B0%80%EC%A7%91/data=!4m2!3m1!1s0x350c43434c470487:0x7ec2b0dc7e80deb0",
+    "latitude": 33.2456367,
+    "longitude": 126.3387296,
+    "address": null,
+    "description": "산방산 근처에서 여러 반찬이 나오는 정식을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 29.32,
+      "y": 70.54
+    },
+    "seonghoOpinion": "여러가지 나오는 정식. 아쉽지 않은데, 우리끼린 양이 너무 많을지도?",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 113,
+    "name": "오는정김밥",
+    "tags": [
+      "saved",
+      "jeju",
+      "day6"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%A4%EB%8A%94%EC%A0%95%EA%B9%80%EB%B0%A5/data=!4m2!3m1!1s0x350c53762ea728d9:0x9f96530691230f98",
+    "latitude": 33.2492934,
+    "longitude": 126.5665897,
+    "address": null,
+    "description": "예약에 성공하면 점심 대안과 별개로 서귀포 도심에서 꼭 픽업하는 김밥.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 51.62,
+      "y": 70
+    },
+    "seonghoOpinion": "가능하면 꼭 방문하면 좋겠죠, 유명 그 자체",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 115,
+    "name": "올래국수",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%98%AC%EB%9E%98%EA%B5%AD%EC%88%98/data=!4m2!3m1!1s0x350cfb05ec858b51:0xf93e6bf6cf0e3c3",
+    "latitude": 33.4883202,
+    "longitude": 126.489555,
+    "address": null,
+    "description": "제주공항권에서 진한 국물의 고기국수를 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 44.08,
+      "y": 34.77
+    },
+    "seonghoOpinion": "맛있음. 3개 고기국수중 하나던가? 진하고 깔끔",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 116,
+    "name": "신설오름",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%8B%A0%EC%84%A4%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350ce34a54812c89:0x92d321ebadbf573f",
+    "latitude": 33.5060469,
+    "longitude": 126.5420356,
+    "address": null,
+    "description": "제주시에서 몸국과 돔베고기를 고른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 49.22,
+      "y": 32.16
+    },
+    "seonghoOpinion": "몸국, 돔베고기 맛있음",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 117,
+    "name": "은혜전복",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%9D%80%ED%98%9C%EC%A0%84%EB%B3%B5/data=!4m2!3m1!1s0x350cf5f2de373d5d:0x16773a11541d9032",
+    "latitude": 33.4275087,
+    "longitude": 126.3294237,
+    "address": null,
+    "description": "애월에서 전복 요리를 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 28.41,
+      "y": 43.74
+    },
+    "seonghoOpinion": "전복전문점. 전복 좋아하면 고",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 119,
+    "name": "금오름",
+    "tags": [
+      "saved",
+      "jeju",
+      "day5"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EC%98%A4%EB%A6%84/data=!4m2!3m1!1s0x350c5e7de56a2c13:0x490f203247148e3c",
+    "latitude": 33.355577,
+    "longitude": 126.3056877,
+    "address": null,
+    "description": "서부 초원과 분화구를 내려다보며 일몰을 보는 오름.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 26.09,
+      "y": 54.34
+    },
+    "seonghoOpinion": "오름중에 가장 무난한 난도의 오름",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 120,
+    "name": "파리바게뜨 제주공항렌터카하우스점",
+    "tags": [
+      "saved",
+      "jeju",
+      "day7"
+    ],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%8C%8C%EB%A6%AC%EB%B0%94%EA%B2%8C%EB%9C%A8+%EC%A0%9C%EC%A3%BC%EA%B3%B5%ED%95%AD%EB%A0%8C%ED%84%B0%EC%B9%B4%ED%95%98%EC%9A%B0%EC%8A%A4%EC%A0%90/data=!4m2!3m1!1s0x350cfb8117198e2d:0x17ff93191649b77a",
+    "latitude": 33.4687666,
+    "longitude": 126.5194521,
+    "address": null,
+    "description": "렌터카 반납 전후에 제주 마음샌드를 포장한다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 47.01,
+      "y": 37.66
+    },
+    "seonghoOpinion": "제주 마음샌드는 약간 기본",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 122,
+    "name": "ttt COFFEE",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "cafe",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%84%EB%A0%90+%EC%A0%9C%EC%A3%BC%EB%B3%B8%EC%A0%90/data=!4m2!3m1!1s0x350d137dbaed3f0b:0xb5fe0827a1d68efd",
+    "latitude": 33.449942,
+    "longitude": 126.918378,
+    "address": null,
+    "description": "성산 플레이스캠프에서 커피를 마시며 쉬는 곳. 예전 도렐 제주본점 자리.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 86.05,
+      "y": 40.43
+    },
+    "seonghoOpinion": "도렐이였지만, 바뀜.",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 123,
+    "name": "애월더선셋",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%95%A0%EC%9B%94%EB%8D%94%EC%84%A0%EC%85%8B/data=!4m2!3m1!1s0x350cf43388cfa283:0x689fc2db13330b3b",
+    "latitude": 33.4605926,
+    "longitude": 126.3338579,
+    "address": null,
+    "description": "애월 해안에서 바다 위로 지는 해를 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 28.85,
+      "y": 38.86
+    },
+    "seonghoOpinion": "일몰시간에 맞춰서 가는것도 좋겠다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 126,
+    "name": "주상절리대",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%A3%BC%EC%83%81%EC%A0%88%EB%A6%AC%EB%8C%80/data=!4m2!3m1!1s0x350c5aae28a7d773:0x500958317da3a1c6",
+    "latitude": 33.2383203,
+    "longitude": 126.4259086,
+    "address": null,
+    "description": "중문 해안에 육각형 기둥처럼 늘어선 현무암 절벽을 본다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 37.85,
+      "y": 71.62
+    },
+    "seonghoOpinion": "신기한 자연의 세계",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 127,
+    "name": "협재해수욕장",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%ED%98%91%EC%9E%AC%ED%95%B4%EC%88%98%EC%9A%95%EC%9E%A5/data=!4m2!3m1!1s0x350c6100c373b0f1:0x6ce2ce2c47a28400",
+    "latitude": 33.4178646,
+    "longitude": 126.2153469,
+    "address": null,
+    "description": "에메랄드빛 바다와 비양도가 함께 보이는 협재 해변.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 17.25,
+      "y": 45.16
+    },
+    "seonghoOpinion": "바다색이 참 이쁘고 해변도로 보다가 들르기도 편함",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 128,
+    "name": "금능으뜸원해변",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EA%B8%88%EB%8A%A5%EC%9C%BC%EB%9C%B8%EC%9B%90%ED%95%B4%EB%B3%80/data=!4m2!3m1!1s0x350c60c3dceaae47:0xa70d6f111d7181da",
+    "latitude": 33.3899141,
+    "longitude": 126.2353718,
+    "address": null,
+    "description": "협재 바로 옆에서 얕고 맑은 바다를 보는 해변.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 19.21,
+      "y": 49.28
+    },
+    "seonghoOpinion": "협재보다 이쁘다. 바로 옆이니 같이 즐기도록하자",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 129,
+    "name": "섭지코지",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%84%AD%EC%A7%80%EC%BD%94%EC%A7%80/data=!4m2!3m1!1s0x350d131682df90fb:0x3e20058eb88a16f1",
+    "latitude": 33.4235416,
+    "longitude": 126.9293266,
+    "address": null,
+    "description": "성산 해안 절벽과 바다를 따라 걷는 산책 코스.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 87.13,
+      "y": 44.32
+    },
+    "seonghoOpinion": "약간 바닷바람 맞으며 선선하게 산책가능.",
+    "seinOpinion": "",
+    "seonghoRating": 3.9,
+    "seinRating": null
+  },
+  {
+    "id": 130,
+    "name": "동문시장",
+    "tags": [
+      "saved",
+      "jeju",
+      "day7"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EB%8F%99%EB%AC%B8%EC%9E%AC%EB%9E%98%EC%8B%9C%EC%9E%A5/data=!4m2!3m1!1s0x350ce353ff30d105:0x3c9a585a805f7cf5",
+    "latitude": 33.5125399,
+    "longitude": 126.5284762,
+    "address": null,
+    "description": "공항 가기 전 선물과 먹거리를 둘러보는 제주시 시장.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 47.89,
+      "y": 31.2
+    },
+    "seonghoOpinion": "시장은 일단 가야지",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 131,
+    "name": "생각하는정원 (Spirited Garden)",
+    "tags": [
+      "saved",
+      "jeju"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://www.google.com/maps/place/%EC%83%9D%EA%B0%81%ED%95%98%EB%8A%94%EC%A0%95%EC%9B%90+(Spirited+Garden)/data=!4m2!3m1!1s0x350c6783ad2257a5:0x2ad2b82bb77c7f1",
+    "latitude": 33.3255984,
+    "longitude": 126.2554889,
+    "address": null,
+    "description": "한림권에서 돌과 나무를 가꾼 정원을 따라 걷는다.",
+    "isRainyDayFriendly": false,
+    "isReserve": true,
+    "mapPosition": {
+      "x": 21.18,
+      "y": 58.75
+    },
+    "seonghoOpinion": "갈까 말까 생각을 하게 하는 곳",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 132,
+    "name": "용머리해안",
+    "tags": [
+      "day5",
+      "spot"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/EpTpmMdtE9jX6ZYv9",
+    "latitude": 33.2317,
+    "longitude": 126.3144,
+    "address": "제주특별자치도 서귀포시 안덕면 사계남로216번길 77",
+    "description": "바다 쪽으로 층층이 뻗은 절벽을 걷는다. 입장 가능 여부는 당일 확인한다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 27,
+      "y": 73
+    },
+    "seonghoOpinion": "갈만은 한데, 중국인이 많을 수 있음",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 133,
+    "name": "문개 우도",
+    "tags": ["day2", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/yUSWHudjf5KikUvEA",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "하고수동 바다를 바라보며 해물라면으로 점심을 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 64, "y": 38 },
+    "seonghoOpinion": "우도에서 먹고싶은 거 고를 때, 열심히 고려해봅시다.",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 134,
+    "name": "당케올레국수",
+    "tags": ["day3", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/uyK6tUGEA6VBMqQ49",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "보말칼국수나 고기국수를 고르는 가시식당 대기·휴무 시 대안.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 64, "y": 70 },
+    "seonghoOpinion": "보말, 고기 국수 쌉가능",
+    "seinOpinion": "",
+    "seonghoRating": 3.6,
+    "seinRating": null
+  },
+  {
+    "id": 135,
+    "name": "고집돌우럭 중문점",
+    "tags": ["day4", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/meYmZAvD2cZwy5uG8",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "중문에서 우럭조림을 여러 반찬과 함께 한 상으로 먹는다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 34, "y": 74 },
+    "seonghoOpinion": "뭔가 비주얼이 좋은, 맛있을 수밖에 없는 우럭조림",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 136,
+    "name": "테이크타임 커피로스터스",
+    "tags": ["day5", "cafe"],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/x2DJDJXvJ9BLQXAe7",
+    "latitude": null,
+    "longitude": null,
+    "address": null,
+    "description": "신창풍차해안의 노을을 보며 커피를 마신다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 11, "y": 50 },
+    "seonghoOpinion": "되게 여유로운 느낌이다. 아주 좋구만",
+    "seinOpinion": "",
+    "seonghoRating": 3.7,
+    "seinRating": null
+  },
+  {
+    "id": 137,
+    "name": "더스테이블",
+    "tags": ["day7", "reserve", "cafe"],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/9k9MYYzzh4cuTn7q7",
+    "latitude": 33.47623942,
+    "longitude": 126.5475376586914,
+    "address": "제주특별자치도 제주시 인다5길 10 1층",
+    "description": "아라동에서 파이와 케이크를 고른다. 마지막 날 시간이 넉넉할 때 들른다.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": { "x": 50, "y": 36.5 },
+    "seonghoOpinion": "아 가볼만한 곳인거 같다. 끌린다",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 138,
+    "name": "더웰테라스",
+    "tags": [
+      "saved",
+      "jeju",
+      "day3",
+      "day7"
+    ],
+    "category": "stay",
+    "googleMapsUrl": "https://maps.app.goo.gl/XfLFq28xVY6wBPJc8",
+    "latitude": 33.2531601,
+    "longitude": 126.4205887,
+    "address": "제주특별자치도 서귀포시 중문동 2180-1",
+    "description": "11/1~11/5 중문에서 4박하는 숙소. 서귀포 일정의 출발점이다.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": {
+      "x": 34.5,
+      "y": 74
+    },
+    "seonghoOpinion": "숙소입니당",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 139,
+    "name": "번네식당",
+    "tags": ["saved", "jeju", "day5", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/FqxHUnFfk7svuAh97",
+    "latitude": null,
+    "longitude": null,
+    "address": "제주특별자치도 서귀포시 안덕면 산방로 16",
+    "description": "용머리해안·사계해안 근처에서 순살갈치조림을 먹는 11/3 점심 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 28, "y": 72 },
+    "seonghoOpinion": "순살갈치조림으로 유명하다고 해서 궁금한 곳.",
+    "seinOpinion": "",
+    "seonghoRating": 4.0,
+    "seinRating": null
+  },
+  {
+    "id": 140,
+    "name": "점점",
+    "tags": ["saved", "jeju", "day1", "cafe"],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/zGUpF69T12YJYV1HA",
+    "latitude": null,
+    "longitude": null,
+    "address": "제주특별자치도 제주시 조천읍 신촌북3길 39-3",
+    "description": "닭머르를 걷고 시간이 남으면 초당옥수수 아이스크림 하나를 둘이 나눠 먹는 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": { "x": 45, "y": 28 },
+    "seonghoOpinion": "초당옥수수 아이스크림은 하나만 사서 나눠 먹기.",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
+  },
+  {
+    "id": 141,
+    "name": "카멜커피 제주점",
+    "tags": ["saved", "jeju", "cafe"],
+    "category": "cafe",
+    "googleMapsUrl": "https://maps.app.goo.gl/cCyHiaeg6mvZuuN89",
+    "latitude": 33.5568768,
+    "longitude": 126.8098896,
+    "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 617-3 C동",
+    "description": "행원해변 앞 카페. 바로 옆 픽업카페에서 산 빵과 커피를 함께 즐기는 후보.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": { "x": 68, "y": 25 },
+    "seonghoOpinion": "픽업카페에서 빵을 골라 커피와 바로 먹어보기.",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 142,
+    "name": "픽업카페 행원점",
+    "tags": ["saved", "jeju", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://maps.app.goo.gl/cCyHiaeg6mvZuuN89",
+    "latitude": null,
+    "longitude": null,
+    "address": "제주특별자치도 제주시 구좌읍 해맞이해안로 617-4 B동",
+    "description": "카멜커피 바로 옆에서 빵을 골라 함께 먹을 수 있는 행원점.",
+    "isRainyDayFriendly": true,
+    "isReserve": true,
+    "mapPosition": { "x": 69, "y": 25 },
+    "seonghoOpinion": "빵을 사서 바로 옆 카멜커피에서 먹는 조합. 새우바게트, 명란소금빵",
+    "seinOpinion": "",
+    "seonghoRating": 3.8,
+    "seinRating": null
+  },
+  {
+    "id": 143,
+    "name": "대우정 서귀포점",
+    "tags": ["saved", "jeju", "day6", "food"],
+    "category": "food",
+    "googleMapsUrl": "https://www.google.com/maps/search/?api=1&query=%EB%8C%80%EC%9A%B0%EC%A0%95%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90%20%EC%A0%9C%EC%A3%BC%20%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C%20%EC%9D%B4%EC%96%B4%EB%8F%84%EB%A1%9C%20866-37",
+    "latitude": 33.2331332,
+    "longitude": 126.5070238,
+    "address": "제주특별자치도 서귀포시 이어도로 866-37",
+    "description": "법환에서 전복돌솥밥을 먹고 이중섭거리로 이동하는 11/4 점심 1순위.",
+    "isRainyDayFriendly": true,
+    "isReserve": false,
+    "mapPosition": { "x": 42, "y": 82 },
+    "seonghoOpinion": "",
+    "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
+  }
+]
