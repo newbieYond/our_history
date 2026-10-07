@@ -94,6 +94,7 @@ export function TravelMap({
             className: "travel-location-accuracy",
           });
           const marker = rt.L.circleMarker(point, {
+            pane: "currentLocation",
             radius: 8,
             color: "#fff",
             weight: 3,
@@ -143,6 +144,9 @@ export function TravelMap({
           scrollWheelZoom: true,
           touchZoom: true,
         }).setView(trip.geoMap!.center, trip.geoMap!.zoom);
+        const locationPane = map.createPane("currentLocation");
+        locationPane.style.zIndex = "625";
+        locationPane.style.pointerEvents = "none";
         L.control
           .zoom({
             position: "topright",
