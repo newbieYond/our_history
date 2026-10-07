@@ -129,17 +129,30 @@
   box-shadow: 0 6px 18px #14233a0a;
 }
 .itinerary > .day-selector {
-  display: flex;
-  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
   gap: 10px;
   padding-bottom: 18px;
-  scroll-snap-type: x proximity;
 }
 .itinerary > .day-selector button {
-  min-width: 130px;
-  flex: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  gap: 8px;
+  width: auto;
+  min-width: 0;
+  min-height: 108px;
   padding: 15px 12px;
-  scroll-snap-align: start;
+}
+.itinerary > .day-selector button strong,
+.itinerary > .day-selector button > span {
+  margin-top: 0;
+}
+.itinerary > .day-selector button > span {
+  overflow: visible;
+  line-height: 1.45;
+  text-overflow: clip;
+  white-space: normal;
 }
 .day-detail {
   min-height: 0;
