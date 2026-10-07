@@ -2,6 +2,7 @@ import { useState } from "react";
 import { useTrip } from "../lib/TripContext";
 import { categoryIcon, categoryLabel, ratingDetails } from "../lib/places";
 import { AllPlacesMap } from "./IllustratedMap";
+import { FilterTags } from "./FilterTags";
 import type { Place } from "../lib/types";
 export function SavedPlacesScreen({
   onOpenPlace,
@@ -42,28 +43,24 @@ export function SavedPlacesScreen({
               placeholder="이름이나 메모로 찾기"
             />
           </label>
-          <label>
-            권역
-            <select value={area} onChange={(e) => setArea(e.target.value)}>
-              {areas.map((a) => (
-                <option key={a}>{a}</option>
-              ))}
-            </select>
-          </label>
-          <label>
-            종류
-            <select
-              value={category}
-              onChange={(e) => setCategory(e.target.value)}
-            >
-              <option value="전체">전체</option>
-              {Object.entries(categoryLabel).map(([id, label]) => (
-                <option key={id} value={id}>
-                  {label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <FilterTags
+            label="권역"
+            options={areas.map((value) => ({ value, label: value }))}
+            selected={area}
+            onChange={setArea}
+          />
+          <FilterTags
+            label="종류"
+            options={[
+              { value: "전체", label: "전체" },
+              ...Object.entries(categoryLabel).map(([value, label]) => ({
+                value,
+                label,
+              })),
+            ]}
+            selected={category}
+            onChange={setCategory}
+          />
         </div>
         <p aria-live="polite">{places.length}개의 장소</p>
         <div className="places-grid">
