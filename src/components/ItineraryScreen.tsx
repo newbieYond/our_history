@@ -1,9 +1,9 @@
 import { useRef, useState, type CSSProperties } from "react";
 import { useTrip } from "../lib/TripContext";
 import { categoryIcon, categoryLabel } from "../lib/places";
-import { revealMap } from "../lib/useMapZoom";
-import { DayMap } from "./IllustratedMap";
-import type { MapPlace, Place } from "../lib/types";
+import { TravelMap } from "./TravelMap";
+import { FilterTags } from "./FilterTags";
+import type { Place } from "../lib/types";
 export function ItineraryScreen({
   selected,
   onSelectDay,
@@ -16,22 +16,26 @@ export function ItineraryScreen({
   const trip = useTrip();
   const day = trip.days[selected];
   const [showMaybe, setShowMaybe] = useState(true);
-  const [mapSelection, setMapSelection] = useState<MapPlace | null>(null);
+  const [mapSelection, setMapSelection] = useState<number | null>(null);
+  const [mapRegion, setMapRegion] = useState("전체");
   const mapRef = useRef<HTMLDivElement>(null);
-  const selectedPlace = mapSelection ?? day.places?.[0];
   const dayPlaces = trip.places.filter(
     (p) => p.days.includes(selected + 1) && (showMaybe || !p.isReserve),
   );
+  const mapPlaces = dayPlaces.filter(
+    (p) => mapRegion === "전체" || p.mapRegion === mapRegion,
+  );
+  const regions =
+    trip.geoMap?.regions.filter((r) =>
+      dayPlaces.some((p) => p.mapRegion === r),
+    ) ?? [];
   const selectSchedule = (name?: string) => {
     const place = trip.places.find((p) => p.name === name);
-    if (place?.mapPosition)
-      setMapSelection({
-        name: place.name,
-        kind: place.category,
-        note: place.description,
-        ...place.mapPosition,
-      });
-    revealMap(mapRef.current);
+    if (!place) return;
+    if (place.isReserve) setShowMaybe(true);
+    setMapRegion("전체");
+    setMapSelection(place.id);
+    mapRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   return (
     <section className="itinerary">
@@ -53,6 +57,7 @@ export function ItineraryScreen({
           onClick={() => {
             setShowMaybe((v) => !v);
             setMapSelection(null);
+            setMapRegion("전체");
           }}
         >
           <span aria-hidden="true">
@@ -110,17 +115,36 @@ export function ItineraryScreen({
           </div>
         )}
       </article>
-      <div className={trip.map ? "itinerary-detail-grid" : ""}>
-        {trip.map && selectedPlace && (
-          <DayMap
-            key={selected}
-            day={day}
-            dayIndex={selected}
-            selected={selectedPlace}
-            onSelect={setMapSelection}
-            mapRef={mapRef}
-            showReserves={showMaybe}
-          />
+      <div
+        className={trip.geoMap && day.schedule ? "itinerary-detail-grid" : ""}
+      >
+        {trip.geoMap && (
+          <div ref={mapRef} className="day-map-wrapper">
+            <a className="all-regions-link" href={`#/${trip.id}/saved`}>
+              전체·권역별 지도 보기 →
+            </a>
+            {regions.length > 1 && (
+              <FilterTags
+                label="지도 권역"
+                options={["전체", ...regions].map((value) => ({
+                  value,
+                  label: value,
+                }))}
+                selected={mapRegion}
+                onChange={(value) => {
+                  setMapRegion(value);
+                  setMapSelection(null);
+                }}
+              />
+            )}
+            <TravelMap
+              places={mapPlaces}
+              title={`DAY ${selected + 1} · ${mapRegion === "전체" ? "오늘의 장소 지도" : mapRegion}`}
+              selectedId={mapSelection}
+              onSelect={setMapSelection}
+              onOpenPlace={onOpenPlace}
+            />
+          </div>
         )}
         <div>
           {day.schedule && (
@@ -129,8 +153,8 @@ export function ItineraryScreen({
               {day.schedule.map((item, index) => (
                 <article
                   key={`${index}-${item.title}`}
-                  role={trip.map ? "button" : undefined}
-                  tabIndex={trip.map ? 0 : undefined}
+                  role={trip.geoMap && item.placeName ? "button" : undefined}
+                  tabIndex={trip.geoMap && item.placeName ? 0 : undefined}
                   onClick={() => selectSchedule(item.placeName)}
                   onKeyDown={(event) => {
                     if (event.key === "Enter" || event.key === " ") {
@@ -163,8 +187,10 @@ export function ItineraryScreen({
             <button
               key={place.id}
               type="button"
-              aria-label={`${place.name} 상세 보기`}
-              onClick={() => onOpenPlace(place)}
+              aria-label={`${place.name} ${trip.geoMap ? "지도에서 보기" : "상세 보기"}`}
+              onClick={() =>
+                trip.geoMap ? selectSchedule(place.name) : onOpenPlace(place)
+              }
             >
               <span>
                 {categoryIcon[place.category]} {categoryLabel[place.category]}

@@ -1,0 +1,241 @@
+.travel-map {
+  margin: 24px 0 40px;
+  min-width: 0;
+  scroll-margin-top: 100px;
+}
+.travel-map-heading,
+.travel-selection-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.travel-map-heading h3 {
+  font-size: clamp(20px, 3vw, 28px);
+  margin: 4px 0;
+}
+.travel-map .section-label {
+  margin: 0;
+  font-size: 10px;
+}
+.travel-map button,
+.travel-selection-actions a {
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px 14px;
+  min-height: 44px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  text-decoration: none;
+}
+.travel-map button:hover,
+.travel-selection-actions a:hover {
+  background: var(--mist);
+}
+.travel-map button:focus-visible,
+.travel-map a:focus-visible {
+  outline: 3px solid var(--rust);
+  outline-offset: 3px;
+}
+.travel-map-help,
+.travel-map-count,
+.travel-map-placeholder {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.travel-map-help {
+  margin: 12px 0;
+}
+.travel-map-canvas {
+  height: 440px;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: #e8eee8;
+  z-index: 0;
+  isolation: isolate;
+  font-family: inherit;
+}
+.travel-map-canvas .leaflet-control-attribution {
+  font-size: 10px;
+  background: rgba(255, 255, 255, 0.92);
+}
+.travel-map-canvas .leaflet-control-zoom a {
+  width: 42px;
+  height: 42px;
+  line-height: 42px;
+  color: #233b3a;
+}
+.travel-map-canvas .leaflet-tooltip {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 7px 10px;
+}
+.travel-pin {
+  background: transparent;
+  border: 0;
+}
+.travel-pin span {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  background: #fff;
+  border: 2px solid #476761;
+  border-radius: 50% 50% 50% 8%;
+  transform: rotate(-45deg);
+  box-shadow: 0 3px 8px #223b3a44;
+  font-size: 0;
+}
+.travel-pin span::after {
+  content: "📍";
+  transform: rotate(45deg);
+  font-size: 17px;
+}
+.pin-food span {
+  border-color: #b06140;
+}
+.pin-food span::after {
+  content: "🍽";
+}
+.pin-cafe span {
+  border-color: #986c48;
+}
+.pin-cafe span::after {
+  content: "☕";
+}
+.pin-shop span {
+  border-color: #806898;
+}
+.pin-shop span::after {
+  content: "🛍";
+}
+.pin-stay span {
+  border-color: #5476a0;
+}
+.pin-stay span::after {
+  content: "🛏";
+}
+.travel-pin.is-selected span {
+  background: #fff1c9;
+  border: 3px solid #ae603a;
+  box-shadow: 0 0 0 5px #fff9;
+}
+.travel-cluster {
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #294b45;
+  color: #fff;
+  border: 4px solid #dce8d9;
+  box-shadow: 0 2px 9px #14362933;
+  font-weight: 700;
+  font-size: 14px;
+}
+.travel-cluster:focus-visible,
+.travel-pin:focus-visible {
+  outline: 3px solid #d97941;
+  outline-offset: 4px;
+}
+.travel-map-selection {
+  padding: 22px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+  margin-top: 16px;
+}
+.travel-map-selection p {
+  font-size: 13px;
+  line-height: 1.9;
+}
+.travel-selection-heading h4 {
+  margin: 4px 0;
+  font-size: 21px;
+}
+.travel-selection-heading p {
+  color: var(--muted);
+  margin: 0;
+  font-size: 11px;
+}
+.travel-selection-heading button {
+  flex-shrink: 0;
+}
+.travel-selection-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 18px;
+}
+.travel-map-notice {
+  border-left: 3px solid var(--rust);
+  padding: 8px 12px;
+  background: var(--mist);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.travel-map .place-feedback {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+.travel-map .place-feedback-heading,
+.travel-map .place-feedback-person > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 12px;
+}
+.travel-map .place-feedback-heading {
+  color: var(--muted);
+  margin-bottom: 12px;
+}
+.travel-map .place-feedback-person {
+  margin-top: 12px;
+}
+.travel-map .place-feedback-person p {
+  margin: 6px 0;
+}
+.day-map-wrapper {
+  min-width: 0;
+  scroll-margin-top: 100px;
+}
+.day-map-wrapper > .filter-tags {
+  margin-top: 24px;
+}
+.places-browser .place-browser-card > div {
+  flex-wrap: wrap;
+}
+@media (max-width: 700px) {
+  .travel-map-canvas {
+    height: 360px;
+    border-radius: 14px;
+  }
+  .travel-map-heading {
+    gap: 10px;
+  }
+  .travel-map-heading button {
+    flex-shrink: 0;
+    padding: 8px 10px;
+  }
+  .travel-map-selection {
+    padding: 16px;
+  }
+  .travel-selection-heading {
+    align-items: flex-start;
+  }
+  .travel-map {
+    scroll-margin-top: 85px;
+  }
+}
+
+.all-regions-link {
+  display: inline-block;
+  margin-top: 24px;
+  color: var(--rust-dark);
+  font-size: 13px;
+  min-height: 32px;
+}

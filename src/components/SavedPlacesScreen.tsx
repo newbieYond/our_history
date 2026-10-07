@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { useTrip } from "../lib/TripContext";
 import { categoryIcon, categoryLabel, ratingDetails } from "../lib/places";
-import { AllPlacesMap } from "./IllustratedMap";
+import { TravelMap } from "./TravelMap";
+import { filterPlaces } from "../lib/geo";
 import { FilterTags } from "./FilterTags";
 import type { Place } from "../lib/types";
 export function SavedPlacesScreen({
@@ -13,13 +14,12 @@ export function SavedPlacesScreen({
   const [area, setArea] = useState("전체");
   const [category, setCategory] = useState("전체");
   const [query, setQuery] = useState("");
-  const areas = ["전체", ...new Set(trip.places.map((p) => p.area))];
-  const places = trip.places.filter(
-    (p) =>
-      (area === "전체" || p.area === area) &&
-      (category === "전체" || p.category === category) &&
-      `${p.name} ${p.description} ${p.seonghoOpinion}`.includes(query.trim()),
-  );
+  const [mapSelection, setMapSelection] = useState<number | null>(null);
+  const areas = [
+    "전체",
+    ...(trip.geoMap?.regions ?? [...new Set(trip.places.map((p) => p.area))]),
+  ];
+  const places = filterPlaces(trip.places, area, category, query);
   return (
     <>
       <section className="places-heading">
@@ -31,7 +31,6 @@ export function SavedPlacesScreen({
         </h2>
         <p>{trip.verification}</p>
       </section>
-      {trip.map && <AllPlacesMap />}
       <section className="places-browser">
         <div className="place-filters">
           <label>
@@ -39,7 +38,10 @@ export function SavedPlacesScreen({
             <input
               type="search"
               value={query}
-              onChange={(e) => setQuery(e.target.value)}
+              onChange={(e) => {
+                setQuery(e.target.value);
+                setMapSelection(null);
+              }}
               placeholder="이름이나 메모로 찾기"
             />
           </label>
@@ -47,7 +49,10 @@ export function SavedPlacesScreen({
             label="권역"
             options={areas.map((value) => ({ value, label: value }))}
             selected={area}
-            onChange={setArea}
+            onChange={(value) => {
+              setArea(value);
+              setMapSelection(null);
+            }}
           />
           <FilterTags
             label="종류"
@@ -59,9 +64,21 @@ export function SavedPlacesScreen({
               })),
             ]}
             selected={category}
-            onChange={setCategory}
+            onChange={(value) => {
+              setCategory(value);
+              setMapSelection(null);
+            }}
           />
         </div>
+        {trip.geoMap && (
+          <TravelMap
+            places={places}
+            title={area === "전체" ? `${trip.name} 전체 지도` : `${area} 지도`}
+            selectedId={mapSelection}
+            onSelect={setMapSelection}
+            onOpenPlace={onOpenPlace}
+          />
+        )}
         <p aria-live="polite">{places.length}개의 장소</p>
         <div className="places-grid">
           {places.map((place) => {
@@ -69,8 +86,8 @@ export function SavedPlacesScreen({
             return (
               <article className="place-browser-card" key={place.id}>
                 <p>
-                  {categoryIcon[place.category]} {place.area} ·{" "}
-                  {categoryLabel[place.category]}
+                  {categoryIcon[place.category]} {place.mapRegion ?? place.area}{" "}
+                  · {categoryLabel[place.category]}
                   {place.isReserve ? " · 예비" : ""}
                 </p>
                 <h3>{place.name}</h3>
@@ -81,6 +98,23 @@ export function SavedPlacesScreen({
                   {place.seonghoOpinion || place.description}
                 </p>
                 <div>
+                  {trip.geoMap && (
+                    <button
+                      type="button"
+                      aria-label={`${place.name} 지도에서 보기`}
+                      onClick={() => {
+                        setMapSelection(place.id);
+                        document
+                          .querySelector(".travel-map")
+                          ?.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                          });
+                      }}
+                    >
+                      지도에서 보기
+                    </button>
+                  )}
                   <button
                     type="button"
                     aria-label={`${place.name} 상세 보기`}

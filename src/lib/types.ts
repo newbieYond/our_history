@@ -21,15 +21,8 @@ export type Place = {
   longitude: number | null;
   address: string | null;
   isRainyDayFriendly: boolean;
-  mapPosition?: { x: number; y: number };
-};
-export type MapPlace = {
-  name: string;
-  kind: Category;
-  note: string;
-  x: number;
-  y: number;
-  rainy?: boolean;
+  mapRegion?: string;
+  coordinateNote?: string;
 };
 export type Day = {
   date: string;
@@ -49,7 +42,6 @@ export type Day = {
     placeName?: string;
     rainy?: boolean;
   }[];
-  places?: MapPlace[];
   image?: string;
 };
 export type Trip = {
@@ -73,12 +65,10 @@ export type Trip = {
   verification: string;
   highlights?: { label: string; value: string }[];
   shoppingIntro?: string;
-  map?: {
-    mainland: string;
-    inset: string;
-    insetDay: number;
-    insetLabel: string;
-    insetSafePositions?: Record<string, { x: number; y: number }>;
+  geoMap?: {
+    center: [number, number];
+    zoom: number;
+    regions: string[];
   };
 };
 export const appTabs = [

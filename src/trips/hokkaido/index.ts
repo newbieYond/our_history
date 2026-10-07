@@ -1,7 +1,22 @@
+import coordinates from "./coordinates.json";
+import type { CoordinateRecord } from "../../lib/geo";
 import rawPlaces from "./places.json";
 import rawDays from "./days.json";
 import shops from "./shops.json";
 import type { Category, Trip } from "../../lib/types";
+const locations: Record<string, CoordinateRecord> = coordinates;
+const mapRegion = (lat: number, lng: number) =>
+  lat > 43.6 && lng > 142.8
+    ? "소운쿄"
+    : lng > 142
+      ? "비에이·후라노"
+      : lat < 42.85
+        ? "신치토세"
+        : lng < 141.08
+          ? "오타루"
+          : lat < 43 && lng < 141.25
+            ? "조잔케이"
+            : "삿포로";
 const trip: Trip = {
   id: "hokkaido",
   name: "홋카이도",
@@ -19,12 +34,22 @@ const trip: Trip = {
   places: rawPlaces.map((p) => ({
     ...p,
     category: p.category as Category,
-    days: [p.day],
+    days: p.id === 7 ? [1, 7] : [p.day],
     description: p.reviewSummary,
     imagePath: `trips/hokkaido/${p.imagePath}`,
     tags: [],
-    latitude: null,
-    longitude: null,
+    latitude: locations[p.id].latitude,
+    longitude: locations[p.id].longitude,
+    googleMapsUrl: locations[p.id].googleMapsUrl ?? p.googleMapsUrl,
+    mapRegion: mapRegion(locations[p.id].latitude, locations[p.id].longitude),
+    coordinateNote: (
+      {
+        21: "저장 링크는 삿포로 매장입니다. 공항 방문 계획과 구분해 확인해 주세요.",
+        61: "저장 링크는 오타루 본점입니다. 공항 방문 계획과 구분해 확인해 주세요.",
+        5: "소운쿄의 폭포입니다. 비에이·후라노와 떨어진 예비 장소입니다.",
+        59: "공항 대표 위치입니다. 실내 위치는 공항 층별 안내를 확인해 주세요.",
+      } as Record<number, string>
+    )[p.id],
     address: null,
     isRainyDayFriendly: false,
     isSelected: "isSelected" in p && p.isSelected === true,
@@ -66,7 +91,19 @@ const trip: Trip = {
     { id: "bus", label: "조잔케이 복귀버스 정확한 승차장 확인" },
     { id: "essentials", label: "여행자보험·eSIM 및 직전 날씨 확인" },
   ],
+  geoMap: {
+    center: [43.16, 141.8],
+    zoom: 8,
+    regions: [
+      "삿포로",
+      "오타루",
+      "조잔케이",
+      "비에이·후라노",
+      "신치토세",
+      "소운쿄",
+    ],
+  },
   links: [],
-  verification: "2026.09.06 · Google 지도 공유 목록 대조",
+  verification: "기존 공유 목록·평가 보존 · 지도 위치 확인 2026.10.07",
 };
 export default trip;

@@ -1,7 +1,22 @@
+import coordinates from "./coordinates.json";
+import type { CoordinateRecord } from "../../lib/geo";
 import rawPlaces from "./places.json";
 import rawDays from "./days.json";
 import schedulePlaces from "./schedule-places.json";
 import type { Category, Trip } from "../../lib/types";
+const locations: Record<string, CoordinateRecord> = coordinates;
+const mapRegion = (lat: number, lng: number) =>
+  lng > 126.94 && lat > 33.48
+    ? "우도"
+    : lng > 126.72
+      ? "동부"
+      : lng < 126.4
+        ? "서부"
+        : lat < 33.32
+          ? "서귀포·남부"
+          : lat > 33.43
+            ? "제주시·북부"
+            : "중산간·한라산";
 const trip: Trip = {
   id: "jeju",
   name: "제주",
@@ -30,7 +45,6 @@ const trip: Trip = {
       ...item,
       placeName: schedulePlaces[index][scheduleIndex],
     })),
-    places: d.places.map((p) => ({ ...p, kind: p.kind as Category })),
     image: `trips/jeju/${["day-1-gimnyeong.jpg", "day-2-udo.jpg", "day-3-bijarim.jpg", "day-4-hallasan.jpg", "day-5-west-coast.jpg", "day-6-tangerines.jpg", "day-7-waterfall.jpg"][index]}`,
   })),
   places: rawPlaces.map((p) => {
@@ -40,6 +54,16 @@ const trip: Trip = {
     return {
       ...p,
       category: p.category as Category,
+      latitude: locations[p.id].latitude,
+      longitude: locations[p.id].longitude,
+      googleMapsUrl: locations[p.id].googleMapsUrl ?? p.googleMapsUrl,
+      mapRegion: mapRegion(locations[p.id].latitude, locations[p.id].longitude),
+      coordinateNote: (
+        {
+          30: "체험농장은 미확정입니다. 저장 링크의 후보 농장 위치를 표시합니다.",
+          142: "저장 링크는 바로 옆 카멜커피와 같습니다. 행원점의 정확한 위치는 방문 전에 확인해 주세요.",
+        } as Record<number, string>
+      )[p.id],
       days,
       day: days[0] ?? 1,
       area: days.length ? `DAY ${days[0]}` : "예비 장소",
@@ -71,17 +95,18 @@ const trip: Trip = {
       href: "https://visithalla.jeju.go.kr/main/main.do",
     },
   ],
-  verification: "기존 제주 여행계획의 저장 장소와 평가를 그대로 옮겼습니다.",
-  map: {
-    mainland: "trips/jeju/jeju-map-detail-v1.webp",
-    inset: "trips/jeju/udo-map-detail-v1.webp",
-    insetDay: 2,
-    insetLabel: "우도",
-    insetSafePositions: {
-      종달리엔: { x: 76, y: 46 },
-      "소금바치 순이네": { x: 84, y: 56 },
-      목화식당휴게소: { x: 93, y: 46 },
-    },
+  verification: "기존 여행계획·평가 보존 · 지도 위치 확인 2026.10.07",
+  geoMap: {
+    center: [33.38, 126.55],
+    zoom: 10,
+    regions: [
+      "제주시·북부",
+      "동부",
+      "서부",
+      "서귀포·남부",
+      "중산간·한라산",
+      "우도",
+    ],
   },
 };
 export default trip;

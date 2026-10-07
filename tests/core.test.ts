@@ -1,3 +1,4 @@
+import { hasCoordinates, filterPlaces } from "../src/lib/geo.ts";
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync, existsSync } from "node:fs";
@@ -98,4 +99,74 @@ test("브라우저 저장소는 여행별로 분리하며 손상되거나 차단
   });
   assert.deepEqual(readChecklist("hokkaido"), []);
   assert.equal(writeChecklist("hokkaido", ["tour"]), false);
+});
+
+test("검증한 지도 좌표는 모든 원본 장소를 포함하고 출처와 확인일이 있다", () => {
+  for (const id of ["hokkaido", "jeju"]) {
+    const places = json(`../src/trips/${id}/places.json`);
+    const locations = json(`../src/trips/${id}/coordinates.json`);
+    assert.equal(Object.keys(locations).length, places.length);
+    for (const p of places) {
+      const location = locations[p.id];
+      assert.ok(hasCoordinates(location), `${id}/${p.id}`);
+      assert.ok(location.sourceUrl.startsWith("https://maps.google.com/"));
+      assert.ok(location.sourceName);
+      assert.equal(location.checkedAt, "2026-10-07");
+      assert.ok(
+        id === "jeju"
+          ? location.latitude > 33 &&
+              location.latitude < 34 &&
+              location.longitude > 126 &&
+              location.longitude < 127.1
+          : location.latitude > 41 &&
+              location.latitude < 46 &&
+              location.longitude > 139 &&
+              location.longitude < 146,
+      );
+    }
+  }
+  const jeju = json("../src/trips/jeju/coordinates.json");
+  assert.match(jeju[25].sourceName, /대정읍.*산방식당 본점/);
+  assert.match(
+    json("../src/trips/hokkaido/coordinates.json")[33].sourceName,
+    /どさんこプラザ/,
+  );
+});
+
+test("지도와 목록의 필터는 실제 권역·종류·메모를 함께 적용하고 좌표 누락을 0으로 바꾸지 않는다", () => {
+  const places = [
+    {
+      id: 1,
+      mapRegion: "동부",
+      area: "DAY 1",
+      category: "cafe",
+      name: "COFFEE",
+      description: "바다",
+      seonghoOpinion: "",
+      seinOpinion: "조용한 곳",
+    },
+    {
+      id: 2,
+      mapRegion: "서부",
+      area: "DAY 1",
+      category: "food",
+      name: "식당",
+      description: "바다",
+      seonghoOpinion: "",
+      seinOpinion: "",
+    },
+  ] as import("../src/lib/types.ts").Place[];
+  assert.deepEqual(
+    filterPlaces(places, "동부", "cafe", "coffee").map((p) => p.id),
+    [1],
+  );
+  assert.deepEqual(
+    filterPlaces(places, "전체", "전체", "조용한").map((p) => p.id),
+    [1],
+  );
+  assert.equal(filterPlaces(places, "동부", "food", "").length, 0);
+  assert.equal(hasCoordinates({ latitude: null, longitude: 126 }), false);
+  assert.equal(hasCoordinates({ latitude: NaN, longitude: 126 }), false);
+  assert.equal(hasCoordinates({ latitude: 91, longitude: 126 }), false);
+  assert.equal(hasCoordinates({ latitude: 0, longitude: 0 }), true);
 });

@@ -1,0 +1,1067 @@
+{
+  "1": {
+    "latitude": 33.5070772,
+    "longitude": 126.4934311,
+    "sourceUrl": "https://maps.google.com/maps?cid=17149482273033931879&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 공항로 2 제주국제공항 (CJU)",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "2": {
+    "latitude": 33.5365363,
+    "longitude": 126.611795,
+    "sourceUrl": "https://maps.google.com/maps?cid=11818341907229535807&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 신촌리 닭머르해안",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "3": {
+    "latitude": 33.558795,
+    "longitude": 126.754282,
+    "sourceUrl": "https://maps.google.com/maps?cid=904577262942825620&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 김녕리 1270-2 김녕해수욕장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "4": {
+    "latitude": 33.5420828,
+    "longitude": 126.671551,
+    "sourceUrl": "https://maps.google.com/maps?cid=2138997668074867754&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 조함해안로 552-3 오드랑베이커리",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "5": {
+    "latitude": 33.5437787,
+    "longitude": 126.6688353,
+    "sourceUrl": "https://maps.google.com/maps?cid=16244294769381499812&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 조천읍 조함해안로 519-10 델문도",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "6": {
+    "latitude": 33.4915183,
+    "longitude": 126.9499391,
+    "sourceUrl": "https://maps.google.com/maps?cid=4551251671190267623&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 우도면 연평리 1737-15 우도 천진항",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "7": {
+    "latitude": 33.5145481,
+    "longitude": 126.9586251,
+    "sourceUrl": "https://maps.google.com/maps?cid=6799229978077881536&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 우도면 하고수동 해변",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "8": {
+    "latitude": 33.5156863,
+    "longitude": 126.9580858,
+    "sourceUrl": "https://maps.google.com/maps?cid=4901999149610652375&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 우도면 연평리 712-1 블랑로쉐",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "9": {
+    "latitude": 33.4972931,
+    "longitude": 126.9671356,
+    "sourceUrl": "https://maps.google.com/maps?cid=17280170030733532442&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 우도면 우도해안길 검멀레 해변",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "10": {
+    "latitude": 33.5027452,
+    "longitude": 126.9432497,
+    "sourceUrl": "https://maps.google.com/maps?cid=15606008635884625926&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 우도면 우도해안길 264 서빈백사해변(홍조단괴 산호해변)",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "11": {
+    "latitude": 33.5115352,
+    "longitude": 126.965403,
+    "sourceUrl": "https://maps.google.com/maps?cid=644167069829111330&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 우도면 우도해안길 936 머하멘",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "12": {
+    "latitude": 33.484272,
+    "longitude": 126.8064793,
+    "sourceUrl": "https://maps.google.com/maps?cid=8930024752469953828&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 비자숲길 55 비자림",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "13": {
+    "latitude": 33.3530912,
+    "longitude": 126.7712412,
+    "sourceUrl": "https://maps.google.com/maps?cid=7577271138373846463&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 표선면 가시로565번길 24 가시식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "14": {
+    "latitude": 33.353487,
+    "longitude": 126.771838,
+    "sourceUrl": "https://maps.google.com/maps?cid=13684647543519800170&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 표선면 가시로613번길 60 나목도 식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "15": {
+    "latitude": 33.2523471,
+    "longitude": 126.6238624,
+    "sourceUrl": "https://maps.google.com/maps?cid=13598503554409951737&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 쇠소깍로 142 쇠소깍",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "16": {
+    "latitude": 33.2487163,
+    "longitude": 126.5640617,
+    "sourceUrl": "https://maps.google.com/maps?cid=3013273542969615724&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 중앙로62번길 18 서귀포 매일올레시장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "17": {
+    "latitude": 33.3577959,
+    "longitude": 126.4624949,
+    "sourceUrl": "https://maps.google.com/maps?cid=15690292386685803290&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 색달동 산1-1 1100고지 휴게소",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "18": {
+    "latitude": 33.3114287,
+    "longitude": 126.4588606,
+    "sourceUrl": "https://maps.google.com/maps?cid=13850658653951318066&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 1100로 882 서귀포 자연휴양림",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "19": {
+    "latitude": 33.4087029,
+    "longitude": 126.4944197,
+    "sourceUrl": "https://maps.google.com/maps?cid=14340021007430255171&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도 1100로 2528-111 대한불교조계종 천왕사",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "20": {
+    "latitude": 33.2899059,
+    "longitude": 126.4560096,
+    "sourceUrl": "https://maps.google.com/maps?cid=1309338768259862168&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 1100로 501 클럽이에스리조트 본관 파파스브로트 제주 3층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "21": {
+    "latitude": 33.3038302,
+    "longitude": 126.3925024,
+    "sourceUrl": "https://maps.google.com/maps?cid=9590096711621992130&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 안덕면 산록남로762번길 69 본태박물관",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "22": {
+    "latitude": 33.2515765,
+    "longitude": 126.4251078,
+    "sourceUrl": "https://maps.google.com/maps?cid=1904316011921280206&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 중문동 천제연로 192 중문수두리보말칼국수",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "23": {
+    "latitude": 33.3059385,
+    "longitude": 126.2894355,
+    "sourceUrl": "https://maps.google.com/maps?cid=13305624007371115217&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 안덕면 신화역사로 15 오설록 티 뮤지엄",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "24": {
+    "latitude": 33.1977951,
+    "longitude": 126.2919219,
+    "sourceUrl": "https://maps.google.com/maps?cid=9845507825271279568&output=embed&hl=ko",
+    "sourceName": "서귀포시 송악산",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "25": {
+    "latitude": 33.2234878,
+    "longitude": 126.254219,
+    "sourceUrl": "https://maps.google.com/maps?q=%EC%82%B0%EB%B0%A9%EC%8B%9D%EB%8B%B9+%EC%84%9C%EA%B7%80%ED%8F%AC%EC%8B%9C+%EB%8C%80%EC%A0%95%EC%9D%8D+%ED%95%98%EB%AA%A8%EC%9D%B4%EC%82%BC%EB%A1%9C+62&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 대정읍 하모이삼로 62 산방식당 본점",
+    "checkedAt": "2026-10-07",
+    "match": "name-and-branch",
+    "googleMapsUrl": "https://maps.google.com/?cid=6844722395882668589"
+  },
+  "26": {
+    "latitude": 33.2177388,
+    "longitude": 126.2498932,
+    "sourceUrl": "https://maps.google.com/maps?cid=8311978206577941186&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 대정읍 하모리 770-29 미영이네",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "27": {
+    "latitude": 33.3433637,
+    "longitude": 126.173963,
+    "sourceUrl": "https://maps.google.com/maps?cid=9093784627195456428&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한경면 신창리 1323 신창풍차해안",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "28": {
+    "latitude": 33.3898565,
+    "longitude": 126.235364,
+    "sourceUrl": "https://maps.google.com/maps?cid=18251008243281808379&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한림읍 금능리 금능해수욕장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "29": {
+    "latitude": 33.3881931,
+    "longitude": 126.2297907,
+    "sourceUrl": "https://maps.google.com/maps?cid=3201321680251050976&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한림읍 금능리 1351-1 잔물결",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "30": {
+    "latitude": 33.4873537,
+    "longitude": 126.6004533,
+    "sourceUrl": "https://maps.google.com/maps?cid=6681874518092728887&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 봉개동 1411 감귤체험농장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "31": {
+    "latitude": 33.2448955,
+    "longitude": 126.5644569,
+    "sourceUrl": "https://maps.google.com/maps?cid=386401605102603839&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 서귀동 이중섭거리",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "32": {
+    "latitude": 33.2444906,
+    "longitude": 126.5638992,
+    "sourceUrl": "https://maps.google.com/maps?cid=302237095046856810&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 송산동 태평로 406-1 유동커피",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "33": {
+    "latitude": 33.2452625,
+    "longitude": 126.5644241,
+    "sourceUrl": "https://maps.google.com/maps?cid=8791002800251187730&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 이중섭로 31 사이서가",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "34": {
+    "latitude": 33.2485302,
+    "longitude": 126.5593236,
+    "sourceUrl": "https://maps.google.com/maps?cid=9591912160582946719&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 서문로29번길 20 네거리식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "35": {
+    "latitude": 33.2382692,
+    "longitude": 126.5591697,
+    "sourceUrl": "https://maps.google.com/maps?cid=12907333634957891147&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 서귀동 남성중로 40 새연교",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "36": {
+    "latitude": 33.2506678,
+    "longitude": 126.4167726,
+    "sourceUrl": "https://maps.google.com/maps?cid=4171917442854163307&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 중문동 2232 천제연폭포",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "37": {
+    "latitude": 33.498621,
+    "longitude": 126.4587659,
+    "sourceUrl": "https://maps.google.com/maps?cid=9981338423687140734&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 항골남길 46 자매국수",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "38": {
+    "latitude": 33.511505,
+    "longitude": 126.5200319,
+    "sourceUrl": "https://maps.google.com/maps?cid=13167774052970471099&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 서사로 11 우진해장국",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "39": {
+    "latitude": 33.5126576,
+    "longitude": 126.5287951,
+    "sourceUrl": "https://maps.google.com/maps?cid=4572885829171225304&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 동문로6길 4 아베베베이커리 제주",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "40": {
+    "latitude": 33.458056,
+    "longitude": 126.9425,
+    "sourceUrl": "https://maps.google.com/maps?cid=6147749964369081931&output=embed&hl=ko",
+    "sourceName": "서귀포시 성산 일출봉",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "41": {
+    "latitude": 33.5249646,
+    "longitude": 126.8598017,
+    "sourceUrl": "https://maps.google.com/maps?cid=9699394430985549426&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 해녀박물관길 26 세화해변",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "42": {
+    "latitude": 33.4399386,
+    "longitude": 126.8990193,
+    "sourceUrl": "https://maps.google.com/maps?cid=9322987384617546375&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 성산읍 서성일로1168번길 89-17 빛의 벙커",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "43": {
+    "latitude": 33.3272829,
+    "longitude": 126.8376558,
+    "sourceUrl": "https://maps.google.com/maps?cid=16075926038239283301&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 표선면 표선리 표선해수욕장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "44": {
+    "latitude": 33.2733146,
+    "longitude": 126.7048177,
+    "sourceUrl": "https://maps.google.com/maps?cid=1079212079755607130&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 남원읍 남원 2리 남원큰엉해안",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "45": {
+    "latitude": 33.2231459,
+    "longitude": 126.297477,
+    "sourceUrl": "https://maps.google.com/maps?cid=2686024269120949997&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 안덕면 사계리 2294-37 사계해안",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "46": {
+    "latitude": 33.2948374,
+    "longitude": 126.1625985,
+    "sourceUrl": "https://maps.google.com/maps?cid=12519270983714655274&output=embed&hl=ko",
+    "sourceName": "수월봉",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "47": {
+    "latitude": 33.246944,
+    "longitude": 126.554417,
+    "sourceUrl": "https://maps.google.com/maps?cid=988667553555087798&output=embed&hl=ko",
+    "sourceName": "서귀포시 천지연폭포",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "48": {
+    "latitude": 33.2898073,
+    "longitude": 126.368298,
+    "sourceUrl": "https://maps.google.com/maps?cid=16892243613461625135&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 안덕면 병악로 166 카멜리아 힐",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "49": {
+    "latitude": 33.4526324,
+    "longitude": 126.4896073,
+    "sourceUrl": "https://maps.google.com/maps?cid=17098421789916723607&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 1100로 2894-78 KR 제주특별자치도립미술관",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "50": {
+    "latitude": 33.491783,
+    "longitude": 126.8980891,
+    "sourceUrl": "https://maps.google.com/maps?cid=5758694924211811950&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, KR 구좌읍 구좌읍 종달로7길15,1층 종달리엔",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "51": {
+    "latitude": 33.5052823,
+    "longitude": 126.6243914,
+    "sourceUrl": "https://maps.google.com/maps?cid=1744308453587019135&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 와흘리 2539 백마가든",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "52": {
+    "latitude": 33.449721,
+    "longitude": 126.9208973,
+    "sourceUrl": "https://maps.google.com/maps?cid=9476832959769783249&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 성산읍 고성리 236 KR 성산일출봉 맛집 커큐민흑돼지",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "53": {
+    "latitude": 33.5602598,
+    "longitude": 126.730123,
+    "sourceUrl": "https://maps.google.com/maps?cid=10351799534374294779&output=embed&hl=ko",
+    "sourceName": "제주시 좀여네집",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "54": {
+    "latitude": 33.5419181,
+    "longitude": 126.6348013,
+    "sourceUrl": "https://maps.google.com/maps?cid=13078818670255080025&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 조천읍 조천북1길 35-6 조천수산",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "55": {
+    "latitude": 33.5564083,
+    "longitude": 126.7287248,
+    "sourceUrl": "https://maps.google.com/maps?cid=4210189811599203115&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 일주동로 1845 예그리나리조트",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "56": {
+    "latitude": 33.2680253,
+    "longitude": 126.5918033,
+    "sourceUrl": "https://maps.google.com/maps?cid=8915718637564639064&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 토평동 중산간동로 7715 토평골",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "57": {
+    "latitude": 33.25903,
+    "longitude": 126.427367,
+    "sourceUrl": "https://maps.google.com/maps?cid=450841805250229839&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 중문로 90 원조 중문보말칼국수 중문보말칼국수 1층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "58": {
+    "latitude": 33.4661093,
+    "longitude": 126.3216035,
+    "sourceUrl": "https://maps.google.com/maps?cid=2799958861767288454&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 애월읍 애월로13길 45 애월어촌계회센타",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "60": {
+    "latitude": 33.5533418,
+    "longitude": 126.6439248,
+    "sourceUrl": "https://maps.google.com/maps?cid=12264086079856190843&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 조천읍 조함해안로 217-1 문개항아리 본점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "61": {
+    "latitude": 33.5131008,
+    "longitude": 126.7099375,
+    "sourceUrl": "https://maps.google.com/maps?cid=16963602514832522709&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 북흘로 385-49 자드부팡",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "62": {
+    "latitude": 33.514159,
+    "longitude": 126.5178744,
+    "sourceUrl": "https://maps.google.com/maps?cid=11473491050369807198&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 탑동로 126 임제 제주본점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "65": {
+    "latitude": 33.4843272,
+    "longitude": 126.3911937,
+    "sourceUrl": "https://maps.google.com/maps?cid=10675034063678655585&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 애월읍 가문동남길 63 금돈가 제주 애월해안도로본점 1층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "66": {
+    "latitude": 33.5023425,
+    "longitude": 126.5373625,
+    "sourceUrl": "https://maps.google.com/maps?cid=12894604358354610009&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 가령로 19 KR 제주미담",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "68": {
+    "latitude": 33.5035471,
+    "longitude": 126.9127463,
+    "sourceUrl": "https://maps.google.com/maps?cid=15475842826940935165&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 종달리 42-5 소금바치 순이네",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "69": {
+    "latitude": 33.2911171,
+    "longitude": 126.5911803,
+    "sourceUrl": "https://maps.google.com/maps?cid=6702466763419214472&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 상효동 1403-9 돈내코손두부",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "70": {
+    "latitude": 33.3460565,
+    "longitude": 126.1793745,
+    "sourceUrl": "https://maps.google.com/maps?cid=16269376746278002134&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 한경면 신창리 542-9 라면은오로지면빨",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "71": {
+    "latitude": 33.3331186,
+    "longitude": 126.2309384,
+    "sourceUrl": "https://maps.google.com/maps?cid=15649479090111488466&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한경면 조수2길 34 제주돗",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "72": {
+    "latitude": 33.3659432,
+    "longitude": 126.35644,
+    "sourceUrl": "https://maps.google.com/maps?cid=12786805352123525879&output=embed&hl=ko",
+    "sourceName": "제주시 새별오름",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "73": {
+    "latitude": 33.3776087,
+    "longitude": 126.2148817,
+    "sourceUrl": "https://maps.google.com/maps?cid=11967714439320605246&output=embed&hl=ko",
+    "sourceName": "제주시 월령리 선인장 군락",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "74": {
+    "latitude": 33.4499537,
+    "longitude": 126.487749,
+    "sourceUrl": "https://maps.google.com/maps?cid=1126306737282106923&output=embed&hl=ko",
+    "sourceName": "제주시 KR특별자치도 제주시 노형동 노형동 1100로 2894-49 미스틱3도",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "75": {
+    "latitude": 33.4701345,
+    "longitude": 126.4881995,
+    "sourceUrl": "https://maps.google.com/maps?cid=8972566614037213498&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도 은수길 69 수목원길 야시장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "76": {
+    "latitude": 33.4771161,
+    "longitude": 126.3702605,
+    "sourceUrl": "https://maps.google.com/maps?cid=1795420881214760545&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 애월읍 신엄리 950 잇칸시타",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "77": {
+    "latitude": 33.4847604,
+    "longitude": 126.406266,
+    "sourceUrl": "https://maps.google.com/maps?cid=15699507282530012183&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 애월읍 일주서로 7087-12 KR 달소금 식탁",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "78": {
+    "latitude": 33.2282236,
+    "longitude": 126.3077039,
+    "sourceUrl": "https://maps.google.com/maps?cid=11628833784942487977&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 안덕면 사계남로 168 더비치크랩 제주산방산점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "79": {
+    "latitude": 33.4419132,
+    "longitude": 126.2801516,
+    "sourceUrl": "https://maps.google.com/maps?cid=12788644310919292860&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도 한림읍 귀덕5길 33 제주 귀덕 골방 102호",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "80": {
+    "latitude": 33.4919307,
+    "longitude": 126.4986184,
+    "sourceUrl": "https://maps.google.com/maps?cid=14404248146757977900&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 연동 연문2길 18 장수물식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "81": {
+    "latitude": 33.5126649,
+    "longitude": 126.5186913,
+    "sourceUrl": "https://maps.google.com/maps?cid=5292103924065223048&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 탑동로 142 태광식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "82": {
+    "latitude": 33.5055751,
+    "longitude": 126.464991,
+    "sourceUrl": "https://maps.google.com/maps?cid=14888559064389542965&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 도공로 8 순옥이네 명가",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "83": {
+    "latitude": 33.508095,
+    "longitude": 126.468593,
+    "sourceUrl": "https://maps.google.com/maps?cid=4999408934244620825&output=embed&hl=ko",
+    "sourceName": "제주시 도두봉",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "84": {
+    "latitude": 33.4868649,
+    "longitude": 126.7061249,
+    "sourceUrl": "https://maps.google.com/maps?cid=8476806889936119095&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 선교로 117 짚라인제주",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "85": {
+    "latitude": 33.3912159,
+    "longitude": 126.6772293,
+    "sourceUrl": "https://maps.google.com/maps?cid=17983260830702728758&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 표선면 가시리 사려니숲길",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "86": {
+    "latitude": 33.3964708,
+    "longitude": 126.3446147,
+    "sourceUrl": "https://maps.google.com/maps?cid=12209067752371109202&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 애월읍 어림비로 478 아르떼뮤지엄 제주",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "87": {
+    "latitude": 33.27515,
+    "longitude": 126.7093389,
+    "sourceUrl": "https://maps.google.com/maps?cid=16997157562269736092&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 남원읍 남태해안로 13 로빙화",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "88": {
+    "latitude": 33.4818042,
+    "longitude": 126.9017207,
+    "sourceUrl": "https://maps.google.com/maps?cid=2176642279977207251&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 성산읍 시흥리 1270-1 목화휴게소",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "89": {
+    "latitude": 33.4599676,
+    "longitude": 126.831477,
+    "sourceUrl": "https://maps.google.com/maps?cid=14465232496699206874&output=embed&hl=ko",
+    "sourceName": "제주시 용눈이오름",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "90": {
+    "latitude": 33.5410492,
+    "longitude": 126.6698885,
+    "sourceUrl": "https://maps.google.com/maps?cid=12268741277507674795&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 함덕19길 3 두툼한고기돈돼지 제주함덕점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "91": {
+    "latitude": 33.4788707,
+    "longitude": 126.4640837,
+    "sourceUrl": "https://maps.google.com/maps?cid=13888053500610622232&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 노형동 3086-3 돈사돈 본점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "92": {
+    "latitude": 33.4343128,
+    "longitude": 126.3796656,
+    "sourceUrl": "https://maps.google.com/maps?cid=15501377339971470825&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 애월읍 장소로 205 2 1층 서황 TONKATSU 서황",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "93": {
+    "latitude": 33.230505,
+    "longitude": 126.2452245,
+    "sourceUrl": "https://maps.google.com/maps?cid=4977541629516041024&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 대정읍 동일리 2904-2 한라전복",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "94": {
+    "latitude": 33.5427535,
+    "longitude": 126.6629354,
+    "sourceUrl": "https://maps.google.com/maps?cid=14864003739012042323&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 신북로 494-2 도로록",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "95": {
+    "latitude": 33.5535102,
+    "longitude": 126.7069031,
+    "sourceUrl": "https://maps.google.com/maps?cid=5904040387952822441&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 동복리 1647 제주동복해녀식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "96": {
+    "latitude": 33.23227,
+    "longitude": 126.3089904,
+    "sourceUrl": "https://maps.google.com/maps?cid=16437823005523246880&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 안덕면 사계남로 214 사계의시간",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "98": {
+    "latitude": 33.5098237,
+    "longitude": 126.512679,
+    "sourceUrl": "https://maps.google.com/maps?cid=6620171407647712699&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 용담1동 306-5 넉둥베기",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "99": {
+    "latitude": 33.4813235,
+    "longitude": 126.4970813,
+    "sourceUrl": "https://maps.google.com/maps?cid=13199925403828709991&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 연북로 146 유리네식당(Yuri's Restaurant)",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "100": {
+    "latitude": 33.525614,
+    "longitude": 126.5866531,
+    "sourceUrl": "https://maps.google.com/maps?cid=2487089146264801797&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 삼양일동 1569-28 에오마르",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "101": {
+    "latitude": 33.5131565,
+    "longitude": 126.504495,
+    "sourceUrl": "https://maps.google.com/maps?cid=435979968001813492&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 용담로 16 산도롱맨도롱 공항점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "102": {
+    "latitude": 33.4757867,
+    "longitude": 126.5445598,
+    "sourceUrl": "https://maps.google.com/maps?cid=14699188611783760089&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 중앙로 530 다가미 김밥 아라점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "103": {
+    "latitude": 33.4607153,
+    "longitude": 126.4472392,
+    "sourceUrl": "https://maps.google.com/maps?cid=18150127529972797157&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 애월읍 평화로 2901-1 다가미김밥 애월점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "104": {
+    "latitude": 33.4939617,
+    "longitude": 126.4833868,
+    "sourceUrl": "https://maps.google.com/maps?cid=6982117889350013647&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 일주서로 7831 미스칠 미스칠 제주공항본점 1층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "105": {
+    "latitude": 33.5536417,
+    "longitude": 126.7099167,
+    "sourceUrl": "https://maps.google.com/maps?cid=11199724068307878088&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 구좌읍 동복로 33 해녀촌",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "106": {
+    "latitude": 33.2069012,
+    "longitude": 126.2902768,
+    "sourceUrl": "https://maps.google.com/maps?cid=6478489335114190912&output=embed&hl=ko",
+    "sourceName": "서귀포시 대정읍 형제해안로 318 형제섬보말칼국수",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "107": {
+    "latitude": 33.5071661,
+    "longitude": 126.5298579,
+    "sourceUrl": "https://maps.google.com/maps?cid=7060879343290259197&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 삼성로5길 6 용꽈배기",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "108": {
+    "latitude": 33.4850463,
+    "longitude": 126.4850445,
+    "sourceUrl": "https://maps.google.com/maps?cid=9855612248477875944&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 원노형로 41 숙성도 노형본관",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "109": {
+    "latitude": 33.4888877,
+    "longitude": 126.4296093,
+    "sourceUrl": "https://maps.google.com/maps?cid=4760643733905533005&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 외도일동 494-5 사방팔방",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "110": {
+    "latitude": 33.2512364,
+    "longitude": 126.5605919,
+    "sourceUrl": "https://maps.google.com/maps?cid=18065999127634354538&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 천지동 298-8 용이식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "111": {
+    "latitude": 33.4485794,
+    "longitude": 126.9160712,
+    "sourceUrl": "https://maps.google.com/maps?cid=13783032134402567236&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 성산읍 동류암로 41 맛나식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "112": {
+    "latitude": 33.2405951,
+    "longitude": 126.3003536,
+    "sourceUrl": "https://maps.google.com/maps?cid=9134057455322455728&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도, 사계로 113 산방산초가집 1층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "113": {
+    "latitude": 33.2495863,
+    "longitude": 126.5677504,
+    "sourceUrl": "https://maps.google.com/maps?cid=11499469986207043480&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 중앙동 동문동로 2 오는정김밥",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "115": {
+    "latitude": 33.4915195,
+    "longitude": 126.4972577,
+    "sourceUrl": "https://maps.google.com/maps?cid=1122494441986253763&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 귀아랑길 24 올래국수 본점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "116": {
+    "latitude": 33.5054021,
+    "longitude": 126.541614,
+    "sourceUrl": "https://maps.google.com/maps?cid=10579837245739456319&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 고마로17길 2 신설오름",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "117": {
+    "latitude": 33.4629015,
+    "longitude": 126.3101289,
+    "sourceUrl": "https://maps.google.com/maps?cid=1618826437163061298&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 애월읍 애월로1길 24-3 은혜전복",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "119": {
+    "latitude": 33.355577,
+    "longitude": 126.3056877,
+    "sourceUrl": "https://maps.google.com/maps?cid=5264461889732382268&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한림읍 금악리 산1-1 금오름",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "120": {
+    "latitude": 33.5047552,
+    "longitude": 126.4922768,
+    "sourceUrl": "https://maps.google.com/maps?cid=1729262517890955130&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 용담이동 공항로 2 렌터카하우스 제주국제공항 파리바게뜨 제주공항렌터카하우스점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "122": {
+    "latitude": 33.4499881,
+    "longitude": 126.9182865,
+    "sourceUrl": "https://maps.google.com/maps?cid=13113928131261402877&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 성산읍 동류암로 20 도렐 제주본점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "123": {
+    "latitude": 33.4562468,
+    "longitude": 126.3092124,
+    "sourceUrl": "https://maps.google.com/maps?cid=7538958547417238331&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 애월읍 일주서로 6111 애월더선셋 애월 더선셋 브런치 카페 | Aewol Sunset Ocean View Brunch Cafe Jeju | 涯月海景早午餐 | サンセットカフェ",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "126": {
+    "latitude": 33.2367938,
+    "longitude": 126.4254867,
+    "sourceUrl": "https://maps.google.com/maps?cid=5767237767409148358&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 이어도로 36-30 주상절리대",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "127": {
+    "latitude": 33.3942945,
+    "longitude": 126.2398813,
+    "sourceUrl": "https://maps.google.com/maps?cid=7846060190408541184&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 한림읍 한림로 329-10 협재해수욕장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "128": {
+    "latitude": 33.3899107,
+    "longitude": 126.2353674,
+    "sourceUrl": "https://maps.google.com/maps?cid=12037399498330309082&output=embed&hl=ko",
+    "sourceName": "금능으뜸원해변",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "129": {
+    "latitude": 33.4242095,
+    "longitude": 126.931111,
+    "sourceUrl": "https://maps.google.com/maps?cid=4476584140145825521&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 성산읍 섭지코지로 섭지코지",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "130": {
+    "latitude": 33.5115133,
+    "longitude": 126.5262564,
+    "sourceUrl": "https://maps.google.com/maps?cid=4366899934413159669&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도 관덕로14길 20 제주동문시장",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "131": {
+    "latitude": 33.3257082,
+    "longitude": 126.2552516,
+    "sourceUrl": "https://maps.google.com/maps?cid=192858199537731569&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 한경면 녹차분재로 675 생각하는정원SpiritedGarden",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "132": {
+    "latitude": 33.2316155,
+    "longitude": 126.3148321,
+    "sourceUrl": "https://maps.google.com/maps?cid=6882733685802380072&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 안덕면 사계리 112-3 용머리해안",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "133": {
+    "latitude": 33.5141778,
+    "longitude": 126.9571043,
+    "sourceUrl": "https://maps.google.com/maps?cid=4330336457611243199&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 우도해안길 802 우도 문개",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "134": {
+    "latitude": 33.3253355,
+    "longitude": 126.8431227,
+    "sourceUrl": "https://maps.google.com/maps?cid=4384745372588314283&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 표선면 표선당포로 4 당케올레국수",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "135": {
+    "latitude": 33.2579173,
+    "longitude": 126.4168242,
+    "sourceUrl": "https://maps.google.com/maps?cid=5863881171368000768&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 일주서로 879 고집돌우럭 중문점 (Gozipdol Ureok Jungmun Branch)",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "136": {
+    "latitude": 33.3446558,
+    "longitude": 126.1770309,
+    "sourceUrl": "https://maps.google.com/maps?cid=9576773117857872311&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 신창리 1305 테이크타임 커피로스터스 1층",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "137": {
+    "latitude": 33.4762394,
+    "longitude": 126.5475376,
+    "sourceUrl": "https://maps.google.com/maps?cid=6663660135371007549&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 인다5길 10 더스테이블",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "138": {
+    "latitude": 33.2531601,
+    "longitude": 126.4205887,
+    "sourceUrl": "https://maps.google.com/maps?cid=11918130159312335629&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 중문동 2180-1 더웰테라스",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "139": {
+    "latitude": 33.2557933,
+    "longitude": 126.3454601,
+    "sourceUrl": "https://maps.google.com/maps?cid=16402372146810727917&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 특별자치도 안덕면 감산리 1723-3 번네식당",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "140": {
+    "latitude": 33.537233,
+    "longitude": 126.6153298,
+    "sourceUrl": "https://maps.google.com/maps?cid=16027221084157236241&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 조천읍 신촌리 2384 점점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "141": {
+    "latitude": 33.5568768,
+    "longitude": 126.8098896,
+    "sourceUrl": "https://maps.google.com/maps?cid=14731439895590978971&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 구좌읍 행원리 581 카멜커피 제주점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "142": {
+    "latitude": 33.5568768,
+    "longitude": 126.8098896,
+    "sourceUrl": "https://maps.google.com/maps?cid=14731439895590978971&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 제주시 특별자치도, 구좌읍 행원리 581 카멜커피 제주점",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "143": {
+    "latitude": 33.2331332,
+    "longitude": 126.5070238,
+    "sourceUrl": "https://maps.google.com/maps?q=%EB%8C%80%EC%9A%B0%EC%A0%95+%EC%84%9C%EA%B7%80%ED%8F%AC%EC%A0%90+%EC%A0%9C%EC%A3%BC&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 이어도로 866-37 대우정",
+    "checkedAt": "2026-10-07",
+    "match": "name-search"
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "1": {
+    "latitude": 43.199107,
+    "longitude": 141.002518,
+    "sourceUrl": "https://maps.google.com/maps?cid=6825881945833985603&output=embed&hl=ko",
+    "sourceName": "오타루맥주양조장 오타루창고 No.1 小樽運河倉庫群 5-4 Minatomachi, Otaru, Hokkaido 047-0007 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "2": {
+    "latitude": 43.18616,
+    "longitude": 141.0134131,
+    "sourceUrl": "https://maps.google.com/maps?cid=2579169611584168104&output=embed&hl=ko",
+    "sourceName": "다나카주조 킷코구라 2-2 Nobukacho, Otaru, Hokkaido 047-0016 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "3": {
+    "latitude": 42.9718616,
+    "longitude": 141.1658682,
+    "sourceUrl": "https://maps.google.com/maps?cid=11972819549586388754&output=embed&hl=ko",
+    "sourceName": "수이잔테이 클럽 조잔케이 2 Chome-2-10 Jozankeionsennishi, Minami Ward, Sapporo, Hokkaido 061-2303 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "4": {
+    "latitude": 43.0888751,
+    "longitude": 141.2717042,
+    "sourceUrl": "https://maps.google.com/maps?cid=13987684257188413841&output=embed&hl=ko",
+    "sourceName": "시로이코이비토 파크 2 Chome-11-36 Miyanosawa 2 Jo, Nishi Ward, Sapporo, Hokkaido 063-0052 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "5": {
+    "latitude": 43.7165791,
+    "longitude": 142.9750565,
+    "sourceUrl": "https://maps.google.com/maps?cid=17425448087714147970&output=embed&hl=ko",
+    "sourceName": "은하폭포 Sōunkyō, Kamikawa, Kamikawa District, Hokkaido 078-1701 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "6": {
+    "latitude": 43.6186184,
+    "longitude": 142.4352071,
+    "sourceUrl": "https://maps.google.com/maps?cid=7217391469122582376&output=embed&hl=ko",
+    "sourceName": "Parent & Child Tree (Biei-cho), Mita, Biei, Kamikawa District, Hokkaido 071-0222 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "7": {
+    "latitude": 42.7791317,
+    "longitude": 141.6866364,
+    "sourceUrl": "https://maps.google.com/maps?cid=1925957880204657142&output=embed&hl=ko",
+    "sourceName": "신치토세 공항 (CTS) 987-22 Bibi, Chitose, Hokkaido 066-0012 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "8": {
+    "latitude": 43.0551326,
+    "longitude": 141.352701,
+    "sourceUrl": "https://maps.google.com/maps?cid=17807895933409200173&output=embed&hl=ko",
+    "sourceName": "COCONO SUSUKINO, 4 Chome-1-1 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "9": {
+    "latitude": 43.0557369,
+    "longitude": 141.3512699,
+    "sourceUrl": "https://maps.google.com/maps?cid=10502422655510800755&output=embed&hl=ko",
+    "sourceName": "수프카레 스아게+ 都志松ビル ２階 5 Chome-6-1 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "10": {
+    "latitude": 43.058299,
+    "longitude": 141.358446,
+    "sourceUrl": "https://maps.google.com/maps?cid=10549800672913289719&output=embed&hl=ko",
+    "sourceName": "일본 〒060-0052 Hokkaido, Sapporo, Chuo Ward, Minami 2 Johigashi, 1 Chome 니조 시장 南３条東１丁目〜２丁目",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "11": {
+    "latitude": 43.3233257,
+    "longitude": 142.3558861,
+    "sourceUrl": "https://maps.google.com/maps?cid=12084578554544908332&output=embed&hl=ko",
+    "sourceName": "닝구르 테라스 Nakagoryo, Furano, Hokkaido 076-8511 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "12": {
+    "latitude": 43.5892501,
+    "longitude": 142.4680775,
+    "sourceUrl": "https://maps.google.com/maps?cid=16732941004218246320&output=embed&hl=ko",
+    "sourceName": "준페이 4 Chome-4-10 Motomachi, Biei, Kamikawa District, Hokkaido 071-0208 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "13": {
+    "latitude": 43.1911491,
+    "longitude": 141.0068928,
+    "sourceUrl": "https://maps.google.com/maps?cid=9842535003069580435&output=embed&hl=ko",
+    "sourceName": "오타루 오르골당 2호관 앤티크 뮤지엄 6-１３ Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "14": {
+    "latitude": 43.1918959,
+    "longitude": 141.0076314,
+    "sourceUrl": "https://maps.google.com/maps?cid=11592049806521927940&output=embed&hl=ko",
+    "sourceName": "롯카테이 오타루운하점 7-22 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "15": {
+    "latitude": 43.6091832,
+    "longitude": 142.4641959,
+    "sourceUrl": "https://maps.google.com/maps?cid=10297171432533081817&output=embed&hl=ko",
+    "sourceName": "켄과 메리 나무 大久保協生 Biei, Kamikawa District, Hokkaido 071-0216 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "16": {
+    "latitude": 43.4934738,
+    "longitude": 142.6142144,
+    "sourceUrl": "https://maps.google.com/maps?cid=345959270472972190&output=embed&hl=ko",
+    "sourceName": "청의 호수 Shirogane, Biei, Kamikawa District, Hokkaido 071-0235 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "17": {
+    "latitude": 43.0547934,
+    "longitude": 141.3542915,
+    "sourceUrl": "https://maps.google.com/maps?cid=3433049740386953209&output=embed&hl=ko",
+    "sourceName": "삿포로 라멘요코초 Ｎ・グランデビル 1F, 3 Chome-8 Minami 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0805 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "18": {
+    "latitude": 43.022197,
+    "longitude": 141.3224595,
+    "sourceUrl": "https://maps.google.com/maps?cid=11155252751532118033&output=embed&hl=ko",
+    "sourceName": "모이와야마 전망대 Moiwa Sancho Station, 1 Moiwayama, Minami Ward, Sapporo, Hokkaido 005-0041 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "19": {
+    "latitude": 43.0583997,
+    "longitude": 141.3588997,
+    "sourceUrl": "https://maps.google.com/maps?cid=16775367457305999515&output=embed&hl=ko",
+    "sourceName": "스프카레 가라쿠 삿포로 본점 プレサント南３東２ B1F 2 Chome-6-1 Minami 3 Johigashi, Chuo Ward, Sapporo, Hokkaido 060-0053 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "20": {
+    "latitude": 43.0714671,
+    "longitude": 141.3689124,
+    "sourceUrl": "https://maps.google.com/maps?cid=1396334665551701963&output=embed&hl=ko",
+    "sourceName": "삿포로 맥주 박물관 9 Chome-1-1 Kita 7 Johigashi, Higashi Ward, Sapporo, Hokkaido 065-8633 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "21": {
+    "latitude": 43.0549338,
+    "longitude": 141.3559609,
+    "sourceUrl": "https://maps.google.com/maps?cid=6789083509554852267&output=embed&hl=ko",
+    "sourceName": "효우세츠노몬(빙설의문) 2 Chome-8-10 Minami 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0805 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "22": {
+    "latitude": 43.0611047,
+    "longitude": 141.3564246,
+    "sourceUrl": "https://maps.google.com/maps?cid=16286171258450747441&output=embed&hl=ko",
+    "sourceName": "삿포로 TV 타워 1 Chome Odorinishi, Chuo Ward, Sapporo, Hokkaido 060-0042 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "23": {
+    "latitude": 43.1922675,
+    "longitude": 141.007334,
+    "sourceUrl": "https://maps.google.com/maps?cid=12332073519843029988&output=embed&hl=ko",
+    "sourceName": "기타이치홀(카페) 7-26 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "24": {
+    "latitude": 43.195798,
+    "longitude": 141.004869,
+    "sourceUrl": "https://maps.google.com/maps?cid=16919636097366085168&output=embed&hl=ko",
+    "sourceName": "Kamaei Factory Outlet, 3-7 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "26": {
+    "latitude": 43.191311,
+    "longitude": 141.007433,
+    "sourceUrl": "https://maps.google.com/maps?cid=8259555981103032062&output=embed&hl=ko",
+    "sourceName": "르타오 본점 7-16 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "27": {
+    "latitude": 43.1905288,
+    "longitude": 141.0079732,
+    "sourceUrl": "https://maps.google.com/maps?cid=13013518922636518855&output=embed&hl=ko",
+    "sourceName": "오타루 오르골당 본관 4-1 Sumiyoshicho, Otaru, Hokkaido 047-0015 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "28": {
+    "latitude": 43.199041,
+    "longitude": 141.0021176,
+    "sourceUrl": "https://maps.google.com/maps?cid=355229862189438753&output=embed&hl=ko",
+    "sourceName": "오타루 운하 5 Minatomachi, Otaru, Hokkaido 047-0007 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "29": {
+    "latitude": 43.1939946,
+    "longitude": 140.9998167,
+    "sourceUrl": "https://maps.google.com/maps?cid=11705364665097734443&output=embed&hl=ko",
+    "sourceName": "일본 〒047-0024 Hokkaido, Otaru, Hanazono, 1 Chome−1−8 하츠하나",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "30": {
+    "latitude": 43.0675864,
+    "longitude": 141.3493125,
+    "sourceUrl": "https://maps.google.com/maps?cid=7779771215124676674&output=embed&hl=ko",
+    "sourceName": "다이마루 삿포로점 4 Chome-7 Kita 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0005 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "31": {
+    "latitude": 43.0681096,
+    "longitude": 141.3518038,
+    "sourceUrl": "https://maps.google.com/maps?cid=957704132955663800&output=embed&hl=ko",
+    "sourceName": "삿포로 스텔라 플레이스 2 Chome Kita 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0005 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "32": {
+    "latitude": 43.0680161,
+    "longitude": 141.3508139,
+    "sourceUrl": "https://maps.google.com/maps?cid=9215738552207913511&output=embed&hl=ko",
+    "sourceName": "홋카이도 시키 마르쉐 삿포로 스텔라 플레이스점 札幌ステラプレイス CENTER １F 2 Chome Kita 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0005 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "33": {
+    "latitude": 43.0687491,
+    "longitude": 141.3497551,
+    "sourceUrl": "https://maps.google.com/maps?q=%E5%8C%97%E6%B5%B7%E9%81%93%E3%81%A9%E3%81%95%E3%82%93%E3%81%93%E3%83%97%E3%83%A9%E3%82%B6+%E6%9C%AD%E5%B9%8C%E5%BA%97&output=embed&hl=ko",
+    "sourceName": "일본 〒060-0806 Hokkaido, Sapporo, Kita Ward, Kita 6 Jonishi, 4 Chome 北海道どさんこプラザ 札幌店",
+    "checkedAt": "2026-10-07",
+    "match": "name-and-branch",
+    "googleMapsUrl": "https://maps.google.com/?cid=17779162981275549882"
+  },
+  "34": {
+    "latitude": 43.0713342,
+    "longitude": 141.3690782,
+    "sourceUrl": "https://maps.google.com/maps?cid=637930090976473508&output=embed&hl=ko",
+    "sourceName": "삿포로 맥주원 9 Chome-2-10 Kita 7 Johigashi, Higashi Ward, Sapporo, Hokkaido 065-0007 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "35": {
+    "latitude": 43.0444888,
+    "longitude": 141.3544147,
+    "sourceUrl": "https://maps.google.com/maps?cid=4229632503246314788&output=embed&hl=ko",
+    "sourceName": "나카지마 공원 1 Nakajimakoen, Chuo Ward, Sapporo, Hokkaido 064-0931 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "36": {
+    "latitude": 43.0407751,
+    "longitude": 141.352972,
+    "sourceUrl": "https://maps.google.com/maps?cid=12879358546464967355&output=embed&hl=ko",
+    "sourceName": "삿포로 호국신사 5 Chome-1-3 Minami 15 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0915 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "37": {
+    "latitude": 43.0349352,
+    "longitude": 141.3253508,
+    "sourceUrl": "https://maps.google.com/maps?cid=8309484042700128100&output=embed&hl=ko",
+    "sourceName": "삿포로후시미이나리 신사 2 Chome-2-17 Fushimi, Chuo Ward, Sapporo, Hokkaido 064-0942 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "38": {
+    "latitude": 43.054333,
+    "longitude": 141.3077928,
+    "sourceUrl": "https://maps.google.com/maps?cid=17045528883461805832&output=embed&hl=ko",
+    "sourceName": "홋카이도 신궁 474 Miyagaoka, Chuo Ward, Sapporo, Hokkaido 064-0959 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "39": {
+    "latitude": 43.11819149999999,
+    "longitude": 141.4145072,
+    "sourceUrl": "https://maps.google.com/maps?cid=7921846072485606095&output=embed&hl=ko",
+    "sourceName": "사토랜드 584-2 Okadamacho, Higashi Ward, Sapporo, Hokkaido 007-0880 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "40": {
+    "latitude": 43.0560862,
+    "longitude": 141.3509242,
+    "sourceUrl": "https://maps.google.com/maps?cid=3229140340321049970&output=embed&hl=ko",
+    "sourceName": "대관람차 노리아 삿포로 스스키노 5 Chome-1-1 Minami 3 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0063 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "41": {
+    "latitude": 43.0591967,
+    "longitude": 141.3553756,
+    "sourceUrl": "https://maps.google.com/maps?cid=8707131628208472856&output=embed&hl=ko",
+    "sourceName": "파르페 커피 술 사토 木Ninaru Bldg. 1F-3F 2 Chome-1-2 Minami 1 Jonishi, Chuo Ward, Sapporo, Hokkaido 060-0061 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "42": {
+    "latitude": 42.9649782,
+    "longitude": 141.1631326,
+    "sourceUrl": "https://maps.google.com/maps?cid=2206146463530388528&output=embed&hl=ko",
+    "sourceName": "Jozankei Gensen Park, 3 Chome Jozankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "43": {
+    "latitude": 42.9638623,
+    "longitude": 141.1581486,
+    "sourceUrl": "https://maps.google.com/maps?cid=1384578816499990265&output=embed&hl=ko",
+    "sourceName": "일본 〒061-2303 Hokkaido, Sapporo, Minami Ward, 후타미쓰리 교 定山渓温泉",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "44": {
+    "latitude": 42.9664738,
+    "longitude": 141.1608163,
+    "sourceUrl": "https://maps.google.com/maps?cid=12106068210146868801&output=embed&hl=ko",
+    "sourceName": "암호관음당 4 Chome-377 Jozankeionsennishi, Minami Ward, Sapporo, Hokkaido 061-2303 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "45": {
+    "latitude": 42.9648685,
+    "longitude": 141.1671718,
+    "sourceUrl": "https://maps.google.com/maps?cid=9971080603792675517&output=embed&hl=ko",
+    "sourceName": "조잔케이 신사 3 Chome Jozankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "46": {
+    "latitude": 42.9673016,
+    "longitude": 141.1678443,
+    "sourceUrl": "https://maps.google.com/maps?cid=7024941535886654019&output=embed&hl=ko",
+    "sourceName": "아시노후레아이 타이요노유 3 Chome Jozankeionsenhigashi, Minami Ward, Sapporo, Hokkaido 061-2302 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "47": {
+    "latitude": 43.1990642,
+    "longitude": 140.9987363,
+    "sourceUrl": "https://maps.google.com/maps?cid=4454758914499807226&output=embed&hl=ko",
+    "sourceName": "구 테미야선 기찻길 1 Chome-7-14 Ironai, Otaru, Hokkaido 047-0031 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "48": {
+    "latitude": 43.1976641,
+    "longitude": 141.0018713,
+    "sourceUrl": "https://maps.google.com/maps?cid=3601949190212216873&output=embed&hl=ko",
+    "sourceName": "오타루 예술마을 1 Chome-3-1 Ironai, Otaru, Hokkaido 047-0031 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "49": {
+    "latitude": 43.200064,
+    "longitude": 141.0031368,
+    "sourceUrl": "https://maps.google.com/maps?cid=12876093565226386991&output=embed&hl=ko",
+    "sourceName": "일본 〒047-0007 Hokkaido, Otaru, Minatomachi, 5−3 小樽国際インフォメーションセンタ 포트 마르셰 오타루에",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "50": {
+    "latitude": 43.1972951,
+    "longitude": 141.0028106,
+    "sourceUrl": "https://maps.google.com/maps?cid=17015246586440730198&output=embed&hl=ko",
+    "sourceName": "오타루 데누키코지 1 Chome-1-1 Ironai, Otaru, Hokkaido 047-0031 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "51": {
+    "latitude": 43.19903559999999,
+    "longitude": 140.993927,
+    "sourceUrl": "https://maps.google.com/maps?cid=18281937072950691954&output=embed&hl=ko",
+    "sourceName": "삼각 시장 三角市場内 3 Chome-10-16 Inaho, Otaru, Hokkaido 047-0032 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "53": {
+    "latitude": 43.19846829999999,
+    "longitude": 141.0030984,
+    "sourceUrl": "https://maps.google.com/maps?cid=16373194349655876288&output=embed&hl=ko",
+    "sourceName": "일본 〒047-0007 Hokkaido, Otaru, Minatomachi, 5−4 북해도운하창고(해산물식당) 渋澤C号倉庫",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "54": {
+    "latitude": 43.19318029999999,
+    "longitude": 141.0071514,
+    "sourceUrl": "https://maps.google.com/maps?cid=4436963354768813554&output=embed&hl=ko",
+    "sourceName": "르타오 파토스 5-22 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "56": {
+    "latitude": 43.2003732,
+    "longitude": 140.9950942,
+    "sourceUrl": "https://maps.google.com/maps?cid=8896147539216171636&output=embed&hl=ko",
+    "sourceName": "Naruto Main Shop, 3 Chome-16-13 Inaho, Otaru, Hokkaido 047-0032 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "57": {
+    "latitude": 42.7874444,
+    "longitude": 141.6790611,
+    "sourceUrl": "https://maps.google.com/maps?cid=7068569915249209937&output=embed&hl=ko",
+    "sourceName": "로이스 초콜릿 월드 New Chitose Airport Terminal, 3F 987-22 Bibi, Chitose, Hokkaido 066-0012 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "59": {
+    "latitude": 42.7791317,
+    "longitude": 141.6866364,
+    "sourceUrl": "https://maps.google.com/maps?cid=1925957880204657142&output=embed&hl=ko",
+    "sourceName": "신치토세 공항 (CTS) 987-22 Bibi, Chitose, Hokkaido 066-0012 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "60": {
+    "latitude": 42.7879688,
+    "longitude": 141.680236,
+    "sourceUrl": "https://maps.google.com/maps?cid=3739737704054148201&output=embed&hl=ko",
+    "sourceName": "홋카이도라멘도조 New Chitose Airport Terminal, 3F ９８７-２２-1292-33 Bibi, Chitose, Hokkaido 066-0012 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "61": {
+    "latitude": 43.1929541,
+    "longitude": 141.0066674,
+    "sourceUrl": "https://maps.google.com/maps?cid=516014291851504448&output=embed&hl=ko",
+    "sourceName": "누벨바그 르타오 쇼콜라티에 오타루본점 4-19 Sakaimachi, Otaru, Hokkaido 047-0027 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "62": {
+    "latitude": 42.7874047,
+    "longitude": 141.680414,
+    "sourceUrl": "https://maps.google.com/maps?cid=2904914017365642245&output=embed&hl=ko",
+    "sourceName": "일본 〒066-0012 Hokkaido, Chitose, 모리모토 신치토세공항점 新千歳空港国内線ターミナルビル 2F（出発ゲート スイーツ・アベニュ",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "63": {
+    "latitude": 43.06870259999999,
+    "longitude": 141.3488087,
+    "sourceUrl": "https://maps.google.com/maps?cid=7075511283464519381&output=embed&hl=ko",
+    "sourceName": "Keikyu EX Hotel Sapporo, 4 Chome-2-6 Kita 6 Jonishi, Kita Ward, Sapporo, Hokkaido 060-0806 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "64": {
+    "latitude": 43.0758455,
+    "longitude": 141.3537926,
+    "sourceUrl": "https://maps.google.com/maps?cid=7035906675692593278&output=embed&hl=ko",
+    "sourceName": "스와 신사 1 Chome-1-10 Kita 12 Johigashi, Higashi Ward, Sapporo, Hokkaido 065-0012 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "65": {
+    "latitude": 43.0727363,
+    "longitude": 141.3614178,
+    "sourceUrl": "https://maps.google.com/maps?cid=1403429751979837764&output=embed&hl=ko",
+    "sourceName": "토리톤스시 키타8조 코우세이점 5 Chome-19-1 Kita 8 Johigashi, Higashi Ward, Sapporo, Hokkaido 060-0908 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "66": {
+    "latitude": 43.06075209999999,
+    "longitude": 141.3544308,
+    "sourceUrl": "https://maps.google.com/maps?q=%EC%98%A4%EB%8F%84%EB%A6%AC+%EA%B3%B5%EC%9B%90+%ED%99%8B%EC%B9%B4%EC%9D%B4%EB%8F%84+%EC%9D%BC%EB%B3%B8&output=embed&hl=ko",
+    "sourceName": "오도리 공원 １〜１２丁目 Odorinishi, Chuo Ward, Sapporo, Hokkaido 060-0042 일본",
+    "checkedAt": "2026-10-07",
+    "match": "name-search"
+  },
+  "67": {
+    "latitude": 42.9646328,
+    "longitude": 141.1597253,
+    "sourceUrl": "https://maps.google.com/maps?cid=17781190673867165692&output=embed&hl=ko",
+    "sourceName": "조잔케이후타미 공원 4 Chome Jozankeionsennishi, Minami Ward, Sapporo, Hokkaido 061-2303 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "68": {
+    "latitude": 43.2001327,
+    "longitude": 141.000744,
+    "sourceUrl": "https://maps.google.com/maps?cid=13963195186437047212&output=embed&hl=ko",
+    "sourceName": "르타오 운하플라자점 2 Chome-1-20 Ironai, Otaru, Hokkaido 047-0031 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "69": {
+    "latitude": 43.0547814,
+    "longitude": 141.3531506,
+    "sourceUrl": "https://maps.google.com/maps?cid=17605152258301071078&output=embed&hl=ko",
+    "sourceName": "매운라멘 카라이치 스스키노점 ソシアルビル 1F 4 Chome-７-3 Minami 5 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0805 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "70": {
+    "latitude": 43.054725,
+    "longitude": 141.3434414,
+    "sourceUrl": "https://maps.google.com/maps?cid=18194825813941315729&output=embed&hl=ko",
+    "sourceName": "라마이 삿포로 중앙점 コンフォモール札幌 １階 10 Chome-1005-4 Minami 4 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0804 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "71": {
+    "latitude": 43.0494283,
+    "longitude": 141.3457879,
+    "sourceUrl": "https://maps.google.com/maps?cid=8407431263604113708&output=embed&hl=ko",
+    "sourceName": "산도리아 9 Chome-758-14 Minami 8 Jonishi, Chuo Ward, Sapporo, Hokkaido 064-0808 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  },
+  "72": {
+    "latitude": 43.4182493,
+    "longitude": 142.4280407,
+    "sourceUrl": "https://maps.google.com/maps?cid=13217448091170401682&output=embed&hl=ko",
+    "sourceName": "Farm Tomita, 15 Kisenkita, Nakafurano, Sorachi District, Hokkaido 071-0704 일본",
+    "checkedAt": "2026-10-07",
+    "match": "place-id"
+  }
+}
