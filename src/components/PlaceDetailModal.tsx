@@ -100,7 +100,7 @@ export function PlaceDetailModal({ place, onClose }: PlaceDetailModalProps) {
             </small>
           </span>
         </div>
-        <div className="place-image-frame">
+        <div className={`place-image-frame${imageUrl ? "" : " has-no-image"}`}>
           {imageUrl ? (
             <img
               src={imageUrl}

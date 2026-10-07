@@ -1,4 +1,10 @@
-import { useCallback, useEffect, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import { trips } from "./trips";
 import { TripContext } from "./lib/TripContext";
 import { parseRoute, routeHash } from "./lib/route";
@@ -22,6 +28,7 @@ const getRoute = () =>
   );
 export default function App() {
   const [route, setRoute] = useState(getRoute);
+  const previousRoute = useRef(route);
   const [detailPlace, setDetailPlace] = useState<Place | null>(null);
   const closePlaceDetail = useCallback(() => setDetailPlace(null), []);
   useEffect(() => {
@@ -35,6 +42,21 @@ export default function App() {
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "instant" });
   }, [route?.tripId, route?.screen]);
+  useLayoutEffect(() => {
+    const previous = previousRoute.current;
+    previousRoute.current = route;
+    if (
+      route?.screen === "itinerary" &&
+      previous?.screen === "itinerary" &&
+      route.tripId === previous.tripId &&
+      route.day !== previous.day
+    ) {
+      document.querySelector(".day-selector")?.scrollIntoView({
+        block: "start",
+        behavior: "instant",
+      });
+    }
+  }, [route]);
   const trip = trips.find((trip) => trip.id === route?.tripId);
   useEffect(() => {
     document.title = trip

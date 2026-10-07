@@ -1,9 +1,11 @@
-import { useState } from "react";
+import { useId, useRef, useState } from "react";
 import { useTrip } from "../lib/TripContext";
 import { categoryIcon, categoryLabel, ratingDetails } from "../lib/places";
 import { TravelMap } from "./TravelMap";
 import { filterPlaces } from "../lib/geo";
 import { FilterTags } from "./FilterTags";
+import { useProgressiveList } from "../lib/useProgressiveList";
+import { ListExpansion } from "./ListExpansion";
 import type { Place } from "../lib/types";
 export function SavedPlacesScreen({
   onOpenPlace,
@@ -15,11 +17,26 @@ export function SavedPlacesScreen({
   const [category, setCategory] = useState("전체");
   const [query, setQuery] = useState("");
   const [mapSelection, setMapSelection] = useState<number | null>(null);
+  const [mapOpen, setMapOpen] = useState(true);
+  const mapRef = useRef<HTMLDivElement>(null);
+  const listRef = useRef<HTMLDivElement>(null);
+  const mapId = useId();
+  const openMap = (id?: number) => {
+    setMapOpen(true);
+    if (id !== undefined) setMapSelection(id);
+    requestAnimationFrame(() =>
+      mapRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
+    );
+  };
   const areas = [
     "전체",
     ...(trip.geoMap?.regions ?? [...new Set(trip.places.map((p) => p.area))]),
   ];
   const places = filterPlaces(trip.places, area, category, query);
+  const { visibleItems, showMore, showAll } = useProgressiveList(
+    places,
+    `${area}|${category}|${query}`,
+  );
   return (
     <>
       <section className="places-heading">
@@ -71,17 +88,51 @@ export function SavedPlacesScreen({
           />
         </div>
         {trip.geoMap && (
-          <TravelMap
-            places={places}
-            title={area === "전체" ? `${trip.name} 전체 지도` : `${area} 지도`}
-            selectedId={mapSelection}
-            onSelect={setMapSelection}
-            onOpenPlace={onOpenPlace}
-          />
+          <div className="saved-map-panel" ref={mapRef}>
+            <div className="saved-map-tools">
+              <button
+                type="button"
+                aria-expanded={mapOpen}
+                aria-controls={mapId}
+                onClick={() => setMapOpen(!mapOpen)}
+              >
+                {mapOpen ? "지도 접기 ↑" : "지도 펼치기 ↓"}
+              </button>
+              <button
+                type="button"
+                onClick={() =>
+                  listRef.current?.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  })
+                }
+              >
+                장소 목록으로 ↓
+              </button>
+            </div>
+            <div id={mapId} hidden={!mapOpen}>
+              <TravelMap
+                places={places}
+                title={
+                  area === "전체" ? `${trip.name} 전체 지도` : `${area} 지도`
+                }
+                selectedId={mapSelection}
+                onSelect={setMapSelection}
+                onOpenPlace={onOpenPlace}
+              />
+            </div>
+          </div>
         )}
-        <p aria-live="polite">{places.length}개의 장소</p>
+        <div className="place-results" ref={listRef}>
+          <p aria-live="polite">{places.length}개의 장소</p>
+          {trip.geoMap && (
+            <button type="button" onClick={() => openMap()}>
+              지도 보기 ↑
+            </button>
+          )}
+        </div>
         <div className="places-grid">
-          {places.map((place) => {
+          {visibleItems.map((place) => {
             const rating = ratingDetails(place);
             return (
               <article className="place-browser-card" key={place.id}>
@@ -102,15 +153,7 @@ export function SavedPlacesScreen({
                     <button
                       type="button"
                       aria-label={`${place.name} 지도에서 보기`}
-                      onClick={() => {
-                        setMapSelection(place.id);
-                        document
-                          .querySelector(".travel-map")
-                          ?.scrollIntoView({
-                            behavior: "smooth",
-                            block: "start",
-                          });
-                      }}
+                      onClick={() => openMap(place.id)}
                     >
                       지도에서 보기
                     </button>
@@ -135,6 +178,13 @@ export function SavedPlacesScreen({
             );
           })}
         </div>
+        <ListExpansion
+          noun="장소"
+          shown={visibleItems.length}
+          total={places.length}
+          onMore={showMore}
+          onAll={showAll}
+        />
         {places.length === 0 && (
           <p className="empty-state">
             조건에 맞는 장소가 없어요. 검색어나 필터를 바꿔 보세요.

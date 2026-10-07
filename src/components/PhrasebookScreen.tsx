@@ -2,6 +2,8 @@ import { useState } from "react";
 import { useTrip } from "../lib/TripContext";
 import { filterPhrases } from "../lib/phrases";
 import { FilterTags } from "./FilterTags";
+import { useProgressiveList } from "../lib/useProgressiveList";
+import { ListExpansion } from "./ListExpansion";
 import "../themes/phrases.css";
 export function PhrasebookScreen() {
   const trip = useTrip();
@@ -13,8 +15,12 @@ export function PhrasebookScreen() {
     id: string;
     message: string;
   } | null>(null);
+  const phrases = filterPhrases(book?.phrases ?? [], situation, day, query);
+  const { visibleItems, showMore, showAll } = useProgressiveList(
+    phrases,
+    `${situation}|${day}|${query}`,
+  );
   if (!book) return null;
-  const phrases = filterPhrases(book.phrases, situation, day, query);
   const reset = () => {
     setSituation("전체");
     setDay("전체");
@@ -31,36 +37,12 @@ export function PhrasebookScreen() {
           <em>{book.language} 한마디.</em>
         </h2>
         <p>{book.intro}</p>
-        <p className="phrase-reading-note">{book.readingNote}</p>
+        <details className="phrase-reading-guide">
+          <summary>독음 읽는 방법</summary>
+          <p className="phrase-reading-note">{book.readingNote}</p>
+        </details>
       </header>
       <div className="phrase-filters">
-        <FilterTags
-          label="상황"
-          options={[
-            { value: "전체", label: "전체" },
-            ...book.situations.map((s) => ({ value: s.id, label: s.label })),
-          ]}
-          selected={situation}
-          onChange={(value) => {
-            setSituation(value === situation ? "전체" : value);
-            setCopyStatus(null);
-          }}
-        />
-        <FilterTags
-          label="일정"
-          options={[
-            { value: "전체", label: "전체 일정" },
-            ...trip.days.map((_, i) => ({
-              value: String(i + 1),
-              label: `DAY ${i + 1}`,
-            })),
-          ]}
-          selected={day}
-          onChange={(value) => {
-            setDay(value === day ? "전체" : value);
-            setCopyStatus(null);
-          }}
-        />
         <label className="phrase-search">
           표현 검색
           <input
@@ -73,11 +55,48 @@ export function PhrasebookScreen() {
             }}
           />
         </label>
-        {day !== "전체" && (
-          <p className="phrase-day-context">
-            DAY {day} · {trip.days[Number(day) - 1].title}
-          </p>
-        )}
+        <FilterTags
+          label="상황"
+          options={[
+            { value: "전체", label: "전체" },
+            ...book.situations.map((s) => ({ value: s.id, label: s.label })),
+          ]}
+          selected={situation}
+          onChange={(value) => {
+            setSituation(value === situation ? "전체" : value);
+            setCopyStatus(null);
+          }}
+        />
+        <details
+          className="phrase-day-filter"
+          open={day !== "전체" ? true : undefined}
+        >
+          <summary>
+            {day === "전체"
+              ? "일정으로 좁혀 보기"
+              : `DAY ${day} 일정으로 보는 중`}
+          </summary>
+          <FilterTags
+            label="일정"
+            options={[
+              { value: "전체", label: "전체 일정" },
+              ...trip.days.map((_, i) => ({
+                value: String(i + 1),
+                label: `DAY ${i + 1}`,
+              })),
+            ]}
+            selected={day}
+            onChange={(value) => {
+              setDay(value === day ? "전체" : value);
+              setCopyStatus(null);
+            }}
+          />
+          {day !== "전체" && (
+            <p className="phrase-day-context">
+              DAY {day} · {trip.days[Number(day) - 1].title}
+            </p>
+          )}
+        </details>
       </div>
       <div className="phrase-results">
         <p aria-live="polite">{phrases.length}개의 표현</p>
@@ -92,7 +111,7 @@ export function PhrasebookScreen() {
         )}
       </div>
       <div className="phrase-grid">
-        {phrases.map((phrase) => (
+        {visibleItems.map((phrase) => (
           <article className="phrase-card" key={phrase.id}>
             <div className="phrase-card-top">
               <span>
@@ -161,6 +180,13 @@ export function PhrasebookScreen() {
           </article>
         ))}
       </div>
+      <ListExpansion
+        noun="표현"
+        shown={visibleItems.length}
+        total={phrases.length}
+        onMore={showMore}
+        onAll={showAll}
+      />
       {phrases.length === 0 && (
         <p className="empty-state">
           조건에 맞는 표현이 없어요. 다른 상황을 고르거나 검색어를 바꿔 보세요.

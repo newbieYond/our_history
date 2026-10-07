@@ -5,6 +5,9 @@ export function ChecklistScreen() {
   const trip = useTrip();
   const [checked, setChecked] = useState(() => readChecklist(trip.id));
   const [saved, setSaved] = useState(true);
+  const completed = trip.checklist.filter((item) =>
+    checked.includes(item.id),
+  ).length;
   const toggle = (id: string) => {
     const next = checked.includes(id)
       ? checked.filter((item) => item !== id)
@@ -16,10 +19,16 @@ export function ChecklistScreen() {
     <section className="checklist">
       <p className="section-label">NEXT TO DO</p>
       <h2>출발 전, 하나씩.</h2>
-      <p>
-        {trip.checklist.filter((item) => checked.includes(item.id)).length} /{" "}
-        {trip.checklist.length} 완료
-      </p>
+      <div className="checklist-progress">
+        <p aria-live="polite">
+          {completed} / {trip.checklist.length} 완료
+        </p>
+        <progress
+          value={completed}
+          max={trip.checklist.length}
+          aria-label="여행 준비 완료"
+        />
+      </div>
       <div className="check-items">
         {trip.checklist.map((item) => (
           <label

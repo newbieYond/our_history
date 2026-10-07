@@ -1,4 +1,64 @@
 /* Theme names live in trip configuration; layouts share these semantic tokens. */
+:root {
+  --nav-height: 72px;
+}
+h1,
+h2,
+h3,
+h4,
+.overview-card strong,
+.day-place-grid strong {
+  word-break: keep-all;
+  overflow-wrap: anywhere;
+}
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font: 18px var(--mono);
+  letter-spacing: -0.04em;
+  text-decoration: none;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+  margin: 0 20px;
+  gap: 4px;
+}
+.navlinks {
+  position: relative;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  scroll-padding-inline: 12px;
+}
+.navlinks button {
+  min-height: 44px;
+  min-width: 44px;
+  font-size: 13px;
+  padding: 10px 12px;
+}
+.nav-scroll {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff18;
+  color: white;
+  font: 24px sans-serif;
+  cursor: pointer;
+}
+.nav-scroll[hidden] {
+  display: none;
+}
+.nav-scroll:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
 .theme-winter {
   --ink: #14233a;
   --paper: #f5f1e9;
@@ -41,6 +101,22 @@
   min-height: 620px;
   background: var(--hero-background);
   align-items: center;
+  height: auto;
+  color: var(--ink);
+  overflow: visible;
+}
+.trip-hero::after {
+  content: none;
+}
+.trip-hero .eyebrow {
+  color: var(--rust-dark);
+}
+.trip-hero .hero-cta {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--rust-dark);
+  border-color: var(--rust-dark);
 }
 .trip-hero .hero-copy {
   min-width: 0;
@@ -49,6 +125,9 @@
   font-size: clamp(42px, 5.5vw, 80px);
   margin: 20px 0;
   line-height: 1.12;
+}
+.trip-hero h1 em {
+  color: var(--rust-dark);
 }
 .trip-description {
   max-width: 540px;
@@ -71,6 +150,163 @@
 .places-heading,
 .places-browser {
   padding: 64px max(5vw, 28px);
+}
+.itinerary,
+.notes,
+.shopping,
+.checklist {
+  padding: 48px max(5vw, 24px) 56px;
+}
+.section-head h2,
+.notes h2,
+.shopping h2,
+.checklist h2 {
+  font-size: clamp(34px, 4vw, 52px);
+  line-height: 1.25;
+}
+.notes {
+  grid-template-columns: minmax(280px, 0.8fr) minmax(0, 1.5fr);
+  gap: 48px;
+}
+.notes-content {
+  min-width: 0;
+}
+.note-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 24px;
+}
+.note-grid article:nth-child(odd) {
+  margin-right: 0;
+}
+.note-grid article {
+  padding-right: 0;
+}
+.note-grid p {
+  font-size: 14px;
+}
+.shopping {
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.3fr);
+  gap: 48px;
+}
+.shop-list article {
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 10px 14px;
+}
+.shop-list h3 {
+  font-size: 18px;
+}
+.shop-list p {
+  font-size: 14px;
+}
+.shop-picks {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.shop-picks span {
+  padding: 6px 10px;
+  border-radius: 20px;
+  background: var(--mist);
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.checklist {
+  background: var(--mist);
+}
+.check-items,
+.checklist-note {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.checklist-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+.checklist-progress progress {
+  width: 160px;
+  height: 8px;
+  accent-color: var(--rust-dark);
+}
+.place-detail-backdrop {
+  z-index: 1000;
+}
+.place-detail-close {
+  width: 44px;
+  height: 44px;
+}
+.place-detail-heading {
+  min-width: 0;
+}
+.place-image-frame.has-no-image {
+  aspect-ratio: auto;
+}
+.has-no-image .place-image-empty {
+  padding: 14px 18px;
+  gap: 6px;
+}
+.has-no-image .place-image-empty span,
+.has-no-image .place-image-empty p {
+  display: none;
+}
+.has-no-image .place-image-empty strong {
+  margin: 0;
+  font: 12px var(--sans);
+  color: var(--muted);
+}
+.saved-map-panel,
+.place-results {
+  scroll-margin-top: calc(var(--nav-height) + 16px);
+}
+.saved-map-panel {
+  margin: 20px 0;
+}
+.saved-map-tools,
+.place-results {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.place-results {
+  justify-content: space-between;
+  margin: 20px 0 14px;
+  font-size: 13px;
+}
+.saved-map-tools button,
+.place-results button,
+.list-expansion button {
+  min-height: 44px;
+  padding: 10px 14px;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font: 13px var(--sans);
+  cursor: pointer;
+}
+.saved-map-tools button:hover,
+.place-results button:hover,
+.list-expansion button:hover {
+  background: var(--mist);
+}
+.list-expansion {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--muted);
+}
+.list-expansion > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 .trip-overview h2,
 .places-heading h2 {
@@ -130,9 +366,22 @@
 }
 .itinerary > .day-selector {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
   gap: 10px;
   padding-bottom: 18px;
+  overflow: visible;
+  scroll-margin-top: calc(var(--nav-height) + 16px);
+}
+.day-date-short {
+  display: none;
+}
+.itinerary > .day-selector button.active {
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 10px;
+}
+.itinerary > .day-selector button.active strong {
+  color: var(--paper);
 }
 .itinerary > .day-selector button {
   display: grid;
@@ -178,8 +427,33 @@
   margin-top: 28px;
 }
 .day-detail .detail {
+  display: block;
   max-width: 850px;
   line-height: 1.9;
+}
+.day-detail > :not(.card-number) {
+  position: relative;
+  z-index: 1;
+}
+.day-detail::after {
+  opacity: 0.35;
+  pointer-events: none;
+}
+.day-detail .food {
+  position: relative;
+  inset: auto;
+  width: auto;
+  margin-top: 24px;
+  gap: 12px;
+}
+.day-detail.blue {
+  background: linear-gradient(145deg, #086680, #347c8b);
+}
+.day-detail.airport {
+  background: linear-gradient(145deg, #476b64, #527c70);
+}
+.day-detail.autumn .route b {
+  color: var(--rust-dark);
 }
 .day-detail.autumn {
   background: var(--mist);
@@ -291,13 +565,17 @@
   cursor: default;
 }
 .places-heading {
-  padding-bottom: 28px;
+  padding-top: 40px;
+  padding-bottom: 14px;
+}
+.places-heading h2 {
+  margin: 16px 0;
 }
 .places-heading p {
   color: var(--muted);
 }
 .places-browser {
-  padding-top: 30px;
+  padding-top: 8px;
 }
 .place-filters {
   display: flex;
@@ -367,6 +645,8 @@
   border: 1px solid var(--line);
   padding: 18px;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
 }
 .place-browser-card > p:first-child {
   margin: 0;
@@ -399,7 +679,8 @@
   justify-content: flex-start;
   align-items: center;
   gap: 8px;
-  margin-top: 12px;
+  margin-top: auto;
+  padding-top: 12px;
   font-size: 12px;
 }
 .place-browser-actions button,
@@ -439,6 +720,7 @@
   flex-wrap: wrap;
   gap: 15px;
   margin-top: 28px;
+  align-items: flex-start;
 }
 .official-links a {
   display: block;
@@ -511,6 +793,14 @@
   height: 650px;
 }
 @media (max-width: 1050px) {
+  .shopping,
+  .notes {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .day-schedule-wrapper {
+    order: -1;
+  }
   .trip-hero {
     gap: 24px;
   }
@@ -529,6 +819,45 @@
   }
 }
 @media (max-width: 700px) {
+  .itinerary,
+  .notes,
+  .shopping,
+  .checklist {
+    padding: 28px 24px 40px;
+  }
+  .places-heading {
+    padding-top: 28px;
+    padding-bottom: 10px;
+  }
+  .places-browser {
+    padding-top: 8px;
+  }
+  .section-head {
+    margin-bottom: 24px;
+  }
+  .place-detail-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .place-detail-rating {
+    flex-direction: row;
+    align-items: center;
+  }
+  .schedule-panel article {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    font-size: 14px;
+  }
+  .schedule-panel time {
+    grid-column: 1 / -1;
+  }
+  .schedule-panel article > div {
+    grid-column: 1;
+  }
+  .schedule-panel article > span {
+    grid-column: 2;
+    grid-row: 2;
+  }
   .app-nav {
     position: sticky;
     top: 0;
@@ -541,7 +870,6 @@
     font-size: 18px;
   }
   .navlinks {
-    order: 3;
     width: 100%;
     overflow-x: auto;
     justify-content: flex-start;
@@ -573,10 +901,14 @@
     align-items: flex-start;
     margin-top: 20px;
   }
-  .trip-overview,
-  .places-heading,
-  .places-browser {
+  .trip-overview {
     padding: 38px 24px;
+  }
+  .places-heading {
+    padding: 28px 24px 10px;
+  }
+  .places-browser {
+    padding: 8px 24px 40px;
   }
   .trip-overview h2,
   .places-heading h2 {
@@ -597,6 +929,35 @@
   }
   .day-detail {
     padding: 28px 22px;
+  }
+  .itinerary > .day-selector {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    border-top: 0;
+  }
+  .itinerary > .day-selector button {
+    min-height: 74px;
+    padding: 12px 6px;
+    text-align: center;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+  }
+  .itinerary > .day-selector button > span,
+  .day-date-full {
+    display: none;
+  }
+  .day-date-short {
+    display: inline;
+  }
+  .day-selector small {
+    font-size: 10px;
+  }
+  .day-selector strong {
+    font-size: 13px;
+  }
+  .place-browser-actions {
+    margin-top: 12px;
+    padding-top: 0;
   }
   .day-detail h3 {
     font-size: 32px;
@@ -631,6 +992,39 @@
   .check-items label {
     padding: 16px;
     font-size: 14px;
+  }
+}
+@media (max-width: 760px) {
+  :root {
+    --nav-height: 108px;
+  }
+  .app-nav {
+    min-height: 108px;
+    padding: 8px 18px;
+    gap: 4px 12px;
+  }
+  .app-nav .brand {
+    font-size: 18px;
+  }
+  .nav-menu {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin: 0;
+    width: 100%;
+  }
+  .navlinks {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+  .navlinks button {
+    font-size: 13px;
+    min-height: 44px;
+    padding: 10px 12px;
+  }
+  .travel-map,
+  .day-map-wrapper {
+    scroll-margin-top: calc(var(--nav-height) + 16px);
   }
 }
 .schedule-panel article[role="button"] {

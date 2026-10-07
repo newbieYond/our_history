@@ -13,8 +13,11 @@
   padding: 0 6vw;
 }
 .library-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
   font-family: var(--mono);
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: -0.04em;
   text-decoration: none;
   color: inherit;
@@ -145,8 +148,12 @@
   display: flex;
   align-items: center;
   gap: 18px;
+  flex-wrap: wrap;
+  word-break: keep-all;
 }
 .travel-card-body h2 span {
+  flex: none;
+  white-space: nowrap;
   font-family: var(--sans);
   font-size: 13px;
   border: 1px solid var(--line);
@@ -195,7 +202,7 @@
     padding: 0 24px;
   }
   .library-nav a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .library-nav > span {
     display: none;

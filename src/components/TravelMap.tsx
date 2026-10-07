@@ -244,7 +244,9 @@ export function TravelMap({
       el?.setAttribute("aria-pressed", String(id === selectedId));
     }
     const marker = selectedId === null ? undefined : rt.markers.get(selectedId);
-    if (marker)
+    if (marker) {
+      // 접힌 지도를 펼친 직후에도 현재 크기로 선택 장소를 찾아갑니다.
+      rt.map.invalidateSize({ pan: false });
       rt.group.zoomToShowLayer(marker, () => {
         if (
           runtime.current !== rt ||
@@ -256,6 +258,7 @@ export function TravelMap({
         marker.getElement()?.setAttribute("aria-pressed", "true");
         rt.map.panInside(marker.getLatLng(), { padding: [30, 30] });
       });
+    }
   }, [ready, selectedId, scope]);
   return (
     <section className="travel-map" aria-label={title}>

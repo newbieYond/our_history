@@ -50,11 +50,17 @@ export function ItineraryScreen({
           <button
             type="button"
             aria-pressed={selected === index}
+            aria-label={`DAY ${index + 1} · ${item.date} · ${item.title} 일정 보기`}
             className={selected === index ? "active" : ""}
             key={item.date}
             onClick={() => onSelectDay(index)}
           >
-            <small>{item.date}</small>
+            <small>
+              <span className="day-date-full">{item.date}</span>
+              <span className="day-date-short" aria-hidden="true">
+                {item.date.split(" ")[0]}
+              </span>
+            </small>
             <strong>DAY {index + 1}</strong>
             <span>{item.title}</span>
           </button>
@@ -125,7 +131,7 @@ export function ItineraryScreen({
             />
           </div>
         )}
-        <div>
+        <div className="day-schedule-wrapper">
           {day.schedule && (
             <section className="schedule-panel">
               <h3>추천 흐름</h3>

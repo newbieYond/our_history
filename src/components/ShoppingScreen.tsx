@@ -20,7 +20,11 @@ export function ShoppingScreen() {
               <h3>{shop.name}</h3>
               <p>{shop.description}</p>
             </div>
-            <strong>{shop.picks}</strong>
+            <div className="shop-picks" aria-label="추천 상품">
+              {shop.picks.split(" · ").map((pick) => (
+                <span key={pick}>{pick}</span>
+              ))}
+            </div>
           </article>
         ))}
       </div>
