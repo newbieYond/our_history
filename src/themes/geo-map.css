@@ -14,6 +14,33 @@
   font-size: clamp(20px, 3vw, 28px);
   margin: 4px 0;
 }
+.travel-map-heading {
+  flex-wrap: wrap;
+}
+.travel-map-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.travel-map-actions button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+.travel-map button:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+.travel-location-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+.travel-location-status:not(:empty) {
+  margin: 12px 0;
+}
 .travel-map .section-label {
   margin: 0;
   font-size: 10px;
@@ -213,6 +240,9 @@
   }
   .travel-map-heading {
     gap: 10px;
+  }
+  .travel-map-actions {
+    width: 100%;
   }
   .travel-map-heading button {
     flex-shrink: 0;

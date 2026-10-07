@@ -27,6 +27,7 @@ export function TravelMap({
     map: Leaflet.Map;
     group: Leaflet.MarkerClusterGroup;
     markers: Map<number, Leaflet.Marker>;
+    locationLayer?: Leaflet.LayerGroup;
   } | null>(null);
   const selectedRef = useRef(selectedId);
   selectedRef.current = selectedId;
@@ -35,6 +36,8 @@ export function TravelMap({
   const [ready, setReady] = useState(false);
   const [failed, setFailed] = useState(false);
   const [tileError, setTileError] = useState(false);
+  const [locating, setLocating] = useState(false);
+  const [locationStatus, setLocationStatus] = useState("");
   const located = places.filter(hasCoordinates);
   const scope = located
     .map((p) => `${p.id}:${p.latitude}:${p.longitude}`)
@@ -58,6 +61,76 @@ export function TravelMap({
       rt.map.setView(trip.geoMap!.center, trip.geoMap!.zoom, {
         animate: false,
       });
+  };
+  const locate = () => {
+    const rt = runtime.current;
+    if (!rt || locating) return;
+    if (!window.isSecureContext || !navigator.geolocation) {
+      setLocationStatus(
+        "이 브라우저에서는 위치를 사용할 수 없어요. HTTPS 페이지를 지원하는 브라우저에서 열어 주세요.",
+      );
+      return;
+    }
+    setLocating(true);
+    setLocationStatus("현재 위치를 찾고 있어요. 위치 권한을 허용해 주세요.");
+    const fail = (message: string) => {
+      if (runtime.current !== rt) return;
+      setLocating(false);
+      setLocationStatus(message);
+    };
+    try {
+      navigator.geolocation.getCurrentPosition(
+        ({ coords }) => {
+          if (runtime.current !== rt) return;
+          const point: [number, number] = [coords.latitude, coords.longitude];
+          rt.locationLayer?.remove();
+          const accuracy = rt.L.circle(point, {
+            radius: coords.accuracy,
+            color: "#2b75d9",
+            weight: 1,
+            fillColor: "#2b75d9",
+            fillOpacity: 0.12,
+            interactive: false,
+            className: "travel-location-accuracy",
+          });
+          const marker = rt.L.circleMarker(point, {
+            radius: 8,
+            color: "#fff",
+            weight: 3,
+            fillColor: "#2b75d9",
+            fillOpacity: 1,
+            interactive: false,
+            className: "travel-location-marker",
+          }).bindTooltip("내 위치", {
+            permanent: true,
+            direction: "top",
+            offset: [0, -12],
+          });
+          rt.locationLayer = rt.L.layerGroup([accuracy, marker]).addTo(rt.map);
+          rt.map.setView(point, Math.max(rt.map.getZoom(), 16), {
+            animate: false,
+          });
+          setLocating(false);
+          setLocationStatus(
+            `내 위치를 표시했어요 · 정확도 약 ${Math.ceil(coords.accuracy).toLocaleString("ko-KR")}m · 다시 누르면 갱신돼요.`,
+          );
+        },
+        (error) => {
+          fail(
+            error.code === 1
+              ? "위치 권한이 꺼져 있어요. 브라우저의 사이트 설정에서 위치를 허용한 뒤 다시 눌러 주세요."
+              : error.code === 3
+                ? "위치를 찾는 데 시간이 오래 걸려요. 잠시 후 다시 눌러 주세요."
+                : "현재 위치를 확인하지 못했어요. 기기의 위치 서비스를 켠 뒤 다시 눌러 주세요.",
+          );
+        },
+        { enableHighAccuracy: true, timeout: 15000, maximumAge: 0 },
+      );
+    } catch {
+      fail(
+        "현재 위치를 확인하지 못했어요. 브라우저의 위치 설정을 확인한 뒤 다시 눌러 주세요.",
+      );
+    }
   };
   useEffect(() => {
     let disposed = false;
@@ -187,17 +260,46 @@ export function TravelMap({
           <p className="section-label">EXPLORE THE PLACES</p>
           <h3>{title}</h3>
         </div>
-        <button
-          type="button"
-          onClick={fit}
-          disabled={!ready}
-          aria-label="필터에 맞는 장소 전체 보기"
-        >
-          전체 보기 ↗
-        </button>
+        <div className="travel-map-actions">
+          <button
+            type="button"
+            onClick={locate}
+            disabled={!ready || locating}
+            aria-label="현재 내 위치 표시"
+            aria-busy={locating}
+          >
+            <svg
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.7"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <circle cx="12" cy="12" r="7" />
+              <circle cx="12" cy="12" r="2" />
+              <path d="M12 2v3m0 14v3M2 12h3m14 0h3" />
+            </svg>
+            {locating ? "찾는 중…" : "내 위치"}
+          </button>
+          <button
+            type="button"
+            onClick={fit}
+            disabled={!ready}
+            aria-label="필터에 맞는 장소 전체 보기"
+          >
+            전체 보기 ↗
+          </button>
+        </div>
       </div>
       <p className="travel-map-help">
         드래그로 이동 · 휠 / 두 손가락으로 확대 · 숫자를 누르면 장소가 펼쳐져요
+        <br />내 위치는 버튼을 누르고 위치 권한을 허용하면 표시돼요.
+      </p>
+      <p className="travel-location-status" role="status">
+        {locationStatus}
       </p>
       <div
         className="travel-map-canvas"
