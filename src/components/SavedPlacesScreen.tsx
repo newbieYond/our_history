@@ -97,7 +97,7 @@ export function SavedPlacesScreen({
                 <p className="browser-opinion">
                   {place.seonghoOpinion || place.description}
                 </p>
-                <div>
+                <div className="place-browser-actions">
                   {trip.geoMap && (
                     <button
                       type="button"

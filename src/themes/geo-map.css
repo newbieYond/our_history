@@ -206,9 +206,6 @@
 .day-map-wrapper > .filter-tags {
   margin-top: 24px;
 }
-.places-browser .place-browser-card > div {
-  flex-wrap: wrap;
-}
 @media (max-width: 700px) {
   .travel-map-canvas {
     height: 360px;

@@ -360,50 +360,74 @@
 .places-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 12px;
 }
 .place-browser-card {
   background: var(--surface);
   border: 1px solid var(--line);
-  padding: 24px;
+  padding: 18px;
   min-width: 0;
 }
 .place-browser-card > p:first-child {
+  margin: 0;
   font-size: 11px;
+  line-height: 1.5;
   color: var(--muted);
 }
 .place-browser-card h3 {
   font-size: 18px;
-  margin: 12px 0;
+  line-height: 1.4;
+  margin: 8px 0 6px;
+}
+.place-browser-card .place-rating {
+  display: block;
+  line-height: 1.4;
 }
 .browser-opinion {
+  margin: 10px 0 0;
   color: var(--muted);
   font-size: 13px;
-  line-height: 1.8;
+  line-height: 1.65;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.place-browser-card > div {
+.place-browser-actions {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-start;
   align-items: center;
-  gap: 12px;
-  margin-top: 22px;
+  gap: 8px;
+  margin-top: 12px;
   font-size: 12px;
 }
-.place-browser-card button {
-  padding: 8px 12px;
+.place-browser-actions button,
+.place-browser-actions a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  min-height: 44px;
+  padding: 8px 10px;
+  font: inherit;
+  white-space: nowrap;
+  border-radius: 4px;
+}
+.place-browser-actions button {
   background: var(--ink);
   color: var(--paper);
   border: 0;
   cursor: pointer;
-  border-radius: 4px;
 }
-.place-browser-card a {
+.place-browser-actions a {
   color: var(--rust);
   text-decoration: none;
+}
+.place-browser-actions button:focus-visible,
+.place-browser-actions a:focus-visible {
+  outline: 2px solid var(--rust);
+  outline-offset: 3px;
 }
 .empty-state {
   padding: 36px;
@@ -567,6 +591,9 @@
   }
   .day-place-grid {
     grid-template-columns: 1fr;
+  }
+  .place-browser-card {
+    padding: 16px;
   }
   .day-detail {
     padding: 28px 22px;
