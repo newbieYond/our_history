@@ -108,19 +108,15 @@ export function PhrasebookScreen() {
               </small>
             </div>
             <h3>{phrase.translation}</h3>
-            <p className="phrase-original" lang={book.languageCode}>
-              {phrase.original}
-            </p>
-            <p className="phrase-pronunciation">
-              <span>독음</span>
-              {phrase.pronunciation}
-            </p>
-            <p className="phrase-context">{phrase.context}</p>
-            {phrase.note && <p className="phrase-note">{phrase.note}</p>}
-            <div className="phrase-card-bottom">
+            <div className="phrase-original-row">
+              <p className="phrase-original" lang={book.languageCode}>
+                {phrase.original}
+              </p>
               <button
                 type="button"
+                className="phrase-copy-button"
                 aria-label={`${phrase.translation} ${book.language} 문장 복사`}
+                title={`${book.language} 문장 복사`}
                 onClick={async () => {
                   try {
                     await navigator.clipboard.writeText(phrase.original);
@@ -136,12 +132,32 @@ export function PhrasebookScreen() {
                   }
                 }}
               >
-                {book.language} 복사
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="1.7"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <rect x="8" y="8" width="12" height="12" rx="2" />
+                  <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+                </svg>
               </button>
-              <span role="status">
-                {copyStatus?.id === phrase.id ? copyStatus.message : ""}
-              </span>
             </div>
+            <p className="phrase-copy-status" role="status">
+              {copyStatus?.id === phrase.id ? copyStatus.message : ""}
+            </p>
+            <p className="phrase-pronunciation">
+              <span>독음</span>
+              {phrase.pronunciation}
+            </p>
+            <p className="phrase-context">{phrase.context}</p>
+            {phrase.note && <p className="phrase-note">{phrase.note}</p>}
           </article>
         ))}
       </div>

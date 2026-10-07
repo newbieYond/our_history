@@ -108,6 +108,12 @@
   font-weight: 600;
   line-height: 1.7;
 }
+.phrase-original-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+}
 .phrase-original {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
@@ -148,18 +154,14 @@
   font-size: 12px;
   line-height: 1.8;
 }
-.phrase-card-bottom {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 20px;
-}
-.phrase-card-bottom > span {
+.phrase-copy-status {
+  margin: 0;
   font-size: 11px;
   color: var(--muted);
   line-height: 1.7;
+}
+.phrase-copy-status:not(:empty) {
+  margin-top: 6px;
 }
 .phrasebook button:not(.filter-tags button) {
   font: inherit;
@@ -174,6 +176,13 @@
 }
 .phrasebook button:not(.filter-tags button):hover {
   background: var(--mist);
+}
+.phrasebook button.phrase-copy-button {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
 }
 .phrasebook button:focus-visible {
   outline: 2px solid var(--rust);
