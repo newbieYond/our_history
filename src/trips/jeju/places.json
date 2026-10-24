@@ -700,7 +700,7 @@
     "id": 30,
     "name": "감귤 체험농장",
     "tags": [
-      "day6",
+      "saved",
       "spot"
     ],
     "category": "spot",
@@ -710,7 +710,7 @@
     "address": null,
     "description": "감귤을 직접 따보는 체험. 방문할 농장은 예약 후 정한다.",
     "isRainyDayFriendly": false,
-    "isReserve": false,
+    "isReserve": true,
     "mapPosition": {
       "x": 46,
       "y": 71
@@ -3165,6 +3165,31 @@
     "mapPosition": { "x": 42, "y": 82 },
     "seonghoOpinion": "",
     "seinOpinion": "",
+    "seonghoRating": null,
+    "seinRating": null
+  },
+  {
+    "id": 144,
+    "name": "휴애리 자연생활공원",
+    "tags": [
+      "saved",
+      "jeju",
+      "day6",
+      "spot",
+      "감귤체험",
+      "핑크뮬리",
+      "동물"
+    ],
+    "category": "spot",
+    "googleMapsUrl": "https://maps.app.goo.gl/Fx5Z2ULPT23W88jo9",
+    "latitude": 33.3087565,
+    "longitude": 126.6337938,
+    "address": "제주특별자치도 서귀포시 남원읍 신례동로 256",
+    "description": "감귤체험과 핑크뮬리 산책, 동물 구경을 함께 즐길 수 있는 자연생활공원. 11/4 오전 감귤체험 장소로 선택했다. 감귤체험 운영과 핑크뮬리 상태는 방문 전 공식 안내로 확인하며 예약은 아직 확정하지 않았다.",
+    "isRainyDayFriendly": false,
+    "isReserve": false,
+    "seonghoOpinion": "감귤체험에 핑크뮬리, 동물도 볼 수 있어서 여러모로 우리 여행 플랜에 잘 맞을 것 같다.",
+    "seinOpinion": "완전 동의! 리뷰가 좋고 찐 도민들 명소라고 해서 마음에 들어. 감귤체험과 핑크뮬리, 동물 구경을 한 곳에서 할 수 있어 좋다.",
     "seonghoRating": null,
     "seinRating": null
   }

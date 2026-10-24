@@ -95,7 +95,8 @@ const trip: Trip = {
       href: "https://visithalla.jeju.go.kr/main/main.do",
     },
   ],
-  verification: "기존 여행계획·평가 보존 · 지도 위치 확인 2026.10.07",
+  verification:
+    "기존 여행계획·평가 보존 · 지도 위치 확인 2026.10.07 · 휴애리 추가·위치 확인 2026.10.24",
   geoMap: {
     center: [33.38, 126.55],
     zoom: 10,

@@ -1063,5 +1063,13 @@
     "sourceName": "제주특별자치도 서귀포시 이어도로 866-37 대우정",
     "checkedAt": "2026-10-07",
     "match": "name-search"
+  },
+  "144": {
+    "latitude": 33.3087565,
+    "longitude": 126.6337938,
+    "sourceUrl": "https://maps.google.com/maps?cid=11895398284328473766&output=embed&hl=ko",
+    "sourceName": "제주특별자치도 서귀포시 남원읍 신례동로 256 휴애리 자연생활공원",
+    "checkedAt": "2026-10-24",
+    "match": "place-id"
   }
 }

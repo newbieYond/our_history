@@ -38,7 +38,7 @@ test("null과 0 미평가를 평균에서 제외하고 기존 평점을 보존�
 });
 test("마이그레이션한 장소 수, 고유 ID, 지도 링크, 평점 및 이미지가 유효하다", () => {
   for (const [id, count] of [
-    ["jeju", 133],
+    ["jeju", 134],
     ["hokkaido", 68],
   ] as const) {
     const places = json(`../src/trips/${id}/places.json`);
@@ -111,7 +111,8 @@ test("검증한 지도 좌표는 모든 원본 장소를 포함하고 출처와 
       assert.ok(hasCoordinates(location), `${id}/${p.id}`);
       assert.ok(location.sourceUrl.startsWith("https://maps.google.com/"));
       assert.ok(location.sourceName);
-      assert.equal(location.checkedAt, "2026-10-07");
+      assert.match(location.checkedAt, /^\d{4}-\d{2}-\d{2}$/);
+      assert.ok(Number.isFinite(Date.parse(location.checkedAt)));
       assert.ok(
         id === "jeju"
           ? location.latitude > 33 &&
